@@ -1,0 +1,3197 @@
+BCSymbolMap Version: 2.0
+-[OpenBackObject initWithJSONData:]
+-[OpenBackObject initWithJSON:]
+-[OpenBackObject setValuesForKeysWithJSONDictionary:dateFormatter:]
+___67-[OpenBackObject setValuesForKeysWithJSONDictionary:dateFormatter:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[OpenBackObject description]
+-[OpenBackObject jsonDescription]
+-[OpenBackObject toJSONData]
+-[OpenBackObject toJSONString]
+___block_descriptor_tmp
+Apple LLVM version 8.0.0 (clang-800.0.38)
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackObject.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack
+__destroy_helper_block_
+__copy_helper_block_
+__67-[OpenBackObject setValuesForKeysWithJSONDictionary:dateFormatter:]_block_invoke
++[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]
+___74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackIntelligentRouting.m
+__74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_block_invoke
++[OpenBackPreferences synchronize]
++[OpenBackPreferences removePreference:]
++[OpenBackPreferences getValue:]
++[OpenBackPreferences setDefault:forPreference:]
++[OpenBackPreferences setValue:forPreference:]
++[OpenBackPreferences getBoolValue:]
++[OpenBackPreferences toggleBoolValueForPreference:]
++[OpenBackPreferences setBoolDefault:forPreference:]
++[OpenBackPreferences setBoolValue:forPreference:]
++[OpenBackPreferences getIntValue:]
++[OpenBackPreferences incrementIntValueForPreference:]
++[OpenBackPreferences setIntDefault:forPreference:]
++[OpenBackPreferences setIntValue:forPreference:]
++[OpenBackPreferences getDoubleValue:]
++[OpenBackPreferences setDoubleDefault:forPreference:]
++[OpenBackPreferences setDoubleValue:forPreference:]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPreferences.m
+-[OpenBackCampaign mediaType]
+-[OpenBackCampaign pushType]
+-[OpenBackCampaign interactiveType]
+-[OpenBackCampaign assetURLString]
+-[OpenBackCampaign SdkTrigId]
+-[OpenBackCampaign setSdkTrigId:]
+-[OpenBackCampaign AppId]
+-[OpenBackCampaign setAppId:]
+-[OpenBackCampaign ClientId]
+-[OpenBackCampaign setClientId:]
+-[OpenBackCampaign CampaignPriority]
+-[OpenBackCampaign setCampaignPriority:]
+-[OpenBackCampaign MediaTypeCode]
+-[OpenBackCampaign setMediaTypeCode:]
+-[OpenBackCampaign CampaignTrigName]
+-[OpenBackCampaign setCampaignTrigName:]
+-[OpenBackCampaign SystemTypeId]
+-[OpenBackCampaign setSystemTypeId:]
+-[OpenBackCampaign MsgAllowedSeenBefore]
+-[OpenBackCampaign setMsgAllowedSeenBefore:]
+-[OpenBackCampaign MsgSeenBeforeMinTimePeriodInSeconds]
+-[OpenBackCampaign setMsgSeenBeforeMinTimePeriodInSeconds:]
+-[OpenBackCampaign MsgSeenBeforeMaxNumberDisplay]
+-[OpenBackCampaign setMsgSeenBeforeMaxNumberDisplay:]
+-[OpenBackCampaign MsgSeenBeforeMaxNumberClicked]
+-[OpenBackCampaign setMsgSeenBeforeMaxNumberClicked:]
+-[OpenBackCampaign MsgImageUrl]
+-[OpenBackCampaign setMsgImageUrl:]
+-[OpenBackCampaign MsgOptOutUrl]
+-[OpenBackCampaign setMsgOptOutUrl:]
+-[OpenBackCampaign MsgFromName]
+-[OpenBackCampaign setMsgFromName:]
+-[OpenBackCampaign MsgDeepLinkPackageUrl]
+-[OpenBackCampaign setMsgDeepLinkPackageUrl:]
+-[OpenBackCampaign MsgIntelligentRoutingEnabled]
+-[OpenBackCampaign setMsgIntelligentRoutingEnabled:]
+-[OpenBackCampaign MsgIntelligentRoutingValue]
+-[OpenBackCampaign setMsgIntelligentRoutingValue:]
+-[OpenBackCampaign TrigDelayEnabled]
+-[OpenBackCampaign setTrigDelayEnabled:]
+-[OpenBackCampaign TrigDelayMinsAfterEvent]
+-[OpenBackCampaign setTrigDelayMinsAfterEvent:]
+-[OpenBackCampaign MsgInteractiveDisplayId]
+-[OpenBackCampaign setMsgInteractiveDisplayId:]
+-[OpenBackCampaign MsgInteractiveDisplayTypeId]
+-[OpenBackCampaign setMsgInteractiveDisplayTypeId:]
+-[OpenBackCampaign MsgInteractiveDisplayUrl]
+-[OpenBackCampaign setMsgInteractiveDisplayUrl:]
+-[OpenBackCampaign MsgInteractiveDisplayAppInstallName]
+-[OpenBackCampaign setMsgInteractiveDisplayAppInstallName:]
+-[OpenBackCampaign MsgInteractiveDisplayAppInstallPackageName]
+-[OpenBackCampaign setMsgInteractiveDisplayAppInstallPackageName:]
+-[OpenBackCampaign MsgInteractiveDisplayAppInstallUrlScheme]
+-[OpenBackCampaign setMsgInteractiveDisplayAppInstallUrlScheme:]
+-[OpenBackCampaign MsgInteractiveDisplayImageUrl]
+-[OpenBackCampaign setMsgInteractiveDisplayImageUrl:]
+-[OpenBackCampaign MsgInteractiveDisplayVideoUrl]
+-[OpenBackCampaign setMsgInteractiveDisplayVideoUrl:]
+-[OpenBackCampaign MsgInteractiveDisplayCustom]
+-[OpenBackCampaign setMsgInteractiveDisplayCustom:]
+-[OpenBackCampaign MsgInteractiveDisplayTitle]
+-[OpenBackCampaign setMsgInteractiveDisplayTitle:]
+-[OpenBackCampaign MsgInteractiveDisplayMessage]
+-[OpenBackCampaign setMsgInteractiveDisplayMessage:]
+-[OpenBackCampaign MsgPushId]
+-[OpenBackCampaign setMsgPushId:]
+-[OpenBackCampaign MsgPushMessage]
+-[OpenBackCampaign setMsgPushMessage:]
+-[OpenBackCampaign MsgPushUrl]
+-[OpenBackCampaign setMsgPushUrl:]
+-[OpenBackCampaign MsgPushIconUrl]
+-[OpenBackCampaign setMsgPushIconUrl:]
+-[OpenBackCampaign MsgPushTitle]
+-[OpenBackCampaign setMsgPushTitle:]
+-[OpenBackCampaign MsgPushType]
+-[OpenBackCampaign setMsgPushType:]
+-[OpenBackCampaign MsgPushSensitivity]
+-[OpenBackCampaign setMsgPushSensitivity:]
+-[OpenBackCampaign MsgPushMessageExpiryDurationInSeconds]
+-[OpenBackCampaign setMsgPushMessageExpiryDurationInSeconds:]
+-[OpenBackCampaign MsgPushMessageIdentifier]
+-[OpenBackCampaign setMsgPushMessageIdentifier:]
+-[OpenBackCampaign MsgSmsId]
+-[OpenBackCampaign setMsgSmsId:]
+-[OpenBackCampaign MsgSmsMessage]
+-[OpenBackCampaign setMsgSmsMessage:]
+-[OpenBackCampaign StartDate]
+-[OpenBackCampaign setStartDate:]
+-[OpenBackCampaign EndDate]
+-[OpenBackCampaign setEndDate:]
+-[OpenBackCampaign EndDateOngoing]
+-[OpenBackCampaign setEndDateOngoing:]
+-[OpenBackCampaign TrigTimeEnabled]
+-[OpenBackCampaign setTrigTimeEnabled:]
+-[OpenBackCampaign TrigTimeValidDateStart]
+-[OpenBackCampaign setTrigTimeValidDateStart:]
+-[OpenBackCampaign TrigTimeValidDateEnd]
+-[OpenBackCampaign setTrigTimeValidDateEnd:]
+-[OpenBackCampaign TrigTimeValidOperator]
+-[OpenBackCampaign setTrigTimeValidOperator:]
+-[OpenBackCampaign TrigIdleEnabled]
+-[OpenBackCampaign setTrigIdleEnabled:]
+-[OpenBackCampaign TrigIdleValue]
+-[OpenBackCampaign setTrigIdleValue:]
+-[OpenBackCampaign TrigIdleOperator]
+-[OpenBackCampaign setTrigIdleOperator:]
+-[OpenBackCampaign TrigLocationEnabled]
+-[OpenBackCampaign setTrigLocationEnabled:]
+-[OpenBackCampaign TrigLocationType]
+-[OpenBackCampaign setTrigLocationType:]
+-[OpenBackCampaign TrigLocationOperator]
+-[OpenBackCampaign setTrigLocationOperator:]
+-[OpenBackCampaign TrigLocationGeoLong]
+-[OpenBackCampaign setTrigLocationGeoLong:]
+-[OpenBackCampaign TrigLocationGeoLat]
+-[OpenBackCampaign setTrigLocationGeoLat:]
+-[OpenBackCampaign TrigLocationGeoRange]
+-[OpenBackCampaign setTrigLocationGeoRange:]
+-[OpenBackCampaign TrigLocationCellId]
+-[OpenBackCampaign setTrigLocationCellId:]
+-[OpenBackCampaign TrigLocationCountry]
+-[OpenBackCampaign setTrigLocationCountry:]
+-[OpenBackCampaign TrigGeoPointNorthLong]
+-[OpenBackCampaign setTrigGeoPointNorthLong:]
+-[OpenBackCampaign TrigGeoPointNorthLath]
+-[OpenBackCampaign setTrigGeoPointNorthLath:]
+-[OpenBackCampaign TrigGeoPointSouthLong]
+-[OpenBackCampaign setTrigGeoPointSouthLong:]
+-[OpenBackCampaign TrigGeoPointSouthLath]
+-[OpenBackCampaign setTrigGeoPointSouthLath:]
+-[OpenBackCampaign TrigGeoPointEastLong]
+-[OpenBackCampaign setTrigGeoPointEastLong:]
+-[OpenBackCampaign TrigGeoPointEastLath]
+-[OpenBackCampaign setTrigGeoPointEastLath:]
+-[OpenBackCampaign TrigGeoPointWestLong]
+-[OpenBackCampaign setTrigGeoPointWestLong:]
+-[OpenBackCampaign TrigGeoPointWestLath]
+-[OpenBackCampaign setTrigGeoPointWestLath:]
+-[OpenBackCampaign TrigAppEnabled]
+-[OpenBackCampaign setTrigAppEnabled:]
+-[OpenBackCampaign TrigAppActionType]
+-[OpenBackCampaign setTrigAppActionType:]
+-[OpenBackCampaign TrigAppName]
+-[OpenBackCampaign setTrigAppName:]
+-[OpenBackCampaign TrigAppPackageUrl]
+-[OpenBackCampaign setTrigAppPackageUrl:]
+-[OpenBackCampaign TrigAppInterestCategory]
+-[OpenBackCampaign setTrigAppInterestCategory:]
+-[OpenBackCampaign TrigConnectivityEnabled]
+-[OpenBackCampaign setTrigConnectivityEnabled:]
+-[OpenBackCampaign TrigWifiStatus]
+-[OpenBackCampaign setTrigWifiStatus:]
+-[OpenBackCampaign TrigBluetoothStatus]
+-[OpenBackCampaign setTrigBluetoothStatus:]
+-[OpenBackCampaign TrigDataConnectionStatus]
+-[OpenBackCampaign setTrigDataConnectionStatus:]
+-[OpenBackCampaign TrigGpsStatus]
+-[OpenBackCampaign setTrigGpsStatus:]
+-[OpenBackCampaign TrigConnectivityWifiName]
+-[OpenBackCampaign setTrigConnectivityWifiName:]
+-[OpenBackCampaign TrigConnectivityWifiNameOperator]
+-[OpenBackCampaign setTrigConnectivityWifiNameOperator:]
+-[OpenBackCampaign TrigBatteryEnabled]
+-[OpenBackCampaign setTrigBatteryEnabled:]
+-[OpenBackCampaign TrigBatteryMinLevel]
+-[OpenBackCampaign setTrigBatteryMinLevel:]
+-[OpenBackCampaign TrigBatteryMaxLevel]
+-[OpenBackCampaign setTrigBatteryMaxLevel:]
+-[OpenBackCampaign TrigBatteryChargingStatus]
+-[OpenBackCampaign setTrigBatteryChargingStatus:]
+-[OpenBackCampaign TrigBatteryChargingType]
+-[OpenBackCampaign setTrigBatteryChargingType:]
+-[OpenBackCampaign TrigBatteryOperator]
+-[OpenBackCampaign setTrigBatteryOperator:]
+-[OpenBackCampaign TrigBrightnessEnabled]
+-[OpenBackCampaign setTrigBrightnessEnabled:]
+-[OpenBackCampaign TrigBrightnessOperator]
+-[OpenBackCampaign setTrigBrightnessOperator:]
+-[OpenBackCampaign TrigBrightnessMinLevel]
+-[OpenBackCampaign setTrigBrightnessMinLevel:]
+-[OpenBackCampaign TrigBrightnessMaxLevel]
+-[OpenBackCampaign setTrigBrightnessMaxLevel:]
+-[OpenBackCampaign TrigWeatherEnabled]
+-[OpenBackCampaign setTrigWeatherEnabled:]
+-[OpenBackCampaign TrigWeatherTemperatureOperator]
+-[OpenBackCampaign setTrigWeatherTemperatureOperator:]
+-[OpenBackCampaign TrigWeatherTemperatureMin]
+-[OpenBackCampaign setTrigWeatherTemperatureMin:]
+-[OpenBackCampaign TrigWeatherTemperatureMax]
+-[OpenBackCampaign setTrigWeatherTemperatureMax:]
+-[OpenBackCampaign TrigWeatherHumidityOperator]
+-[OpenBackCampaign setTrigWeatherHumidityOperator:]
+-[OpenBackCampaign TrigWeatherHumidityMaxLevel]
+-[OpenBackCampaign setTrigWeatherHumidityMaxLevel:]
+-[OpenBackCampaign TrigWeatherHumidityMinLevel]
+-[OpenBackCampaign setTrigWeatherHumidityMinLevel:]
+-[OpenBackCampaign TrigActivityEnabled]
+-[OpenBackCampaign setTrigActivityEnabled:]
+-[OpenBackCampaign TrigActivityType]
+-[OpenBackCampaign setTrigActivityType:]
+-[OpenBackCampaign TrigActivityOperator]
+-[OpenBackCampaign setTrigActivityOperator:]
+-[OpenBackCampaign TrigRoamingEnabled]
+-[OpenBackCampaign setTrigRoamingEnabled:]
+-[OpenBackCampaign TrigRoamingType]
+-[OpenBackCampaign setTrigRoamingType:]
+-[OpenBackCampaign TrigMemoryEnabled]
+-[OpenBackCampaign setTrigMemoryEnabled:]
+-[OpenBackCampaign TrigMemoryAvailableStorage]
+-[OpenBackCampaign setTrigMemoryAvailableStorage:]
+-[OpenBackCampaign TrigMemoryAvailableMemory]
+-[OpenBackCampaign setTrigMemoryAvailableMemory:]
+-[OpenBackCampaign TrigMemoryAvailableStorageOperator]
+-[OpenBackCampaign setTrigMemoryAvailableStorageOperator:]
+-[OpenBackCampaign TrigMemoryAvailableMemoryOperator]
+-[OpenBackCampaign setTrigMemoryAvailableMemoryOperator:]
+-[OpenBackCampaign TrigMobileOperatorEnabled]
+-[OpenBackCampaign setTrigMobileOperatorEnabled:]
+-[OpenBackCampaign TrigMobileOperatorName]
+-[OpenBackCampaign setTrigMobileOperatorName:]
+-[OpenBackCampaign TrigMobileOperatorOperator]
+-[OpenBackCampaign setTrigMobileOperatorOperator:]
+-[OpenBackCampaign TrigMobileOperatorMccMnc]
+-[OpenBackCampaign setTrigMobileOperatorMccMnc:]
+-[OpenBackCampaign TrigSignalEnabled]
+-[OpenBackCampaign setTrigSignalEnabled:]
+-[OpenBackCampaign TrigSignalType]
+-[OpenBackCampaign setTrigSignalType:]
+-[OpenBackCampaign TrigSignalOperator]
+-[OpenBackCampaign setTrigSignalOperator:]
+-[OpenBackCampaign TrigSignalNetworkTypeId]
+-[OpenBackCampaign setTrigSignalNetworkTypeId:]
+-[OpenBackCampaign TrigHeadphonesEnabled]
+-[OpenBackCampaign setTrigHeadphonesEnabled:]
+-[OpenBackCampaign TrigHeadphonesConnected]
+-[OpenBackCampaign setTrigHeadphonesConnected:]
+-[OpenBackCampaign TrigNoiseEnabled]
+-[OpenBackCampaign setTrigNoiseEnabled:]
+-[OpenBackCampaign TrigNoiseMin]
+-[OpenBackCampaign setTrigNoiseMin:]
+-[OpenBackCampaign TrigNoiseMax]
+-[OpenBackCampaign setTrigNoiseMax:]
+-[OpenBackCampaign TrigNoiseOperator]
+-[OpenBackCampaign setTrigNoiseOperator:]
+-[OpenBackCampaign TrigProximityEnabled]
+-[OpenBackCampaign setTrigProximityEnabled:]
+-[OpenBackCampaign TrigProximityInHand]
+-[OpenBackCampaign setTrigProximityInHand:]
+-[OpenBackCampaign TrigVolumeEnabled]
+-[OpenBackCampaign setTrigVolumeEnabled:]
+-[OpenBackCampaign TrigVolumeRinger]
+-[OpenBackCampaign setTrigVolumeRinger:]
+-[OpenBackCampaign TrigVolumeMedia]
+-[OpenBackCampaign setTrigVolumeMedia:]
+-[OpenBackCampaign TrigVolumeRingerOperator]
+-[OpenBackCampaign setTrigVolumeRingerOperator:]
+-[OpenBackCampaign TrigVolumeMediaOperator]
+-[OpenBackCampaign setTrigVolumeMediaOperator:]
+-[OpenBackCampaign TrigLinearAcceleratorEnabled]
+-[OpenBackCampaign setTrigLinearAcceleratorEnabled:]
+-[OpenBackCampaign TrigLinearAcceleratorXMin]
+-[OpenBackCampaign setTrigLinearAcceleratorXMin:]
+-[OpenBackCampaign TrigLinearAcceleratorXMax]
+-[OpenBackCampaign setTrigLinearAcceleratorXMax:]
+-[OpenBackCampaign TrigLinearAcceleratorYMin]
+-[OpenBackCampaign setTrigLinearAcceleratorYMin:]
+-[OpenBackCampaign TrigLinearAcceleratorYMax]
+-[OpenBackCampaign setTrigLinearAcceleratorYMax:]
+-[OpenBackCampaign TrigLinearAcceleratorZMin]
+-[OpenBackCampaign setTrigLinearAcceleratorZMin:]
+-[OpenBackCampaign TrigLinearAcceleratorZMax]
+-[OpenBackCampaign setTrigLinearAcceleratorZMax:]
+-[OpenBackCampaign TrigLinearAcceleratorOperator]
+-[OpenBackCampaign setTrigLinearAcceleratorOperator:]
+-[OpenBackCampaign TrigGyroscopeEnabled]
+-[OpenBackCampaign setTrigGyroscopeEnabled:]
+-[OpenBackCampaign TrigGyroscopeXMin]
+-[OpenBackCampaign setTrigGyroscopeXMin:]
+-[OpenBackCampaign TrigGyroscopeXMax]
+-[OpenBackCampaign setTrigGyroscopeXMax:]
+-[OpenBackCampaign TrigGyroscopeYMin]
+-[OpenBackCampaign setTrigGyroscopeYMin:]
+-[OpenBackCampaign TrigGyroscopeYMax]
+-[OpenBackCampaign setTrigGyroscopeYMax:]
+-[OpenBackCampaign TrigGyroscopeZMin]
+-[OpenBackCampaign setTrigGyroscopeZMin:]
+-[OpenBackCampaign TrigGyroscopeZMax]
+-[OpenBackCampaign setTrigGyroscopeZMax:]
+-[OpenBackCampaign TrigGyroscopeOperator]
+-[OpenBackCampaign setTrigGyroscopeOperator:]
+-[OpenBackCampaign TrigDeviceOrientationEnabled]
+-[OpenBackCampaign setTrigDeviceOrientationEnabled:]
+-[OpenBackCampaign TrigDeviceOrientationType]
+-[OpenBackCampaign setTrigDeviceOrientationType:]
+-[OpenBackCampaign TrigDeviceOrientationOperator]
+-[OpenBackCampaign setTrigDeviceOrientationOperator:]
+-[OpenBackCampaign TrigDeviceEnabled]
+-[OpenBackCampaign setTrigDeviceEnabled:]
+-[OpenBackCampaign TrigDeviceModel]
+-[OpenBackCampaign setTrigDeviceModel:]
+-[OpenBackCampaign TrigDeviceBrand]
+-[OpenBackCampaign setTrigDeviceBrand:]
+-[OpenBackCampaign TrigDeviceScreenSize]
+-[OpenBackCampaign setTrigDeviceScreenSize:]
+-[OpenBackCampaign TrigDeviceModelOperator]
+-[OpenBackCampaign setTrigDeviceModelOperator:]
+-[OpenBackCampaign TrigDeviceBrandOperator]
+-[OpenBackCampaign setTrigDeviceBrandOperator:]
+-[OpenBackCampaign TrigDeviceScreenSizeOperator]
+-[OpenBackCampaign setTrigDeviceScreenSizeOperator:]
+-[OpenBackCampaign TrigBeaconEnabled]
+-[OpenBackCampaign setTrigBeaconEnabled:]
+-[OpenBackCampaign TrigBeaconValue]
+-[OpenBackCampaign setTrigBeaconValue:]
+-[OpenBackCampaign TrigBeaconOperator]
+-[OpenBackCampaign setTrigBeaconOperator:]
+-[OpenBackCampaign TrigAeroplaneEnabled]
+-[OpenBackCampaign setTrigAeroplaneEnabled:]
+-[OpenBackCampaign TrigAeroplaneMode]
+-[OpenBackCampaign setTrigAeroplaneMode:]
+-[OpenBackCampaign TrigUnlockEnabled]
+-[OpenBackCampaign setTrigUnlockEnabled:]
+-[OpenBackCampaign TrigUnlockStatus]
+-[OpenBackCampaign setTrigUnlockStatus:]
+-[OpenBackCampaign TrigLocaleEnabled]
+-[OpenBackCampaign setTrigLocaleEnabled:]
+-[OpenBackCampaign TrigLocaleLanguage]
+-[OpenBackCampaign setTrigLocaleLanguage:]
+-[OpenBackCampaign TrigLocaleRegion]
+-[OpenBackCampaign setTrigLocaleRegion:]
+-[OpenBackCampaign TrigLocaleRegionOperator]
+-[OpenBackCampaign setTrigLocaleRegionOperator:]
+-[OpenBackCampaign TrigLocaleLanguageOperator]
+-[OpenBackCampaign setTrigLocaleLanguageOperator:]
+-[OpenBackCampaign TrigCustomEnabled]
+-[OpenBackCampaign setTrigCustomEnabled:]
+-[OpenBackCampaign TrigCust1]
+-[OpenBackCampaign setTrigCust1:]
+-[OpenBackCampaign TrigCust2]
+-[OpenBackCampaign setTrigCust2:]
+-[OpenBackCampaign TrigCust3]
+-[OpenBackCampaign setTrigCust3:]
+-[OpenBackCampaign TrigCust4]
+-[OpenBackCampaign setTrigCust4:]
+-[OpenBackCampaign TrigCust5]
+-[OpenBackCampaign setTrigCust5:]
+-[OpenBackCampaign TrigCust6]
+-[OpenBackCampaign setTrigCust6:]
+-[OpenBackCampaign TrigCust7]
+-[OpenBackCampaign setTrigCust7:]
+-[OpenBackCampaign TrigCust8]
+-[OpenBackCampaign setTrigCust8:]
+-[OpenBackCampaign TrigCust9]
+-[OpenBackCampaign setTrigCust9:]
+-[OpenBackCampaign TrigCust10]
+-[OpenBackCampaign setTrigCust10:]
+-[OpenBackCampaign TrigCustOperator1]
+-[OpenBackCampaign setTrigCustOperator1:]
+-[OpenBackCampaign TrigCustOperator2]
+-[OpenBackCampaign setTrigCustOperator2:]
+-[OpenBackCampaign TrigCustOperator3]
+-[OpenBackCampaign setTrigCustOperator3:]
+-[OpenBackCampaign TrigCustOperator4]
+-[OpenBackCampaign setTrigCustOperator4:]
+-[OpenBackCampaign TrigCustOperator5]
+-[OpenBackCampaign setTrigCustOperator5:]
+-[OpenBackCampaign TrigCustOperator6]
+-[OpenBackCampaign setTrigCustOperator6:]
+-[OpenBackCampaign TrigCustOperator7]
+-[OpenBackCampaign setTrigCustOperator7:]
+-[OpenBackCampaign TrigCustOperator8]
+-[OpenBackCampaign setTrigCustOperator8:]
+-[OpenBackCampaign TrigCustOperator9]
+-[OpenBackCampaign setTrigCustOperator9:]
+-[OpenBackCampaign TrigCustOperator10]
+-[OpenBackCampaign setTrigCustOperator10:]
+-[OpenBackCampaign TrigCustOperatorType1]
+-[OpenBackCampaign setTrigCustOperatorType1:]
+-[OpenBackCampaign TrigCustOperatorType2]
+-[OpenBackCampaign setTrigCustOperatorType2:]
+-[OpenBackCampaign TrigCustOperatorType3]
+-[OpenBackCampaign setTrigCustOperatorType3:]
+-[OpenBackCampaign TrigCustOperatorType4]
+-[OpenBackCampaign setTrigCustOperatorType4:]
+-[OpenBackCampaign TrigCustOperatorType5]
+-[OpenBackCampaign setTrigCustOperatorType5:]
+-[OpenBackCampaign TrigCustOperatorType6]
+-[OpenBackCampaign setTrigCustOperatorType6:]
+-[OpenBackCampaign TrigCustOperatorType7]
+-[OpenBackCampaign setTrigCustOperatorType7:]
+-[OpenBackCampaign TrigCustOperatorType8]
+-[OpenBackCampaign setTrigCustOperatorType8:]
+-[OpenBackCampaign TrigCustOperatorType9]
+-[OpenBackCampaign setTrigCustOperatorType9:]
+-[OpenBackCampaign TrigCustOperatorType10]
+-[OpenBackCampaign setTrigCustOperatorType10:]
+-[OpenBackCampaign MsgCouponId]
+-[OpenBackCampaign setMsgCouponId:]
+-[OpenBackCampaign MsgCouponUrl]
+-[OpenBackCampaign setMsgCouponUrl:]
+-[OpenBackCampaign MsgCouponName]
+-[OpenBackCampaign setMsgCouponName:]
+-[OpenBackCampaign MsgCouponDescription]
+-[OpenBackCampaign setMsgCouponDescription:]
+-[OpenBackCampaign MsgCouponImageUrl]
+-[OpenBackCampaign setMsgCouponImageUrl:]
+-[OpenBackCampaign MsgCouponValidFrom]
+-[OpenBackCampaign setMsgCouponValidFrom:]
+-[OpenBackCampaign MsgCouponExpiry]
+-[OpenBackCampaign setMsgCouponExpiry:]
+-[OpenBackCampaign TrigNumberEnabled]
+-[OpenBackCampaign setTrigNumberEnabled:]
+-[OpenBackCampaign TrigNumberDirection]
+-[OpenBackCampaign setTrigNumberDirection:]
+-[OpenBackCampaign TrigNumberCountry]
+-[OpenBackCampaign setTrigNumberCountry:]
+-[OpenBackCampaign TrigNumberCountryCode]
+-[OpenBackCampaign setTrigNumberCountryCode:]
+-[OpenBackCampaign TrigNumberMinNumberOfEventsFromCountry]
+-[OpenBackCampaign setTrigNumberMinNumberOfEventsFromCountry:]
+-[OpenBackCampaign TrigNumberCommunicationType]
+-[OpenBackCampaign setTrigNumberCommunicationType:]
+-[OpenBackCampaign TrigNumberPhoneNo]
+-[OpenBackCampaign setTrigNumberPhoneNo:]
+-[OpenBackCampaign TrigNumberPhoneNoAmount]
+-[OpenBackCampaign setTrigNumberPhoneNoAmount:]
+-[OpenBackCampaign TrigBackLightLevel]
+-[OpenBackCampaign setTrigBackLightLevel:]
+-[OpenBackCampaign TrigPreviousAppUsage]
+-[OpenBackCampaign setTrigPreviousAppUsage:]
+-[OpenBackCampaign TrigEventTypeEnabled]
+-[OpenBackCampaign setTrigEventTypeEnabled:]
+-[OpenBackCampaign TrigEventType]
+-[OpenBackCampaign setTrigEventType:]
+-[OpenBackCampaign TrigEventTypeOperator]
+-[OpenBackCampaign setTrigEventTypeOperator:]
+-[OpenBackCampaign TrigAppOpenedValue]
+-[OpenBackCampaign setTrigAppOpenedValue:]
+-[OpenBackCampaign TrigAppOpenEnabled]
+-[OpenBackCampaign setTrigAppOpenEnabled:]
+-[OpenBackCampaign TrigFunctionalityNotAvailableAction]
+-[OpenBackCampaign setTrigFunctionalityNotAvailableAction:]
+-[OpenBackCampaign MsgClickedBeforeMinTimePeriodInSeconds]
+-[OpenBackCampaign setMsgClickedBeforeMinTimePeriodInSeconds:]
+-[OpenBackCampaign TrigNotificationEnabled]
+-[OpenBackCampaign setTrigNotificationEnabled:]
+-[OpenBackCampaign TrigNotificationValue]
+-[OpenBackCampaign setTrigNotificationValue:]
+-[OpenBackCampaign TrigNotificationOption]
+-[OpenBackCampaign setTrigNotificationOption:]
+-[OpenBackCampaign TrigNotificationOperator]
+-[OpenBackCampaign setTrigNotificationOperator:]
+-[OpenBackCampaign TrigWifiAvailableSsid]
+-[OpenBackCampaign setTrigWifiAvailableSsid:]
+-[OpenBackCampaign TrigWifiAvailableSsidOperator]
+-[OpenBackCampaign setTrigWifiAvailableSsidOperator:]
+-[OpenBackCampaign .cxx_destruct]
+_OBJC_IVAR_$_OpenBackCampaign._SdkTrigId
+_OBJC_IVAR_$_OpenBackCampaign._AppId
+_OBJC_IVAR_$_OpenBackCampaign._ClientId
+_OBJC_IVAR_$_OpenBackCampaign._CampaignPriority
+_OBJC_IVAR_$_OpenBackCampaign._MediaTypeCode
+_OBJC_IVAR_$_OpenBackCampaign._CampaignTrigName
+_OBJC_IVAR_$_OpenBackCampaign._SystemTypeId
+_OBJC_IVAR_$_OpenBackCampaign._MsgAllowedSeenBefore
+_OBJC_IVAR_$_OpenBackCampaign._MsgSeenBeforeMinTimePeriodInSeconds
+_OBJC_IVAR_$_OpenBackCampaign._MsgSeenBeforeMaxNumberDisplay
+_OBJC_IVAR_$_OpenBackCampaign._MsgSeenBeforeMaxNumberClicked
+_OBJC_IVAR_$_OpenBackCampaign._MsgImageUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgOptOutUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgFromName
+_OBJC_IVAR_$_OpenBackCampaign._MsgDeepLinkPackageUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgIntelligentRoutingEnabled
+_OBJC_IVAR_$_OpenBackCampaign._MsgIntelligentRoutingValue
+_OBJC_IVAR_$_OpenBackCampaign._TrigDelayEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigDelayMinsAfterEvent
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayId
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayTypeId
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayAppInstallName
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayAppInstallPackageName
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayAppInstallUrlScheme
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayImageUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayVideoUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayCustom
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayTitle
+_OBJC_IVAR_$_OpenBackCampaign._MsgInteractiveDisplayMessage
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushId
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushMessage
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushIconUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushTitle
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushType
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushSensitivity
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushMessageExpiryDurationInSeconds
+_OBJC_IVAR_$_OpenBackCampaign._MsgPushMessageIdentifier
+_OBJC_IVAR_$_OpenBackCampaign._MsgSmsId
+_OBJC_IVAR_$_OpenBackCampaign._MsgSmsMessage
+_OBJC_IVAR_$_OpenBackCampaign._StartDate
+_OBJC_IVAR_$_OpenBackCampaign._EndDate
+_OBJC_IVAR_$_OpenBackCampaign._EndDateOngoing
+_OBJC_IVAR_$_OpenBackCampaign._TrigTimeEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigTimeValidDateStart
+_OBJC_IVAR_$_OpenBackCampaign._TrigTimeValidDateEnd
+_OBJC_IVAR_$_OpenBackCampaign._TrigTimeValidOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigIdleEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigIdleValue
+_OBJC_IVAR_$_OpenBackCampaign._TrigIdleOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationType
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationGeoLong
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationGeoLat
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationGeoRange
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationCellId
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocationCountry
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointNorthLong
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointNorthLath
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointSouthLong
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointSouthLath
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointEastLong
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointEastLath
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointWestLong
+_OBJC_IVAR_$_OpenBackCampaign._TrigGeoPointWestLath
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppActionType
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppName
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppPackageUrl
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppInterestCategory
+_OBJC_IVAR_$_OpenBackCampaign._TrigConnectivityEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigWifiStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigBluetoothStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigDataConnectionStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigGpsStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigConnectivityWifiName
+_OBJC_IVAR_$_OpenBackCampaign._TrigConnectivityWifiNameOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryMinLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryMaxLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryChargingStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryChargingType
+_OBJC_IVAR_$_OpenBackCampaign._TrigBatteryOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigBrightnessEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigBrightnessOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigBrightnessMinLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigBrightnessMaxLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherTemperatureOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherTemperatureMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherTemperatureMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherHumidityOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherHumidityMaxLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigWeatherHumidityMinLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigActivityEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigActivityType
+_OBJC_IVAR_$_OpenBackCampaign._TrigActivityOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigRoamingEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigRoamingType
+_OBJC_IVAR_$_OpenBackCampaign._TrigMemoryEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigMemoryAvailableStorage
+_OBJC_IVAR_$_OpenBackCampaign._TrigMemoryAvailableMemory
+_OBJC_IVAR_$_OpenBackCampaign._TrigMemoryAvailableStorageOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigMemoryAvailableMemoryOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigMobileOperatorEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigMobileOperatorName
+_OBJC_IVAR_$_OpenBackCampaign._TrigMobileOperatorOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigMobileOperatorMccMnc
+_OBJC_IVAR_$_OpenBackCampaign._TrigSignalEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigSignalType
+_OBJC_IVAR_$_OpenBackCampaign._TrigSignalOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigSignalNetworkTypeId
+_OBJC_IVAR_$_OpenBackCampaign._TrigHeadphonesEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigHeadphonesConnected
+_OBJC_IVAR_$_OpenBackCampaign._TrigNoiseEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigNoiseMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigNoiseMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigNoiseOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigProximityEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigProximityInHand
+_OBJC_IVAR_$_OpenBackCampaign._TrigVolumeEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigVolumeRinger
+_OBJC_IVAR_$_OpenBackCampaign._TrigVolumeMedia
+_OBJC_IVAR_$_OpenBackCampaign._TrigVolumeRingerOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigVolumeMediaOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorXMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorXMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorYMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorYMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorZMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorZMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigLinearAcceleratorOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeXMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeXMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeYMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeYMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeZMin
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeZMax
+_OBJC_IVAR_$_OpenBackCampaign._TrigGyroscopeOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceOrientationEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceOrientationType
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceOrientationOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceModel
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceBrand
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceScreenSize
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceModelOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceBrandOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigDeviceScreenSizeOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigBeaconEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigBeaconValue
+_OBJC_IVAR_$_OpenBackCampaign._TrigBeaconOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigAeroplaneEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigAeroplaneMode
+_OBJC_IVAR_$_OpenBackCampaign._TrigUnlockEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigUnlockStatus
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocaleEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocaleLanguage
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocaleRegion
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocaleRegionOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigLocaleLanguageOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustomEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust1
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust2
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust3
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust4
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust5
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust6
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust7
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust8
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust9
+_OBJC_IVAR_$_OpenBackCampaign._TrigCust10
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator1
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator2
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator3
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator4
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator5
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator6
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator7
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator8
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator9
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperator10
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType1
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType2
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType3
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType4
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType5
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType6
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType7
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType8
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType9
+_OBJC_IVAR_$_OpenBackCampaign._TrigCustOperatorType10
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponId
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponName
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponDescription
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponImageUrl
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponValidFrom
+_OBJC_IVAR_$_OpenBackCampaign._MsgCouponExpiry
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberDirection
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberCountry
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberCountryCode
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberMinNumberOfEventsFromCountry
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberCommunicationType
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberPhoneNo
+_OBJC_IVAR_$_OpenBackCampaign._TrigNumberPhoneNoAmount
+_OBJC_IVAR_$_OpenBackCampaign._TrigBackLightLevel
+_OBJC_IVAR_$_OpenBackCampaign._TrigPreviousAppUsage
+_OBJC_IVAR_$_OpenBackCampaign._TrigEventTypeEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigEventType
+_OBJC_IVAR_$_OpenBackCampaign._TrigEventTypeOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppOpenedValue
+_OBJC_IVAR_$_OpenBackCampaign._TrigAppOpenEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigFunctionalityNotAvailableAction
+_OBJC_IVAR_$_OpenBackCampaign._MsgClickedBeforeMinTimePeriodInSeconds
+_OBJC_IVAR_$_OpenBackCampaign._TrigNotificationEnabled
+_OBJC_IVAR_$_OpenBackCampaign._TrigNotificationValue
+_OBJC_IVAR_$_OpenBackCampaign._TrigNotificationOption
+_OBJC_IVAR_$_OpenBackCampaign._TrigNotificationOperator
+_OBJC_IVAR_$_OpenBackCampaign._TrigWifiAvailableSsid
+_OBJC_IVAR_$_OpenBackCampaign._TrigWifiAvailableSsidOperator
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.h
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aestab.c
+aes_init
++[OpenBackAppSettings sharedInstance]
+___37+[OpenBackAppSettings sharedInstance]_block_invoke
++[OpenBackAppSettings reset]
++[OpenBackAppSettings processSdkValues:]
++[OpenBackAppSettings sdkGeoTrigger]
++[OpenBackAppSettings sdkUnlockTrigger]
++[OpenBackAppSettings sdkPostSmsMessage]
++[OpenBackAppSettings sdkPostCallMessage]
++[OpenBackAppSettings sdkPollDataWifiOnly]
++[OpenBackAppSettings sdkNightTimeEnabled]
++[OpenBackAppSettings sdkRecordUserData]
++[OpenBackAppSettings sdkBadgeEnabled]
++[OpenBackAppSettings sdkServiceLaunchTrigger]
++[OpenBackAppSettings sdkMessagesRefreshWifiOnly]
++[OpenBackAppSettings sdkAssetDownloadWifiOnly]
++[OpenBackAppSettings sdkMaxMessagesPerDay]
++[OpenBackAppSettings sdkMaxMessagesPerMonth]
++[OpenBackAppSettings sdkMaxMessagesPerWeek]
++[OpenBackAppSettings sdkMaxMessagesPerYear]
++[OpenBackAppSettings sdkMessagesRefreshFrequency]
++[OpenBackAppSettings sdkPollDataFrequency]
++[OpenBackAppSettings sdkPollDataLevel]
++[OpenBackAppSettings sdkServiceLaunchEveryXMinutes]
++[OpenBackAppSettings sdkMinTimeBetweenNotifications]
++[OpenBackAppSettings sdkNightTimeStartTime]
++[OpenBackAppSettings sdkNightTimeEndTime]
+-[OpenBackAppSettings init]
+-[OpenBackAppSettings setupDefaultSdkValues]
+-[OpenBackAppSettings saveSdkValues]
+-[OpenBackAppSettings processSdkValues:]
+-[OpenBackAppSettings sdkGeoTrigger]
+-[OpenBackAppSettings setSdkGeoTrigger:]
+-[OpenBackAppSettings sdkUnlockTrigger]
+-[OpenBackAppSettings setSdkUnlockTrigger:]
+-[OpenBackAppSettings sdkPostSmsMessage]
+-[OpenBackAppSettings setSdkPostSmsMessage:]
+-[OpenBackAppSettings sdkPostCallMessage]
+-[OpenBackAppSettings setSdkPostCallMessage:]
+-[OpenBackAppSettings sdkPollDataWifiOnly]
+-[OpenBackAppSettings setSdkPollDataWifiOnly:]
+-[OpenBackAppSettings sdkNightTimeEnabled]
+-[OpenBackAppSettings setSdkNightTimeEnabled:]
+-[OpenBackAppSettings sdkRecordUserData]
+-[OpenBackAppSettings setSdkRecordUserData:]
+-[OpenBackAppSettings sdkBadgeEnabled]
+-[OpenBackAppSettings setSdkBadgeEnabled:]
+-[OpenBackAppSettings sdkServiceLaunchTrigger]
+-[OpenBackAppSettings setSdkServiceLaunchTrigger:]
+-[OpenBackAppSettings sdkMessagesRefreshWifiOnly]
+-[OpenBackAppSettings setSdkMessagesRefreshWifiOnly:]
+-[OpenBackAppSettings sdkAssetDownloadWifiOnly]
+-[OpenBackAppSettings setSdkAssetDownloadWifiOnly:]
+-[OpenBackAppSettings sdkMaxMessagesPerDay]
+-[OpenBackAppSettings setSdkMaxMessagesPerDay:]
+-[OpenBackAppSettings sdkMaxMessagesPerMonth]
+-[OpenBackAppSettings setSdkMaxMessagesPerMonth:]
+-[OpenBackAppSettings sdkMaxMessagesPerWeek]
+-[OpenBackAppSettings setSdkMaxMessagesPerWeek:]
+-[OpenBackAppSettings sdkMaxMessagesPerYear]
+-[OpenBackAppSettings setSdkMaxMessagesPerYear:]
+-[OpenBackAppSettings sdkMessagesRefreshFrequency]
+-[OpenBackAppSettings setSdkMessagesRefreshFrequency:]
+-[OpenBackAppSettings sdkPollDataFrequency]
+-[OpenBackAppSettings setSdkPollDataFrequency:]
+-[OpenBackAppSettings sdkPollDataLevel]
+-[OpenBackAppSettings setSdkPollDataLevel:]
+-[OpenBackAppSettings sdkServiceLaunchEveryXMinutes]
+-[OpenBackAppSettings setSdkServiceLaunchEveryXMinutes:]
+-[OpenBackAppSettings sdkMinTimeBetweenNotifications]
+-[OpenBackAppSettings setSdkMinTimeBetweenNotifications:]
+-[OpenBackAppSettings sdkNightTimeStartTime]
+-[OpenBackAppSettings setSdkNightTimeStartTime:]
+-[OpenBackAppSettings sdkNightTimeEndTime]
+-[OpenBackAppSettings setSdkNightTimeEndTime:]
+-[OpenBackAppSettings .cxx_destruct]
+_sharedInstance.pred
+_sharedInstance._sharedObject
+_OBJC_IVAR_$_OpenBackAppSettings._sdkGeoTrigger
+_OBJC_IVAR_$_OpenBackAppSettings._sdkUnlockTrigger
+_OBJC_IVAR_$_OpenBackAppSettings._sdkPostSmsMessage
+_OBJC_IVAR_$_OpenBackAppSettings._sdkPostCallMessage
+_OBJC_IVAR_$_OpenBackAppSettings._sdkPollDataWifiOnly
+_OBJC_IVAR_$_OpenBackAppSettings._sdkNightTimeEnabled
+_OBJC_IVAR_$_OpenBackAppSettings._sdkRecordUserData
+_OBJC_IVAR_$_OpenBackAppSettings._sdkBadgeEnabled
+_OBJC_IVAR_$_OpenBackAppSettings._sdkServiceLaunchTrigger
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMessagesRefreshWifiOnly
+_OBJC_IVAR_$_OpenBackAppSettings._sdkAssetDownloadWifiOnly
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMaxMessagesPerDay
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMaxMessagesPerMonth
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMaxMessagesPerWeek
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMaxMessagesPerYear
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMessagesRefreshFrequency
+_OBJC_IVAR_$_OpenBackAppSettings._sdkPollDataFrequency
+_OBJC_IVAR_$_OpenBackAppSettings._sdkPollDataLevel
+_OBJC_IVAR_$_OpenBackAppSettings._sdkServiceLaunchEveryXMinutes
+_OBJC_IVAR_$_OpenBackAppSettings._sdkMinTimeBetweenNotifications
+_OBJC_IVAR_$_OpenBackAppSettings._sdkNightTimeStartTime
+_OBJC_IVAR_$_OpenBackAppSettings._sdkNightTimeEndTime
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAppSettings.m
+__37+[OpenBackAppSettings sharedInstance]_block_invoke
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/usr/include/dispatch/once.h
+_unzOpenInternal
+_unz64local_GetCurrentFileInfoInternal
+_unzGoToNextDisk
+_unz64local_getLong
+_unz64local_getShort
+_unz64local_getLong64
+_unz64local_getByte
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/unzip.c
+unz64local_getByte
+unz64local_getLong64
+unz64local_getShort
+unz64local_getLong
+unzeof
+unztell64
+unztell
+unzSetOffset64
+unzSetOffset
+unzGetOffset64
+unzGetOffset
+unzGoToFilePos64
+unzGoToFilePos
+unzGetFilePos64
+unzGetFilePos
+unzLocateFile
+unzGoToFirstFile2
+unzGoToNextFile
+unzGoToNextFile2
+unzGoToFirstFile
+unzGetLocalExtrafield
+unzGetCurrentFileZStreamPos64
+unzGoToNextDisk
+unzReadCurrentFile
+update_keys
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/crypt.h
+decrypt_byte
+unzOpenCurrentFile2
+unzOpenCurrentFilePassword
+unzOpenCurrentFile
+unzOpenCurrentFile3
+init_keys
+unz64local_CheckCurrentFileCoherencyHeader
+unzGetCurrentFileInfo64
+unz64local_GetCurrentFileInfoInternal
+unz64local_DosDateToTmuDate
+unzGetCurrentFileInfo
+unzGetGlobalComment
+unzGetGlobalInfo64
+unzGetGlobalInfo
+unzCloseCurrentFile
+unzClose
+unzOpen64
+unzOpen
+unzOpen2_64
+unzOpenInternal
+unz64local_SearchCentralDir64
+unz64local_SearchCentralDir
+unzOpen2
+-[RNCryptorEngine initWithOperation:settings:key:IV:error:]
+-[RNCryptorEngine dealloc]
+-[RNCryptorEngine addData:error:]
+-[RNCryptorEngine finishWithError:]
+-[RNCryptorEngine cryptor]
+-[RNCryptorEngine buffer]
+-[RNCryptorEngine .cxx_destruct]
+_OBJC_IVAR_$_RNCryptorEngine.__cryptor
+_OBJC_IVAR_$_RNCryptorEngine.__buffer
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptorEngine.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[OpenBackFiles applicationDocumentsDirectory]
++[OpenBackFiles applicationLibraryDirectory]
++[OpenBackFiles applicationCachesDirectory]
++[OpenBackFiles applicationSupportDirectory]
++[OpenBackFiles applicationTempDirectory]
++[OpenBackFiles openBackDirectory]
++[OpenBackFiles openBackAssetsDirectory]
++[OpenBackFiles openBackAssetFullPath:]
++[OpenBackFiles fileExists:]
++[OpenBackFiles directoryExists:]
++[OpenBackFiles createDirectory:error:]
++[OpenBackFiles removeFileOrDirectory:error:]
++[OpenBackFiles excludeFromBackup:error:]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackFiles.m
++[OpenBackDBCampaignJson entityName]
++[OpenBackDBCampaignJson createCampaignWithJSON:withContext:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___61+[OpenBackDBCampaignJson createCampaignWithJSON:withContext:]_block_invoke
++[OpenBackDBCampaignJson deleteAllWithContext:]
+___47+[OpenBackDBCampaignJson deleteAllWithContext:]_block_invoke
+___copy_helper_block_.23
+___destroy_helper_block_.24
+___block_descriptor_tmp.26
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson.m
+__47+[OpenBackDBCampaignJson deleteAllWithContext:]_block_invoke
+__61+[OpenBackDBCampaignJson createCampaignWithJSON:withContext:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
++[OpenBackCommon applicationVersion]
++[OpenBackCommon applicationBuild]
++[OpenBackCommon applicationName]
++[OpenBackCommon applicationDisplayName]
++[OpenBackCommon applicationIdentifier]
++[OpenBackCommon iTunesIDFromURL:]
++[OpenBackCommon deviceIdentifier]
++[OpenBackCommon osVersion]
++[OpenBackCommon epoch]
++[OpenBackCommon epoch_ms]
++[OpenBackCommon convertUTCtoLocal:]
++[OpenBackCommon getCountryCode]
++[OpenBackCommon randomStringWithLength:mode:]
++[OpenBackCommon getGMTDateTimeString:]
+___39+[OpenBackCommon getGMTDateTimeString:]_block_invoke
++[OpenBackCommon getCurrentYear]
++[OpenBackCommon getCurrentMonth]
++[OpenBackCommon getCurrentWeek]
++[OpenBackCommon getCurrentDay]
++[OpenBackCommon parseTime:]
+___28+[OpenBackCommon parseTime:]_block_invoke
++[OpenBackCommon md5:]
++[OpenBackCommon sha1:]
++[OpenBackCommon sha256:]
++[OpenBackJSON JSONData:error:]
++[OpenBackJSON JSONString:pretty:error:]
++[OpenBackJSON arrayFromJSONData:error:]
++[OpenBackJSON arrayFromJSONString:error:]
++[OpenBackJSON dictionaryFromJSONData:error:]
++[OpenBackJSON dictionaryFromJSONString:error:]
+_getGMTDateTimeString:.obkGMTDateTimeFormatter
+_getGMTDateTimeString:.onceToken
+___block_literal_global
+_parseTime:.obkTimeFormatter
+_parseTime:.onceToken
+___block_descriptor_tmp.132
+___block_literal_global.133
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackCommon.m
+__28+[OpenBackCommon parseTime:]_block_invoke
+__39+[OpenBackCommon getGMTDateTimeString:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aeskey.c
+aes_decrypt_key
+aes_decrypt_key256
+aes_decrypt_key192
+aes_decrypt_key128
+aes_encrypt_key
+aes_encrypt_key256
+aes_encrypt_key192
+aes_encrypt_key128
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign+CoreDataProperties.m
++[OpenBackDeviceTriggers load]
+___30+[OpenBackDeviceTriggers load]_block_invoke
+___30+[OpenBackDeviceTriggers load]_block_invoke_2
+___30+[OpenBackDeviceTriggers load]_block_invoke_3
+-[OpenBackDeviceTriggers init]
+-[OpenBackDeviceTriggers collectTriggerData:]
+___45-[OpenBackDeviceTriggers collectTriggerData:]_block_invoke
+-[OpenBackDeviceTriggers updateHomeWork]
+-[OpenBackDeviceTriggers startMonitoringTriggers]
+-[OpenBackDeviceTriggers startReachabilityManager]
+___50-[OpenBackDeviceTriggers startReachabilityManager]_block_invoke
+___50-[OpenBackDeviceTriggers startReachabilityManager]_block_invoke_2
+-[OpenBackDeviceTriggers startBluetoothManager]
+-[OpenBackDeviceTriggers startActivityManager]
+___46-[OpenBackDeviceTriggers startActivityManager]_block_invoke
+-[OpenBackDeviceTriggers stopMonitoringTriggers]
+-[OpenBackDeviceTriggers stopReachabilityManager]
+-[OpenBackDeviceTriggers stopLocationManager]
+-[OpenBackDeviceTriggers stopBluetoothManager]
+-[OpenBackDeviceTriggers stopActivityManager]
+-[OpenBackDeviceTriggers orientationChanged:]
+-[OpenBackDeviceTriggers lowMemoryWarning:]
+-[OpenBackDeviceTriggers isApplicationActive]
+-[OpenBackDeviceTriggers isApplicationBackground]
+-[OpenBackDeviceTriggers isBackgroundExecutionEnabled]
+-[OpenBackDeviceTriggers isBadgeNotificationsEnabled]
+-[OpenBackDeviceTriggers isSoundNotificationsEnabled]
+-[OpenBackDeviceTriggers isAlertNotificationsEnabled]
+-[OpenBackDeviceTriggers isRemoteNotificationsEnabled]
+-[OpenBackDeviceTriggers isBackgroundAudioEnabled]
+-[OpenBackDeviceTriggers isBackgroundLocationEnabled]
+-[OpenBackDeviceTriggers isBackgroundVoipEnabled]
+-[OpenBackDeviceTriggers isBackgroundFetchEnabled]
+-[OpenBackDeviceTriggers isBackgroundRemoteNotificationEnabled]
+-[OpenBackDeviceTriggers isIPhone]
+-[OpenBackDeviceTriggers isIPad]
+-[OpenBackDeviceTriggers currentOrientation]
+-[OpenBackDeviceTriggers isOrientationPortait]
+-[OpenBackDeviceTriggers isOrientationPortaitUpsideDown]
+-[OpenBackDeviceTriggers isOrientationLandscape]
+-[OpenBackDeviceTriggers isOrientationFaceUp]
+-[OpenBackDeviceTriggers isOrientationFaceDown]
+-[OpenBackDeviceTriggers isDeviceLocked]
+-[OpenBackDeviceTriggers isScreenOn]
+-[OpenBackDeviceTriggers isTouchIdEnabled]
+-[OpenBackDeviceTriggers isPasscodeEnabled]
+-[OpenBackDeviceTriggers deviceBrand]
+-[OpenBackDeviceTriggers deviceModel]
+-[OpenBackDeviceTriggers deviceModelForHumans]
+-[OpenBackDeviceTriggers osVersion]
+-[OpenBackDeviceTriggers identifierForVendor]
+-[OpenBackDeviceTriggers deviceScreenSize]
+-[OpenBackDeviceTriggers callInProgress]
+-[OpenBackDeviceTriggers canMakePhoneCalls]
+___43-[OpenBackDeviceTriggers canMakePhoneCalls]_block_invoke
+___copy_helper_block_.523
+___destroy_helper_block_.524
+-[OpenBackDeviceTriggers epoch]
+-[OpenBackDeviceTriggers epoch_ms]
+-[OpenBackDeviceTriggers isNightTime]
+-[OpenBackDeviceTriggers isHomeTime]
+-[OpenBackDeviceTriggers isWorkTime]
+-[OpenBackDeviceTriggers currentLocation]
+-[OpenBackDeviceTriggers currentLocationCountry]
+-[OpenBackDeviceTriggers locationManager:didEnterRegion:]
+-[OpenBackDeviceTriggers locationManager:didRangeBeacons:inRegion:]
+-[OpenBackDeviceTriggers locationIsHome]
+-[OpenBackDeviceTriggers locationIsWork]
+-[OpenBackDeviceTriggers isApplicationInstalled:]
+-[OpenBackDeviceTriggers isWiFiReachable]
+-[OpenBackDeviceTriggers isWWANReachable]
+-[OpenBackDeviceTriggers wifiSSID]
+-[OpenBackDeviceTriggers wifiBSSID]
+-[OpenBackDeviceTriggers isInternetReachable]
+-[OpenBackDeviceTriggers isBluetoothLEOn]
+-[OpenBackDeviceTriggers centralManagerDidUpdateState:]
+-[OpenBackDeviceTriggers isGPSEnabled]
+-[OpenBackDeviceTriggers ipAddressWIFI]
+-[OpenBackDeviceTriggers ipAddressCell]
+-[OpenBackDeviceTriggers isCharging]
+-[OpenBackDeviceTriggers batteryStateChanged:]
+-[OpenBackDeviceTriggers batteryLevel]
+-[OpenBackDeviceTriggers batteryLevelChanged:]
+-[OpenBackDeviceTriggers brightness]
+-[OpenBackDeviceTriggers screenBrightness]
+-[OpenBackDeviceTriggers brightnessChanged:]
+-[OpenBackDeviceTriggers humidityDescription]
+-[OpenBackDeviceTriggers humidity]
+-[OpenBackDeviceTriggers temperatureDescription]
+-[OpenBackDeviceTriggers temperature]
+-[OpenBackDeviceTriggers currentActivity]
+-[OpenBackDeviceTriggers currentSpeed]
+-[OpenBackDeviceTriggers isRoaming]
+-[OpenBackDeviceTriggers physicalMemory]
+-[OpenBackDeviceTriggers physicalMemoryMB]
+-[OpenBackDeviceTriggers freeMemory]
+-[OpenBackDeviceTriggers freeMemoryMB]
+-[OpenBackDeviceTriggers usedMemory]
+-[OpenBackDeviceTriggers totalStorageSpace]
+-[OpenBackDeviceTriggers totalStorageSpaceMB]
+-[OpenBackDeviceTriggers freeStorageSpace]
+-[OpenBackDeviceTriggers freeStorageSpaceMB]
+-[OpenBackDeviceTriggers cpuCount]
+-[OpenBackDeviceTriggers cpuUsage]
+-[OpenBackDeviceTriggers cpuUsagePerProcessor]
+-[OpenBackDeviceTriggers carrierName]
+-[OpenBackDeviceTriggers carrierIsoCountryCode]
+-[OpenBackDeviceTriggers carrierMobileCountryCode]
+-[OpenBackDeviceTriggers carrierMobileNetworkCode]
+-[OpenBackDeviceTriggers carrierMccMnc]
+-[OpenBackDeviceTriggers currentTelephonyConnectionTechnology]
+-[OpenBackDeviceTriggers currentTelephonyConnectionType]
+-[OpenBackDeviceTriggers currentTelephonyConnectionAndroidType]
+-[OpenBackDeviceTriggers areHeadphonesPluggedIn]
+-[OpenBackDeviceTriggers audioRouteChanged:]
+-[OpenBackDeviceTriggers noiseLevel]
+-[OpenBackDeviceTriggers isProximityClose]
+-[OpenBackDeviceTriggers proximityChanged:]
+-[OpenBackDeviceTriggers currentVolume]
+-[OpenBackDeviceTriggers accelerationX]
+-[OpenBackDeviceTriggers accelerationY]
+-[OpenBackDeviceTriggers accelerationZ]
+-[OpenBackDeviceTriggers gyroscopeX]
+-[OpenBackDeviceTriggers gyroscopeY]
+-[OpenBackDeviceTriggers gyroscopeZ]
+-[OpenBackDeviceTriggers orientation]
+-[OpenBackDeviceTriggers isAeroplaneModeOn]
+-[OpenBackDeviceTriggers currentLocale]
+-[OpenBackDeviceTriggers currentLocaleLanguage]
+-[OpenBackDeviceTriggers currentLocaleRegion]
+-[OpenBackDeviceTriggers locationManager]
+-[OpenBackDeviceTriggers btCentralManager]
+-[OpenBackDeviceTriggers reachabilityManager]
+-[OpenBackDeviceTriggers activityManager]
+-[OpenBackDeviceTriggers collector]
+-[OpenBackDeviceTriggers trigCust1]
+-[OpenBackDeviceTriggers setTrigCust1:]
+-[OpenBackDeviceTriggers trigCust2]
+-[OpenBackDeviceTriggers setTrigCust2:]
+-[OpenBackDeviceTriggers trigCust3]
+-[OpenBackDeviceTriggers setTrigCust3:]
+-[OpenBackDeviceTriggers trigCust4]
+-[OpenBackDeviceTriggers setTrigCust4:]
+-[OpenBackDeviceTriggers trigCust5]
+-[OpenBackDeviceTriggers setTrigCust5:]
+-[OpenBackDeviceTriggers trigCust6]
+-[OpenBackDeviceTriggers setTrigCust6:]
+-[OpenBackDeviceTriggers trigCust7]
+-[OpenBackDeviceTriggers setTrigCust7:]
+-[OpenBackDeviceTriggers trigCust8]
+-[OpenBackDeviceTriggers setTrigCust8:]
+-[OpenBackDeviceTriggers trigCust9]
+-[OpenBackDeviceTriggers setTrigCust9:]
+-[OpenBackDeviceTriggers trigCust10]
+-[OpenBackDeviceTriggers setTrigCust10:]
+-[OpenBackDeviceTriggers isMonitoring]
+-[OpenBackDeviceTriggers setIsMonitoring:]
+-[OpenBackDeviceTriggers previousCharging]
+-[OpenBackDeviceTriggers setPreviousCharging:]
+-[OpenBackDeviceTriggers previousProximityClose]
+-[OpenBackDeviceTriggers setPreviousProximityClose:]
+-[OpenBackDeviceTriggers previousHeadphonesPluggedIn]
+-[OpenBackDeviceTriggers setPreviousHeadphonesPluggedIn:]
+-[OpenBackDeviceTriggers previousBatteryLevel]
+-[OpenBackDeviceTriggers setPreviousBatteryLevel:]
+-[OpenBackDeviceTriggers previousScreenBrightness]
+-[OpenBackDeviceTriggers setPreviousScreenBrightness:]
+-[OpenBackDeviceTriggers previousOrientation]
+-[OpenBackDeviceTriggers setPreviousOrientation:]
+-[OpenBackDeviceTriggers setBtCentralManager:]
+-[OpenBackDeviceTriggers setLocationManager:]
+-[OpenBackDeviceTriggers setActivityManager:]
+-[OpenBackDeviceTriggers setReachabilityManager:]
+-[OpenBackDeviceTriggers permissionStack]
+-[OpenBackDeviceTriggers setPermissionStack:]
+-[OpenBackDeviceTriggers setCollector:]
+-[OpenBackDeviceTriggers lastCollectTime]
+-[OpenBackDeviceTriggers setLastCollectTime:]
+-[OpenBackDeviceTriggers .cxx_destruct]
+_load.encodedLock
+_load.encodedScreen
+_load.encodedBlank
+_sOBKDeviceToken
+_sOBKDeviceLocked
+_sOBKScreenOnToken
+_sOBKScreenOn
+___block_descriptor_tmp.12
+___block_literal_global.13
+_sOBKScreenBlankToken
+___block_descriptor_tmp.14
+___block_literal_global.15
+___block_descriptor_tmp.60
+___block_descriptor_tmp.133
+___block_literal_global.134
+___block_descriptor_tmp.139
+___block_literal_global.140
+___block_descriptor_tmp.156
+___block_literal_global.157
+_OBJC_IVAR_$_OpenBackDeviceTriggers._reachabilityManager
+_OBJC_IVAR_$_OpenBackDeviceTriggers._locationManager
+_OBJC_IVAR_$_OpenBackDeviceTriggers._btCentralManager
+_canMakePhoneCalls.onceToken
+___block_descriptor_tmp.525
+_OBJC_IVAR_$_OpenBackDeviceTriggers._activityManager
+_OBJC_IVAR_$_OpenBackDeviceTriggers._collector
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust1
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust2
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust3
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust4
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust5
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust6
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust7
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust8
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust9
+_OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust10
+_OBJC_IVAR_$_OpenBackDeviceTriggers._isMonitoring
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousCharging
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousProximityClose
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousHeadphonesPluggedIn
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousBatteryLevel
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousScreenBrightness
+_OBJC_IVAR_$_OpenBackDeviceTriggers._previousOrientation
+_OBJC_IVAR_$_OpenBackDeviceTriggers._permissionStack
+_OBJC_IVAR_$_OpenBackDeviceTriggers._lastCollectTime
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_CBCentralManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CBCentralManagerDelegate
+l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
+l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.h
+__43-[OpenBackDeviceTriggers canMakePhoneCalls]_block_invoke
+__46-[OpenBackDeviceTriggers startActivityManager]_block_invoke
+__50-[OpenBackDeviceTriggers startReachabilityManager]_block_invoke_2
+__50-[OpenBackDeviceTriggers startReachabilityManager]_block_invoke
+__45-[OpenBackDeviceTriggers collectTriggerData:]_block_invoke
+__30+[OpenBackDeviceTriggers load]_block_invoke_3
+__30+[OpenBackDeviceTriggers load]_block_invoke_2
+__30+[OpenBackDeviceTriggers load]_block_invoke
++[OpenBackUser getUserName]
++[OpenBackUser setUserName:]
++[OpenBackUser removeUserName]
++[OpenBackUser getUserInfo]
++[OpenBackUser setUserInfo:]
++[OpenBackUser removeUserInfo]
++[OpenBackUser userEmail]
++[OpenBackUser userPhone]
++[OpenBackUser isUserRegistered]
++[OpenBackUser getUserRegistrationState]
++[OpenBackUser setUserRegistrationState:]
++[OpenBackUser getUserRegistrationDate]
++[OpenBackUser setUserRegistrationDate:]
++[OpenBackUser userWithTriggers:]
++[OpenBackUser registerUserQueue:inEnvironment:completion:]
+___59+[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
++[OpenBackUser setDefaultPreferences]
++[OpenBackUser generateUserName]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackUser.m
+__59+[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
++[OpenBackDatabase sharedInstance]
+___34+[OpenBackDatabase sharedInstance]_block_invoke
+-[OpenBackDatabase init]
+-[OpenBackDatabase getLocalContext]
+-[OpenBackDatabase removeStore]
+-[OpenBackDatabase close]
+-[OpenBackDatabase addPersistentStore:]
+-[OpenBackDatabase storeCoordinator]
+-[OpenBackDatabase commitContext]
+-[OpenBackDatabase mainContext]
+___31-[OpenBackDatabase mainContext]_block_invoke
+___copy_helper_block_.57
+___destroy_helper_block_.58
+-[OpenBackDatabase model]
++[OpenBackDatabase commitChangesToStore]
++[OpenBackDatabase saveSynchronously:]
+___38+[OpenBackDatabase saveSynchronously:]_block_invoke
+___copy_helper_block_.83
+___destroy_helper_block_.84
++[OpenBackDatabase saveAsynchronously:]
+___39+[OpenBackDatabase saveAsynchronously:]_block_invoke
+___copy_helper_block_.88
+___destroy_helper_block_.89
++[OpenBackDatabase saveAndCommitAsynchronouslyToStore:]
+___55+[OpenBackDatabase saveAndCommitAsynchronouslyToStore:]_block_invoke
+___copy_helper_block_.95
+___destroy_helper_block_.96
++[OpenBackDatabase saveAndCommitSynchronouslyToStore:]
+___54+[OpenBackDatabase saveAndCommitSynchronouslyToStore:]_block_invoke
+___copy_helper_block_.100
+___destroy_helper_block_.101
++[OpenBackDatabase saveSynchronouslyAndCommitAsynchronouslyToStore:]
+___68+[OpenBackDatabase saveSynchronouslyAndCommitAsynchronouslyToStore:]_block_invoke
+___copy_helper_block_.103
+___destroy_helper_block_.104
+-[OpenBackDatabase storeURL]
+-[OpenBackDatabase setStoreURL:]
+-[OpenBackDatabase setModel:]
+-[OpenBackDatabase setMainContext:]
+-[OpenBackDatabase setCommitContext:]
+-[OpenBackDatabase setStoreCoordinator:]
+-[OpenBackDatabase .cxx_destruct]
+_OBJC_IVAR_$_OpenBackDatabase._storeCoordinator
+_OBJC_IVAR_$_OpenBackDatabase._model
+_OBJC_IVAR_$_OpenBackDatabase._mainContext
+_OBJC_IVAR_$_OpenBackDatabase._commitContext
+___block_descriptor_tmp.59
+___block_descriptor_tmp.85
+___block_descriptor_tmp.90
+___block_descriptor_tmp.97
+___block_descriptor_tmp.102
+___block_descriptor_tmp.105
+_OBJC_IVAR_$_OpenBackDatabase._storeURL
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDatabase.m
+__68+[OpenBackDatabase saveSynchronouslyAndCommitAsynchronouslyToStore:]_block_invoke
+__54+[OpenBackDatabase saveAndCommitSynchronouslyToStore:]_block_invoke
+__55+[OpenBackDatabase saveAndCommitAsynchronouslyToStore:]_block_invoke
+__39+[OpenBackDatabase saveAsynchronously:]_block_invoke
+__38+[OpenBackDatabase saveSynchronously:]_block_invoke
+__31-[OpenBackDatabase mainContext]_block_invoke
+__34+[OpenBackDatabase sharedInstance]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/libextobjc/EXTScope.m
+obkext_executeCleanupBlock
+-[OpenBackSimulatedTriggers collectTriggerData:]
+-[OpenBackSimulatedTriggers startMonitoringTriggers]
+-[OpenBackSimulatedTriggers stopMonitoringTriggers]
+-[OpenBackSimulatedTriggers callInProgress]
+-[OpenBackSimulatedTriggers isDeviceLocked]
+-[OpenBackSimulatedTriggers isScreenOn]
+-[OpenBackSimulatedTriggers isTouchIdEnabled]
+-[OpenBackSimulatedTriggers isPasscodeEnabled]
+-[OpenBackSimulatedTriggers deviceBrand]
+-[OpenBackSimulatedTriggers deviceModel]
+-[OpenBackSimulatedTriggers deviceScreenSize]
+-[OpenBackSimulatedTriggers epoch]
+-[OpenBackSimulatedTriggers epoch_ms]
+-[OpenBackSimulatedTriggers currentLocation]
+-[OpenBackSimulatedTriggers locationIsHome]
+-[OpenBackSimulatedTriggers locationIsWork]
+-[OpenBackSimulatedTriggers isApplicationInstalled:]
+-[OpenBackSimulatedTriggers isWiFiReachable]
+-[OpenBackSimulatedTriggers isWWANReachable]
+-[OpenBackSimulatedTriggers wifiSSID]
+-[OpenBackSimulatedTriggers wifiBSSID]
+-[OpenBackSimulatedTriggers isInternetReachable]
+-[OpenBackSimulatedTriggers isBluetoothLEOn]
+-[OpenBackSimulatedTriggers isGPSEnabled]
+-[OpenBackSimulatedTriggers isCharging]
+-[OpenBackSimulatedTriggers batteryLevel]
+-[OpenBackSimulatedTriggers brightness]
+-[OpenBackSimulatedTriggers screenBrightness]
+-[OpenBackSimulatedTriggers humidityDescription]
+-[OpenBackSimulatedTriggers humidity]
+-[OpenBackSimulatedTriggers temperatureDescription]
+-[OpenBackSimulatedTriggers temperature]
+-[OpenBackSimulatedTriggers currentActivity]
+-[OpenBackSimulatedTriggers isRoaming]
+-[OpenBackSimulatedTriggers physicalMemory]
+-[OpenBackSimulatedTriggers freeMemory]
+-[OpenBackSimulatedTriggers freeMemoryMB]
+-[OpenBackSimulatedTriggers usedMemory]
+-[OpenBackSimulatedTriggers totalStorageSpace]
+-[OpenBackSimulatedTriggers freeStorageSpace]
+-[OpenBackSimulatedTriggers freeStorageSpaceMB]
+-[OpenBackSimulatedTriggers carrierName]
+-[OpenBackSimulatedTriggers carrierIsoCountryCode]
+-[OpenBackSimulatedTriggers carrierMobileCountryCode]
+-[OpenBackSimulatedTriggers carrierMobileNetworkCode]
+-[OpenBackSimulatedTriggers currentTelephonyConnectionTechnology]
+-[OpenBackSimulatedTriggers currentTelephonyConnectionType]
+-[OpenBackSimulatedTriggers areHeadphonesPluggedIn]
+-[OpenBackSimulatedTriggers noiseLevel]
+-[OpenBackSimulatedTriggers isProximityClose]
+-[OpenBackSimulatedTriggers currentVolume]
+-[OpenBackSimulatedTriggers accelerationX]
+-[OpenBackSimulatedTriggers accelerationY]
+-[OpenBackSimulatedTriggers accelerationZ]
+-[OpenBackSimulatedTriggers gyroscopeX]
+-[OpenBackSimulatedTriggers gyroscopeY]
+-[OpenBackSimulatedTriggers gyroscopeZ]
+-[OpenBackSimulatedTriggers orientation]
+-[OpenBackSimulatedTriggers isAeroplaneModeOn]
+-[OpenBackSimulatedTriggers currentLocale]
+-[OpenBackSimulatedTriggers currentLocaleLanguage]
+-[OpenBackSimulatedTriggers currentLocaleRegion]
+-[OpenBackSimulatedTriggers simulatedWifi]
+-[OpenBackSimulatedTriggers setSimulatedWifi:]
+-[OpenBackSimulatedTriggers simulatedCharge]
+-[OpenBackSimulatedTriggers setSimulatedCharge:]
+-[OpenBackSimulatedTriggers simulatedGps]
+-[OpenBackSimulatedTriggers setSimulatedGps:]
+-[OpenBackSimulatedTriggers simulatedHeadphones]
+-[OpenBackSimulatedTriggers setSimulatedHeadphones:]
+-[OpenBackSimulatedTriggers simulatedProximity]
+-[OpenBackSimulatedTriggers setSimulatedProximity:]
+-[OpenBackSimulatedTriggers simulatedBluetooth]
+-[OpenBackSimulatedTriggers setSimulatedBluetooth:]
+-[OpenBackSimulatedTriggers simulatedAeroplane]
+-[OpenBackSimulatedTriggers setSimulatedAeroplane:]
+-[OpenBackSimulatedTriggers simulatedRoaming]
+-[OpenBackSimulatedTriggers setSimulatedRoaming:]
+-[OpenBackSimulatedTriggers simulatedData]
+-[OpenBackSimulatedTriggers setSimulatedData:]
+-[OpenBackSimulatedTriggers simulatedHome]
+-[OpenBackSimulatedTriggers setSimulatedHome:]
+-[OpenBackSimulatedTriggers simulatedWork]
+-[OpenBackSimulatedTriggers setSimulatedWork:]
+-[OpenBackSimulatedTriggers simulatedDeviceLocked]
+-[OpenBackSimulatedTriggers setSimulatedDeviceLocked:]
+-[OpenBackSimulatedTriggers simulatedScreenOn]
+-[OpenBackSimulatedTriggers setSimulatedScreenOn:]
+-[OpenBackSimulatedTriggers simulatedTouchIdEnabled]
+-[OpenBackSimulatedTriggers setSimulatedTouchIdEnabled:]
+-[OpenBackSimulatedTriggers simulatedPasscodeEnabled]
+-[OpenBackSimulatedTriggers setSimulatedPasscodeEnabled:]
+-[OpenBackSimulatedTriggers simulatedStorageMB]
+-[OpenBackSimulatedTriggers setSimulatedStorageMB:]
+-[OpenBackSimulatedTriggers simulatedMemoryMB]
+-[OpenBackSimulatedTriggers setSimulatedMemoryMB:]
+-[OpenBackSimulatedTriggers simulatedDateTime]
+-[OpenBackSimulatedTriggers setSimulatedDateTime:]
+-[OpenBackSimulatedTriggers simulatedNoiseLevel]
+-[OpenBackSimulatedTriggers setSimulatedNoiseLevel:]
+-[OpenBackSimulatedTriggers simulatedBattery]
+-[OpenBackSimulatedTriggers setSimulatedBattery:]
+-[OpenBackSimulatedTriggers simulatedVolume]
+-[OpenBackSimulatedTriggers setSimulatedVolume:]
+-[OpenBackSimulatedTriggers simulatedBrightness]
+-[OpenBackSimulatedTriggers setSimulatedBrightness:]
+-[OpenBackSimulatedTriggers simulatedScreenBrightness]
+-[OpenBackSimulatedTriggers setSimulatedScreenBrightness:]
+-[OpenBackSimulatedTriggers simulatedHumidity]
+-[OpenBackSimulatedTriggers setSimulatedHumidity:]
+-[OpenBackSimulatedTriggers simulatedTemperature]
+-[OpenBackSimulatedTriggers setSimulatedTemperature:]
+-[OpenBackSimulatedTriggers simulatedSignal]
+-[OpenBackSimulatedTriggers setSimulatedSignal:]
+-[OpenBackSimulatedTriggers simulatedAppUrlScheme]
+-[OpenBackSimulatedTriggers setSimulatedAppUrlScheme:]
+-[OpenBackSimulatedTriggers simulatedHumidityType]
+-[OpenBackSimulatedTriggers setSimulatedHumidityType:]
+-[OpenBackSimulatedTriggers simulatedTemperatureType]
+-[OpenBackSimulatedTriggers setSimulatedTemperatureType:]
+-[OpenBackSimulatedTriggers simulatedActivity]
+-[OpenBackSimulatedTriggers setSimulatedActivity:]
+-[OpenBackSimulatedTriggers simulatedOperatorName]
+-[OpenBackSimulatedTriggers setSimulatedOperatorName:]
+-[OpenBackSimulatedTriggers simulatedOperatorMCC]
+-[OpenBackSimulatedTriggers setSimulatedOperatorMCC:]
+-[OpenBackSimulatedTriggers simulatedOperatorMNC]
+-[OpenBackSimulatedTriggers setSimulatedOperatorMNC:]
+-[OpenBackSimulatedTriggers simulatedWifiSSID]
+-[OpenBackSimulatedTriggers setSimulatedWifiSSID:]
+-[OpenBackSimulatedTriggers simulatedWifiBSSID]
+-[OpenBackSimulatedTriggers setSimulatedWifiBSSID:]
+-[OpenBackSimulatedTriggers simulatedBeaconUUID]
+-[OpenBackSimulatedTriggers setSimulatedBeaconUUID:]
+-[OpenBackSimulatedTriggers simulatedBeaconMajor]
+-[OpenBackSimulatedTriggers setSimulatedBeaconMajor:]
+-[OpenBackSimulatedTriggers simulatedBeaconMinor]
+-[OpenBackSimulatedTriggers setSimulatedBeaconMinor:]
+-[OpenBackSimulatedTriggers simulatedBeaconProximity]
+-[OpenBackSimulatedTriggers setSimulatedBeaconProximity:]
+-[OpenBackSimulatedTriggers simulatedLocale]
+-[OpenBackSimulatedTriggers setSimulatedLocale:]
+-[OpenBackSimulatedTriggers simulatedOrientation]
+-[OpenBackSimulatedTriggers setSimulatedOrientation:]
+-[OpenBackSimulatedTriggers simulatedDeviceBrand]
+-[OpenBackSimulatedTriggers setSimulatedDeviceBrand:]
+-[OpenBackSimulatedTriggers simulatedDeviceModel]
+-[OpenBackSimulatedTriggers setSimulatedDeviceModel:]
+-[OpenBackSimulatedTriggers simulatedDeviceScreenSize]
+-[OpenBackSimulatedTriggers setSimulatedDeviceScreenSize:]
+-[OpenBackSimulatedTriggers simulatedAcceleration]
+-[OpenBackSimulatedTriggers setSimulatedAcceleration:]
+-[OpenBackSimulatedTriggers simulatedGyroscope]
+-[OpenBackSimulatedTriggers setSimulatedGyroscope:]
+-[OpenBackSimulatedTriggers simulatedLocation]
+-[OpenBackSimulatedTriggers setSimulatedLocation:]
+-[OpenBackSimulatedTriggers .cxx_destruct]
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedWifi
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedCharge
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedGps
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedHeadphones
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedProximity
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBluetooth
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedAeroplane
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedRoaming
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedData
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedHome
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedWork
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDeviceLocked
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedScreenOn
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedTouchIdEnabled
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedPasscodeEnabled
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedStorageMB
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedMemoryMB
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDateTime
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedNoiseLevel
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBattery
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedVolume
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBrightness
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedScreenBrightness
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedHumidity
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedTemperature
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedSignal
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedAppUrlScheme
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedHumidityType
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedTemperatureType
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedActivity
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedOperatorName
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedOperatorMCC
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedOperatorMNC
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedWifiSSID
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedWifiBSSID
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBeaconUUID
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBeaconMajor
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBeaconMinor
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedBeaconProximity
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedLocale
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedOrientation
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDeviceBrand
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDeviceModel
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDeviceScreenSize
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedAcceleration
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedGyroscope
+_OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedLocation
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.h
++[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]
+___65+[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignLoader.m
+__65+[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]_block_invoke
++[OpenBackLogger logTimestamp]
+___30+[OpenBackLogger logTimestamp]_block_invoke
++[OpenBackLogger logLevelToAslLevel:]
++[OpenBackLogger logLevel:flag:file:function:line:format:]
+_logTimestamp.formatter
+_logTimestamp.onceToken
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackLogger.m
+__30+[OpenBackLogger logTimestamp]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/hmac.c
+hmac_sha
+hmac_sha_begin
+hmac_sha_end
+hmac_sha_data
+hmac_sha_key
+-[NSMutableData(RNCryptor) _RNConsumeToIndex:]
++[RNCryptor synchronousResultForCryptor:data:error:]
+___52+[RNCryptor synchronousResultForCryptor:data:error:]_block_invoke
++[RNCryptor keyForPassword:salt:settings:]
+_RN_CCKeyDerivationPBKDF
++[RNCryptor randomDataOfLength:]
+-[RNCryptor initWithHandler:]
+-[RNCryptor dealloc]
+-[RNCryptor setResponseQueue:]
+-[RNCryptor addData:]
+-[RNCryptor finish]
+-[RNCryptor cleanupAndNotifyWithError:]
+___39-[RNCryptor cleanupAndNotifyWithError:]_block_invoke
+___copy_helper_block_.63
+___destroy_helper_block_.64
+-[RNCryptor hasHMAC]
+-[RNCryptor responseQueue]
+-[RNCryptor engine]
+-[RNCryptor setEngine:]
+-[RNCryptor outData]
+-[RNCryptor queue]
+-[RNCryptor setQueue:]
+-[RNCryptor HMACLength]
+-[RNCryptor setHMACLength:]
+-[RNCryptor error]
+-[RNCryptor setError:]
+-[RNCryptor isFinished]
+-[RNCryptor setFinished:]
+-[RNCryptor options]
+-[RNCryptor setOptions:]
+-[RNCryptor handler]
+-[RNCryptor setHandler:]
+-[RNCryptor .cxx_destruct]
+_PRF
+___RN_SecRandomCopyBytes_block_invoke
+_OBJC_IVAR_$_RNCryptor._responseQueue
+_OBJC_IVAR_$_RNCryptor._queue
+_OBJC_IVAR_$_RNCryptor.__outData
+_OBJC_IVAR_$_RNCryptor._handler
+___block_descriptor_tmp.66
+_OBJC_IVAR_$_RNCryptor._engine
+_OBJC_IVAR_$_RNCryptor.__HMACLength
+_OBJC_IVAR_$_RNCryptor._error
+_OBJC_IVAR_$_RNCryptor._finished
+_OBJC_IVAR_$_RNCryptor._options
+_RN_SecRandomCopyBytes.kSecRandomFD
+_RN_SecRandomCopyBytes.onceToken
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.m
+__RN_SecRandomCopyBytes_block_invoke
+PRF
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor+Private.h
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.h
+__39-[RNCryptor cleanupAndNotifyWithError:]_block_invoke
+RN_SecRandomCopyBytes
+RN_CCKeyDerivationPBKDF
+getPRFhlen
+__52+[RNCryptor synchronousResultForCryptor:data:error:]_block_invoke
++[OpenBackAppTracker trackApps:]
+___32+[OpenBackAppTracker trackApps:]_block_invoke
++[OpenBackAppTracker resetTrackedApps]
++[OpenBackAppTracker setupTrackedAppsFromPList]
++[OpenBackAppTracker addAppToTrackedApps:]
++[OpenBackAppTracker proofedScheme:]
++[OpenBackAppTracker getInstalledAppsLog]
+___41+[OpenBackAppTracker getInstalledAppsLog]_block_invoke
+___copy_helper_block_.68
+___destroy_helper_block_.69
+___block_descriptor_tmp.71
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAppTracker.m
+__41+[OpenBackAppTracker getInstalledAppsLog]_block_invoke
+__32+[OpenBackAppTracker trackApps:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset+CoreDataProperties.m
++[OpenBackHomework loadFromKeychain]
++[OpenBackHomework removeFromKeychain]
+-[OpenBackHomework saveToKeychain]
++[OpenBackHomework addLocation:wifiBSSID:withCoef:home:]
+-[OpenBackHomework addWorkLocation:withCoef:]
+-[OpenBackHomework addHomeLocation:withCoef:]
+-[OpenBackHomework addWiFi:location:home:]
+___42-[OpenBackHomework addWiFi:location:home:]_block_invoke
++[OpenBackHomework isWifi:wifiBSSID:location:]
++[OpenBackHomework isHome:wifiBSSID:]
++[OpenBackHomework isWork:wifiBSSID:]
++[OpenBackHomework disableTime]
+-[OpenBackHomework startTime]
+-[OpenBackHomework setStartTime:]
+-[OpenBackHomework homeSamples]
+-[OpenBackHomework setHomeSamples:]
+-[OpenBackHomework homeLat]
+-[OpenBackHomework setHomeLat:]
+-[OpenBackHomework homeLong]
+-[OpenBackHomework setHomeLong:]
+-[OpenBackHomework homeLatVariance]
+-[OpenBackHomework setHomeLatVariance:]
+-[OpenBackHomework homeLongVariance]
+-[OpenBackHomework setHomeLongVariance:]
+-[OpenBackHomework workSamples]
+-[OpenBackHomework setWorkSamples:]
+-[OpenBackHomework workLat]
+-[OpenBackHomework setWorkLat:]
+-[OpenBackHomework workLong]
+-[OpenBackHomework setWorkLong:]
+-[OpenBackHomework workLatVariance]
+-[OpenBackHomework setWorkLatVariance:]
+-[OpenBackHomework workLongVariance]
+-[OpenBackHomework setWorkLongVariance:]
+-[OpenBackHomework homeWifiArray]
+-[OpenBackHomework setHomeWifiArray:]
+-[OpenBackHomework workWifiArray]
+-[OpenBackHomework setWorkWifiArray:]
+-[OpenBackHomework .cxx_destruct]
+_OBJC_IVAR_$_OpenBackHomework._startTime
+_OBJC_IVAR_$_OpenBackHomework._homeSamples
+_OBJC_IVAR_$_OpenBackHomework._homeLat
+_OBJC_IVAR_$_OpenBackHomework._homeLong
+_OBJC_IVAR_$_OpenBackHomework._homeLatVariance
+_OBJC_IVAR_$_OpenBackHomework._homeLongVariance
+_OBJC_IVAR_$_OpenBackHomework._workSamples
+_OBJC_IVAR_$_OpenBackHomework._workLat
+_OBJC_IVAR_$_OpenBackHomework._workLong
+_OBJC_IVAR_$_OpenBackHomework._workLatVariance
+_OBJC_IVAR_$_OpenBackHomework._workLongVariance
+_OBJC_IVAR_$_OpenBackHomework._homeWifiArray
+_OBJC_IVAR_$_OpenBackHomework._workWifiArray
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackHomework.m
+__42-[OpenBackHomework addWiFi:location:home:]_block_invoke
++[OpenBackReachability reachabilityWithHostName:]
++[OpenBackReachability reachabilityWithHostname:]
++[OpenBackReachability reachabilityWithAddress:]
++[OpenBackReachability reachabilityForInternetConnection]
++[OpenBackReachability reachabilityForLocalWiFi]
+-[OpenBackReachability initWithReachabilityRef:]
+-[OpenBackReachability dealloc]
+-[OpenBackReachability startNotifier]
+_TMReachabilityCallback
+-[OpenBackReachability stopNotifier]
+-[OpenBackReachability isReachableWithFlags:]
+-[OpenBackReachability isReachable]
+-[OpenBackReachability isReachableViaWWAN]
+-[OpenBackReachability isReachableViaWiFi]
+-[OpenBackReachability isConnectionRequired]
+-[OpenBackReachability connectionRequired]
+-[OpenBackReachability isConnectionOnDemand]
+-[OpenBackReachability isInterventionRequired]
+-[OpenBackReachability currentReachabilityStatus]
+-[OpenBackReachability reachabilityFlags]
+-[OpenBackReachability currentReachabilityString]
+-[OpenBackReachability currentReachabilityFlags]
+-[OpenBackReachability reachabilityChanged:]
+___44-[OpenBackReachability reachabilityChanged:]_block_invoke
+-[OpenBackReachability description]
+-[OpenBackReachability reachableBlock]
+-[OpenBackReachability setReachableBlock:]
+-[OpenBackReachability unreachableBlock]
+-[OpenBackReachability setUnreachableBlock:]
+-[OpenBackReachability reachabilityBlock]
+-[OpenBackReachability setReachabilityBlock:]
+-[OpenBackReachability reachableOnWWAN]
+-[OpenBackReachability setReachableOnWWAN:]
+-[OpenBackReachability reachabilityRef]
+-[OpenBackReachability setReachabilityRef:]
+-[OpenBackReachability reachabilitySerialQueue]
+-[OpenBackReachability setReachabilitySerialQueue:]
+-[OpenBackReachability reachabilityObject]
+-[OpenBackReachability setReachabilityObject:]
+-[OpenBackReachability .cxx_destruct]
+_OBJC_IVAR_$_OpenBackReachability._reachableBlock
+_OBJC_IVAR_$_OpenBackReachability._unreachableBlock
+_OBJC_IVAR_$_OpenBackReachability._reachabilityBlock
+_OBJC_IVAR_$_OpenBackReachability._reachableOnWWAN
+_OBJC_IVAR_$_OpenBackReachability._reachabilityRef
+_OBJC_IVAR_$_OpenBackReachability._reachabilitySerialQueue
+_OBJC_IVAR_$_OpenBackReachability._reachabilityObject
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.h
+__44-[OpenBackReachability reachabilityChanged:]_block_invoke
+reachabilityFlags
+TMReachabilityCallback
++[OpenBackDBAsset entityName]
++[OpenBackDBAsset createAssetWithContext:]
+___42+[OpenBackDBAsset createAssetWithContext:]_block_invoke
++[OpenBackDBAsset getAssetWithTaskId:withContext:]
+___50+[OpenBackDBAsset getAssetWithTaskId:withContext:]_block_invoke
+___copy_helper_block_.31
+___destroy_helper_block_.32
+-[OpenBackDBAsset prepareForDeletion]
+___37-[OpenBackDBAsset prepareForDeletion]_block_invoke
++[OpenBackDBAsset proofedAssetURLString:]
+___block_descriptor_tmp.34
+___block_descriptor_tmp.53
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset.m
+__37-[OpenBackDBAsset prepareForDeletion]_block_invoke
+__50+[OpenBackDBAsset getAssetWithTaskId:withContext:]_block_invoke
+__42+[OpenBackDBAsset createAssetWithContext:]_block_invoke
+-[OpenBackPermissionsManager init]
+-[OpenBackPermissionsManager setupAuthorizationStack:]
+-[OpenBackPermissionsManager didRegisterUserNotificationSettings]
+-[OpenBackPermissionsManager unwindAuthorizationStack:]
+-[OpenBackPermissionsManager unwindAuthorizations]
+___50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke
+___50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke.47
+___copy_helper_block_.48
+___destroy_helper_block_.49
+-[OpenBackPermissionsManager doneWithAutorizationStack]
+-[OpenBackPermissionsManager setPermissions:]
+-[OpenBackPermissionsManager permissionsForHumans:]
+-[OpenBackPermissionsManager locationManager:didChangeAuthorizationStatus:]
+-[OpenBackPermissionsManager locationManager:didFailWithError:]
+-[OpenBackPermissionsManager locationManager]
+-[OpenBackPermissionsManager activityManager]
++[OpenBackPermissionsManager isBluetoothAuthorized]
++[OpenBackPermissionsManager isMicrophoneAuthorized]
++[OpenBackPermissionsManager isLocationAlwaysAuthorized]
++[OpenBackPermissionsManager isLocationWhenInUseAuthorized]
++[OpenBackPermissionsManager isActivityManagerAuthorized]
++[OpenBackPermissionsManager areNotificationsAuthorized]
++[OpenBackPermissionsManager areAlertNotificationsAuthorized]
++[OpenBackPermissionsManager isBackgroundAudioEnabled]
++[OpenBackPermissionsManager isBackgroundLocationEnabled]
++[OpenBackPermissionsManager isBackgroundVoipEnabled]
++[OpenBackPermissionsManager isBackgroundFetchEnabled]
++[OpenBackPermissionsManager isBackgroundRemoteNotificationEnabled]
++[OpenBackPermissionsManager canUseBluetooth]
++[OpenBackPermissionsManager canUseMicrophone]
++[OpenBackPermissionsManager canUseLocation]
++[OpenBackPermissionsManager canUseActivity]
++[OpenBackPermissionsManager canUseAlertNotifications]
++[OpenBackPermissionsManager canUseSignificantLocationChange]
++[OpenBackPermissionsManager currentPermissionsLog]
+-[OpenBackPermissionsManager notificationSettings]
+-[OpenBackPermissionsManager setNotificationSettings:]
+-[OpenBackPermissionsManager setActivityManager:]
+-[OpenBackPermissionsManager setLocationManager:]
+-[OpenBackPermissionsManager permissions]
+-[OpenBackPermissionsManager completionBlock]
+-[OpenBackPermissionsManager setCompletionBlock:]
+-[OpenBackPermissionsManager unwinding]
+-[OpenBackPermissionsManager setUnwinding:]
+-[OpenBackPermissionsManager .cxx_destruct]
+_OBJC_IVAR_$_OpenBackPermissionsManager._permissions
+___block_descriptor_tmp.51
+_OBJC_IVAR_$_OpenBackPermissionsManager._unwinding
+_OBJC_IVAR_$_OpenBackPermissionsManager._locationManager
+_OBJC_IVAR_$_OpenBackPermissionsManager._activityManager
+_OBJC_IVAR_$_OpenBackPermissionsManager._completionBlock
+_OBJC_IVAR_$_OpenBackPermissionsManager._notificationSettings
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPermissionsManager.m
+__50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke.47
+__50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke
++[OpenBackAzure campaignURL:inEnvironment:]
++[OpenBackAzure pollLogsURL:inEnvironment:]
++[OpenBackAzure createNewUserURLInEnvironment:]
++[OpenBackAzure intelligentRoutingInEnvironment:]
++[OpenBackAzure requestStatusFromHTTPStatusCode:]
++[OpenBackAzure requestStatusFromError:]
++[OpenBackAzure requestStatusForHumans:]
++[OpenBackAzure environmentForHumans:]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAzure.m
+_fopen_file_func
+_fopendisk_file_func
+_fread_file_func
+_fwrite_file_func
+_ftell_file_func
+_fseek_file_func
+_fclose_file_func
+_ferror_file_func
+_fopen64_file_func
+_fopendisk64_file_func
+_ftell64_file_func
+_fseek64_file_func
+_file_build_ioposix
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/ioapi.c
+file_build_ioposix
+fseek64_file_func
+ftell64_file_func
+fopendisk64_file_func
+fopen64_file_func
+fill_fopen64_filefunc
+ferror_file_func
+fclose_file_func
+fseek_file_func
+ftell_file_func
+fwrite_file_func
+fread_file_func
+fopendisk_file_func
+fopen_file_func
+fill_fopen_filefunc
+fill_zlib_filefunc64_32_def_from_filefunc32
+call_ztell64
+call_zseek64
+call_zopendisk64
+call_zopen64
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/pwd2key.c
+derive_key
++[OpenBackPollLogsManager sharedInstance]
+___41+[OpenBackPollLogsManager sharedInstance]_block_invoke
+-[OpenBackPollLogsManager init]
++[OpenBackPollLogsManager writeQueue]
++[OpenBackPollLogsManager openBackLogsFile]
++[OpenBackPollLogsManager openBackSendingLogsFile]
++[OpenBackPollLogsManager openBackLogsZipFile]
++[OpenBackPollLogsManager setValue:forCustomLog:error:]
+-[OpenBackPollLogsManager setValue:forCustomLog:error:]
++[OpenBackPollLogsManager blankLog]
++[OpenBackPollLogsManager applyApplicationToLog:]
++[OpenBackPollLogsManager applyEvent:toLog:]
++[OpenBackPollLogsManager applyTriggers:toLog:]
++[OpenBackPollLogsManager applyCampaign:withRecord:toLog:]
++[OpenBackPollLogsManager applyTrackingStep:toLog:]
++[OpenBackPollLogsManager logEvent:triggers:level:]
++[OpenBackPollLogsManager logCampaign:step:triggers:level:]
++[OpenBackPollLogsManager log:]
++[OpenBackPollLogsManager appendDataLog:]
+___41+[OpenBackPollLogsManager appendDataLog:]_block_invoke
+___copy_helper_block_.571
+___destroy_helper_block_.572
++[OpenBackPollLogsManager closeDataLog:]
++[OpenBackPollLogsManager sendApplicationDataLogs:]
+___51+[OpenBackPollLogsManager sendApplicationDataLogs:]_block_invoke
+___copy_helper_block_.605
+___destroy_helper_block_.606
++[OpenBackPollLogsManager sendApplicationDataLogsAsync:]
+___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke
+___copy_helper_block_.616
+___destroy_helper_block_.617
+___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.641
+___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke_2
+___copy_helper_block_.655
+___destroy_helper_block_.656
+___copy_helper_block_.663
+___destroy_helper_block_.664
++[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]
+___65+[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]_block_invoke
+___copy_helper_block_.711
+___destroy_helper_block_.712
+-[OpenBackPollLogsManager customLog1]
+-[OpenBackPollLogsManager setCustomLog1:]
+-[OpenBackPollLogsManager customLog2]
+-[OpenBackPollLogsManager setCustomLog2:]
+-[OpenBackPollLogsManager customLog3]
+-[OpenBackPollLogsManager setCustomLog3:]
+-[OpenBackPollLogsManager customLog4]
+-[OpenBackPollLogsManager setCustomLog4:]
+-[OpenBackPollLogsManager customLog5]
+-[OpenBackPollLogsManager setCustomLog5:]
+-[OpenBackPollLogsManager customLog6]
+-[OpenBackPollLogsManager setCustomLog6:]
+-[OpenBackPollLogsManager customLog7]
+-[OpenBackPollLogsManager setCustomLog7:]
+-[OpenBackPollLogsManager customLog8]
+-[OpenBackPollLogsManager setCustomLog8:]
+-[OpenBackPollLogsManager customLog9]
+-[OpenBackPollLogsManager setCustomLog9:]
+-[OpenBackPollLogsManager customLog10]
+-[OpenBackPollLogsManager setCustomLog10:]
+-[OpenBackPollLogsManager writeQueue]
+-[OpenBackPollLogsManager setWriteQueue:]
+-[OpenBackPollLogsManager .cxx_destruct]
+___block_descriptor_tmp.574
+___block_descriptor_tmp.608
+___block_descriptor_tmp.618
+___block_descriptor_tmp.658
+___block_descriptor_tmp.665
+___block_descriptor_tmp.714
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog1
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog2
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog3
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog4
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog5
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog6
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog7
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog8
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog9
+_OBJC_IVAR_$_OpenBackPollLogsManager._customLog10
+_OBJC_IVAR_$_OpenBackPollLogsManager._writeQueue
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPollLogsManager.m
+__65+[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]_block_invoke
+__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke_2
+__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.641
+__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke
+__51+[OpenBackPollLogsManager sendApplicationDataLogs:]_block_invoke
+__41+[OpenBackPollLogsManager appendDataLog:]_block_invoke
+__41+[OpenBackPollLogsManager sharedInstance]_block_invoke
++[OpenBackNotificationManager sharedInstance]
+___45+[OpenBackNotificationManager sharedInstance]_block_invoke
+-[OpenBackNotificationManager init]
+-[OpenBackNotificationManager loadTrackedNotifications]
+-[OpenBackNotificationManager saveTrackedNotifications]
++[OpenBackNotificationManager trackCampaignId:]
++[OpenBackNotificationManager untrackCampaignId:]
++[OpenBackNotificationManager dismissedNotifications]
++[OpenBackNotificationManager identifierForCampaignId:]
++[OpenBackNotificationManager identifierForNotification:]
++[OpenBackNotificationManager isOpenBackNotification:]
++[OpenBackNotificationManager campaignIdFromNotification:]
++[OpenBackNotificationManager currentNotifications]
+___51+[OpenBackNotificationManager currentNotifications]_block_invoke
++[OpenBackNotificationManager updateCurrentNotifications:]
+___58+[OpenBackNotificationManager updateCurrentNotifications:]_block_invoke
+___58+[OpenBackNotificationManager updateCurrentNotifications:]_block_invoke_2
+___copy_helper_block_.98
+___destroy_helper_block_.99
+-[OpenBackNotificationManager updatePendingNotifications:]
+___58-[OpenBackNotificationManager updatePendingNotifications:]_block_invoke
+___58-[OpenBackNotificationManager updatePendingNotifications:]_block_invoke_2
+___copy_helper_block_.113
+___destroy_helper_block_.114
+___copy_helper_block_.117
+___destroy_helper_block_.118
+-[OpenBackNotificationManager updateDeliveredNotifications:]
+___60-[OpenBackNotificationManager updateDeliveredNotifications:]_block_invoke
+___60-[OpenBackNotificationManager updateDeliveredNotifications:]_block_invoke_2
+___copy_helper_block_.123
+___destroy_helper_block_.124
+___copy_helper_block_.127
+___destroy_helper_block_.128
++[OpenBackNotificationManager notificationAlreadyScheduledForCampaignId:]
++[OpenBackNotificationManager scheduleNotification:message:campaignId:updateBadge:delay:]
+___89+[OpenBackNotificationManager scheduleNotification:message:campaignId:updateBadge:delay:]_block_invoke
+___copy_helper_block_.186
+___destroy_helper_block_.187
++[OpenBackNotificationManager decrementBadge:]
++[OpenBackNotificationManager cancelAllNotifications]
+___53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke
+___copy_helper_block_.202
+___destroy_helper_block_.203
+___53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke.206
+___copy_helper_block_.209
+___destroy_helper_block_.210
++[OpenBackNotificationManager cancelNotificationForCampaignId:updateBadge:]
+-[OpenBackNotificationManager pendingCampaignIds]
+-[OpenBackNotificationManager setPendingCampaignIds:]
+-[OpenBackNotificationManager deliveredCampaignIds]
+-[OpenBackNotificationManager setDeliveredCampaignIds:]
+-[OpenBackNotificationManager trackedNotifications]
+-[OpenBackNotificationManager setTrackedNotifications:]
+-[OpenBackNotificationManager .cxx_destruct]
+___block_descriptor_tmp.91
+___block_descriptor_tmp.100
+___block_descriptor_tmp.116
+___block_descriptor_tmp.120
+___block_descriptor_tmp.126
+___block_descriptor_tmp.129
+___block_descriptor_tmp.190
+___block_descriptor_tmp.205
+___block_descriptor_tmp.212
+_OBJC_IVAR_$_OpenBackNotificationManager._pendingCampaignIds
+_OBJC_IVAR_$_OpenBackNotificationManager._deliveredCampaignIds
+_OBJC_IVAR_$_OpenBackNotificationManager._trackedNotifications
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackNotificationManager.m
+__53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke.206
+__53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke
+__89+[OpenBackNotificationManager scheduleNotification:message:campaignId:updateBadge:delay:]_block_invoke
+__60-[OpenBackNotificationManager updateDeliveredNotifications:]_block_invoke_2
+__60-[OpenBackNotificationManager updateDeliveredNotifications:]_block_invoke
+__58-[OpenBackNotificationManager updatePendingNotifications:]_block_invoke_2
+__58-[OpenBackNotificationManager updatePendingNotifications:]_block_invoke
+__58+[OpenBackNotificationManager updateCurrentNotifications:]_block_invoke_2
+__58+[OpenBackNotificationManager updateCurrentNotifications:]_block_invoke
+__51+[OpenBackNotificationManager currentNotifications]_block_invoke
+__45+[OpenBackNotificationManager sharedInstance]_block_invoke
++[OBKZipArchive unzipFileAtPath:toDestination:]
++[OBKZipArchive unzipFileAtPath:toDestination:overwrite:password:error:]
++[OBKZipArchive unzipFileAtPath:toDestination:delegate:]
++[OBKZipArchive unzipFileAtPath:toDestination:overwrite:password:error:delegate:]
++[OBKZipArchive unzipFileAtPath:toDestination:overwrite:password:progressHandler:completionHandler:]
++[OBKZipArchive unzipFileAtPath:toDestination:progressHandler:completionHandler:]
++[OBKZipArchive unzipFileAtPath:toDestination:overwrite:password:error:delegate:progressHandler:completionHandler:]
++[OBKZipArchive createZipFileAtPath:withFilesAtPaths:]
++[OBKZipArchive createZipFileAtPath:withContentsOfDirectory:]
++[OBKZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:]
++[OBKZipArchive createZipFileAtPath:withFilesAtPaths:withPassword:]
++[OBKZipArchive createZipFileAtPath:withContentsOfDirectory:withPassword:]
++[OBKZipArchive createZipFileAtPath:withContentsOfDirectory:keepParentDirectory:withPassword:]
+-[OBKZipArchive initWithPath:]
+-[OBKZipArchive open]
+-[OBKZipArchive zipInfo:setDate:]
+-[OBKZipArchive writeFolderAtPath:withFolderName:withPassword:]
+-[OBKZipArchive writeFile:withPassword:]
+-[OBKZipArchive writeFileAtPath:withFileName:withPassword:]
+-[OBKZipArchive writeData:filename:withPassword:]
+-[OBKZipArchive close]
++[OBKZipArchive _dateWithMSDOSFormat:]
+___38+[OBKZipArchive _dateWithMSDOSFormat:]_block_invoke
+-[OBKZipArchive .cxx_destruct]
+_OBJC_IVAR_$_OBKZipArchive._path
+_OBJC_IVAR_$_OBKZipArchive._zip
+__dateWithMSDOSFormat:.gregorian
+__dateWithMSDOSFormat:.onceToken
+_OBJC_IVAR_$_OBKZipArchive._filename
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/OBKZipArchive.m
+__38+[OBKZipArchive _dateWithMSDOSFormat:]_block_invoke
+_update_pool
+_prng_mix
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/prng.c
+prng_end
+prng_rand
+prng_mix
+update_pool
+prng_init
+_zip64local_getLong
+_zip64local_getShort
+_zip64local_getLong64
+_add_data_in_datablock
+_zip64local_putValue
+_zipGoToNextDisk
+_zip64FlushWriteBuffer
+_zipGoToSpecificDisk
+_zip64local_getByte
+_init_keys
+_update_keys
+_crypthead.calls
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/zip.c
+zip64local_getByte
+zipClose
+free_linkedlist
+free_datablock
+zipCloseFileInZip
+zipCloseFileInZipRaw
+zipGoToSpecificDisk
+zipCloseFileInZipRaw64
+zip64local_putValue_inmemory
+zip64FlushWriteBuffer
+zipGetDiskSizeAvailable
+zipWriteInFileInZip
+zipOpenNewFileInZip
+zipOpenNewFileInZip64
+zipOpenNewFileInZip2_64
+zipOpenNewFileInZip2
+zipOpenNewFileInZip3_64
+zipOpenNewFileInZip3
+zipOpenNewFileInZip4
+zipGoToNextDisk
+zip64local_putValue
+zipOpenNewFileInZip4_64
+crypthead
+zip64local_TmzDateToDosDate
+zipOpen64
+zipOpen3
+zipOpen
+zipOpen3_64
+zipOpen2_64
+zipOpen2
+add_data_in_datablock
+allocate_new_datablock
+zip64local_getLong64
+zip64local_getShort
+zip64local_getLong
+zipOpen4
+zipGoToFirstDisk
+zip64local_SearchCentralDir64
+zip64local_SearchCentralDir
+init_linkedlist
++[OpenBackDBCampaign entityName]
++[OpenBackDBCampaign createCampaignWithId:withContext:]
+___55+[OpenBackDBCampaign createCampaignWithId:withContext:]_block_invoke
++[OpenBackDBCampaign getCampaignWithId:withContext:]
+___52+[OpenBackDBCampaign getCampaignWithId:withContext:]_block_invoke
+___copy_helper_block_.43
+___destroy_helper_block_.44
++[OpenBackDBCampaign getOrCreateCampaignWithId:withContext:]
++[OpenBackDBCampaign getAllCampaigns:]
+___38+[OpenBackDBCampaign getAllCampaigns:]_block_invoke
+___copy_helper_block_.53
+___destroy_helper_block_.54
++[OpenBackDBCampaign campaignsWithIdsNotInSet:withContext:]
+___59+[OpenBackDBCampaign campaignsWithIdsNotInSet:withContext:]_block_invoke
+___copy_helper_block_.59
+___destroy_helper_block_.60
+-[OpenBackDBCampaign setupAssetURLString:]
+-[OpenBackDBCampaign isAssetDownloaded]
+-[OpenBackDBCampaign isAssetDownloading]
+-[OpenBackDBCampaign deleteAsset]
+___33-[OpenBackDBCampaign deleteAsset]_block_invoke
+___copy_helper_block_.107
+___destroy_helper_block_.108
+___block_descriptor_tmp.46
+___block_descriptor_tmp.56
+___block_descriptor_tmp.62
+___block_descriptor_tmp.109
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign.m
+__33-[OpenBackDBCampaign deleteAsset]_block_invoke
+__59+[OpenBackDBCampaign campaignsWithIdsNotInSet:withContext:]_block_invoke
+__38+[OpenBackDBCampaign getAllCampaigns:]_block_invoke
+__52+[OpenBackDBCampaign getCampaignWithId:withContext:]_block_invoke
+__55+[OpenBackDBCampaign createCampaignWithId:withContext:]_block_invoke
++[OpenBackCampaignChecker shouldFire:forTriggers:]
++[OpenBackCampaignChecker checkAppInstallCampaign:forTriggers:]
++[OpenBackCampaignChecker checkCampaignDates:forTriggers:]
++[OpenBackCampaignChecker checkTimeTrigger:forTriggers:]
++[OpenBackCampaignChecker checkIdleTrigger:forTriggers:idleStartTime:]
++[OpenBackCampaignChecker checkLocationTrigger:forTriggers:configEnabled:]
++[OpenBackCampaignChecker checkAppInstalledTrigger:forTriggers:]
++[OpenBackCampaignChecker checkConnectivityTrigger:forTriggers:]
++[OpenBackCampaignChecker checkPowerTrigger:forTriggers:]
++[OpenBackCampaignChecker checkBrightnessTrigger:forTriggers:]
++[OpenBackCampaignChecker checkWeatherTrigger:forTriggers:]
++[OpenBackCampaignChecker checkActivityTrigger:forTriggers:]
++[OpenBackCampaignChecker checkRoamingTrigger:forTriggers:]
++[OpenBackCampaignChecker checkMemoryTrigger:forTriggers:]
++[OpenBackCampaignChecker checkMobileOperatorTrigger:forTriggers:]
++[OpenBackCampaignChecker checkSignalTrigger:forTriggers:]
++[OpenBackCampaignChecker checkHeadphonesTrigger:forTriggers:]
++[OpenBackCampaignChecker checkNoiseTrigger:forTriggers:configEnabled:]
++[OpenBackCampaignChecker checkProximityTrigger:forTriggers:configEnabled:]
++[OpenBackCampaignChecker checkVolumeTrigger:forTriggers:]
++[OpenBackCampaignChecker checkAccelerometerTrigger:forTriggers:]
++[OpenBackCampaignChecker checkGyroscopeTrigger:forTriggers:]
++[OpenBackCampaignChecker checkDeviceOrientationTrigger:forTriggers:]
++[OpenBackCampaignChecker checkDeviceTrigger:forTriggers:]
++[OpenBackCampaignChecker checkBeaconTrigger:forTriggers:]
++[OpenBackCampaignChecker checkAeroplaneTrigger:forTriggers:]
++[OpenBackCampaignChecker checkUnlockTrigger:forTriggers:]
++[OpenBackCampaignChecker checkLocaleTrigger:forTriggers:]
++[OpenBackCampaignChecker checkCustomTrigger:forTriggers:]
++[OpenBackCampaignChecker operatorTypeForString:]
++[OpenBackCampaignChecker operatorForString:]
++[OpenBackCampaignChecker is:like:]
++[OpenBackCampaignChecker trigger:matches:forType:andOperator:]
++[OpenBackCampaignChecker stringTrigger:matches:forOperator:]
++[OpenBackCampaignChecker numberTrigger:matches:forOperator:]
++[OpenBackCampaignChecker sizeTrigger:matches:forOperator:]
++[OpenBackCampaignChecker value:rangeMin:rangeMax:matchesOperator:]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignChecker.m
+__CGSizeEqualToSize
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
++[OpenBackInAppViewController controllerForImage:]
++[OpenBackInAppViewController controllerForVideo:]
++[OpenBackInAppViewController controllerForURL:]
++[OpenBackInAppViewController controllerForCustomHTML:]
+-[OpenBackInAppViewController viewDidLoad]
+-[OpenBackInAppViewController viewDidAppear:]
+-[OpenBackInAppViewController viewWillDisappear:]
+-[OpenBackInAppViewController viewWillLayoutSubviews]
+-[OpenBackInAppViewController dealloc]
+-[OpenBackInAppViewController prefersStatusBarHidden]
+-[OpenBackInAppViewController setupWebViewUI]
+-[OpenBackInAppViewController webView:didStartProvisionalNavigation:]
+-[OpenBackInAppViewController webView:didFailProvisionalNavigation:withError:]
+-[OpenBackInAppViewController webView:decidePolicyForNavigationAction:decisionHandler:]
+-[OpenBackInAppViewController webView:didFinishNavigation:]
+-[OpenBackInAppViewController webView:didFailNavigation:withError:]
+-[OpenBackInAppViewController setupImageViewUI]
+-[OpenBackInAppViewController setupVideoUI]
+___43-[OpenBackInAppViewController setupVideoUI]_block_invoke
+-[OpenBackInAppViewController handleMuteButton:]
+-[OpenBackInAppViewController itemDidFinishPlaying:]
+-[OpenBackInAppViewController itemDidFailToPlayToEnd:]
+-[OpenBackInAppViewController handleCloseButton:]
+-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]
+___78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+___copy_helper_block_.307
+___destroy_helper_block_.308
+___78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke.311
+___copy_helper_block_.312
+___destroy_helper_block_.313
+-[OpenBackInAppViewController imageFromBase64String:]
+-[OpenBackInAppViewController eventHandler]
+-[OpenBackInAppViewController setEventHandler:]
+-[OpenBackInAppViewController type]
+-[OpenBackInAppViewController setType:]
+-[OpenBackInAppViewController imagePath]
+-[OpenBackInAppViewController setImagePath:]
+-[OpenBackInAppViewController imageView]
+-[OpenBackInAppViewController setImageView:]
+-[OpenBackInAppViewController urlString]
+-[OpenBackInAppViewController setUrlString:]
+-[OpenBackInAppViewController webView]
+-[OpenBackInAppViewController setWebView:]
+-[OpenBackInAppViewController failLabel]
+-[OpenBackInAppViewController setFailLabel:]
+-[OpenBackInAppViewController progressView]
+-[OpenBackInAppViewController setProgressView:]
+-[OpenBackInAppViewController videoPath]
+-[OpenBackInAppViewController setVideoPath:]
+-[OpenBackInAppViewController avPlayer]
+-[OpenBackInAppViewController setAvPlayer:]
+-[OpenBackInAppViewController avPlayerItem]
+-[OpenBackInAppViewController setAvPlayerItem:]
+-[OpenBackInAppViewController avPlayerLayer]
+-[OpenBackInAppViewController setAvPlayerLayer:]
+-[OpenBackInAppViewController videoComplete]
+-[OpenBackInAppViewController setVideoComplete:]
+-[OpenBackInAppViewController .cxx_destruct]
+_OpenBackInAppVideoContext
+_OpenBackInAppWebviewContext
+___block_descriptor_tmp.310
+___block_descriptor_tmp.315
+_OBJC_IVAR_$_OpenBackInAppViewController._eventHandler
+_OBJC_IVAR_$_OpenBackInAppViewController._type
+_OBJC_IVAR_$_OpenBackInAppViewController._imagePath
+_OBJC_IVAR_$_OpenBackInAppViewController._imageView
+_OBJC_IVAR_$_OpenBackInAppViewController._urlString
+_OBJC_IVAR_$_OpenBackInAppViewController._webView
+_OBJC_IVAR_$_OpenBackInAppViewController._failLabel
+_OBJC_IVAR_$_OpenBackInAppViewController._progressView
+_OBJC_IVAR_$_OpenBackInAppViewController._videoPath
+_OBJC_IVAR_$_OpenBackInAppViewController._avPlayer
+_OBJC_IVAR_$_OpenBackInAppViewController._avPlayerItem
+_OBJC_IVAR_$_OpenBackInAppViewController._avPlayerLayer
+_OBJC_IVAR_$_OpenBackInAppViewController._videoComplete
+l_OBJC_PROTOCOL_$_WKNavigationDelegate
+l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.h
+__78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke.311
+__78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
+__43-[OpenBackInAppViewController setupVideoUI]_block_invoke
+__inline_isfinited
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/usr/include/math.h
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/sha1.c
+sha1
+sha1_begin
+sha1_end
+sha1_hash
+sha1_compile
++[OpenBackJBroken isDeviceJailbroken]
++[OpenBackJBroken isAppStoreVersion]
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/JBroken/OpenBackJBroken.m
+_encr_data
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/fileenc.c
+fcrypt_end
+fcrypt_decrypt
+encr_data
+fcrypt_encrypt
+fcrypt_init
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/entropy.c
+entropy_fun
++[OpenBack load]
++[OpenBack sharedInstance]
+___26+[OpenBack sharedInstance]_block_invoke
+-[OpenBack init]
+-[OpenBack applicationId]
++[OpenBack setupWithConfig:error:]
++[OpenBack setUserInfo:error:]
++[OpenBack setValue:forCustomTrigger:error:]
++[OpenBack setValue:forCustomLog:error:]
++[OpenBack start:]
++[OpenBack stop:]
++[OpenBack handleWillPresentNotification:withCompletionHandler:]
++[OpenBack handleDidReceiveNotificationResponse:withCompletionHandler:]
++[OpenBack logForDemoApp:]
++[OpenBack forceCampaignReloadFromServer:]
+___42+[OpenBack forceCampaignReloadFromServer:]_block_invoke
+___copy_helper_block_.296
+___destroy_helper_block_.297
++[OpenBack resetCampaignMaxMessagesCount]
++[OpenBack simulatedTriggers]
++[OpenBack enableSimulatedTriggers:]
++[OpenBack notifyTriggerChanged]
++[OpenBack checkApplicationID:inEnvironment:completion:]
+___56+[OpenBack checkApplicationID:inEnvironment:completion:]_block_invoke
+___copy_helper_block_.328
+___destroy_helper_block_.329
++[OpenBack getCampaigns]
+___24+[OpenBack getCampaigns]_block_invoke
+___24+[OpenBack getCampaigns]_block_invoke_2
+___copy_helper_block_.358
+___destroy_helper_block_.359
+___copy_helper_block_.364
+___destroy_helper_block_.365
++[OpenBack displayCampaign:]
++[OpenBack ignoreNightTime:]
++[OpenBack ignoreMaximums:]
+-[OpenBack parseConfiguration:]
+___31-[OpenBack parseConfiguration:]_block_invoke
+___copy_helper_block_.408
+___destroy_helper_block_.409
+-[OpenBack setupPermissions]
+-[OpenBack main:]
+___17-[OpenBack main:]_block_invoke
+___copy_helper_block_.457
+___destroy_helper_block_.458
+___17-[OpenBack main:]_block_invoke.462
+___copy_helper_block_.463
+___destroy_helper_block_.464
+___17-[OpenBack main:]_block_invoke.471
+___copy_helper_block_.472
+___destroy_helper_block_.473
+___17-[OpenBack main:]_block_invoke.475
+___17-[OpenBack main:]_block_invoke_2
+___17-[OpenBack main:]_block_invoke_3
+___copy_helper_block_.478
+___destroy_helper_block_.479
+___copy_helper_block_.481
+___destroy_helper_block_.482
+___copy_helper_block_.484
+___destroy_helper_block_.485
++[OpenBack handleCampaignTriggerChanged:]
+-[OpenBack rescheduleMainLoop:]
+-[OpenBack checkVersion]
+-[OpenBack removeOpenBackData]
+-[OpenBack setupDefaultPreferences]
+-[OpenBack startSignificantChangeUpdates]
+-[OpenBack stopSignificantChangeUpdates]
+-[OpenBack locationManager:didUpdateLocations:]
+-[OpenBack locationManager:didFailWithError:]
++[OpenBack handleAppDidFinishLaunchingNotification:]
++[OpenBack handleAppTerminationNotification:]
++[OpenBack handleAppDidBecomeActiveNotification:]
+___49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke
+___49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke_2
++[OpenBack handleAppDidEnterBackgroundNotification:]
++[OpenBack handleAppWillResignActiveNotification:]
++[OpenBack handleAppProtectedDataWillBecomeUnavailable:]
++[OpenBack handleAppProtectedDataDidBecomeAvailable:]
++[OpenBack handleAppDidReceiveLocalNotification:]
++[OpenBack handleAppDidRegisterForRemoteNotificationsWithDeviceToken:]
++[OpenBack isSilentPush:]
++[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]
+___73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke
+___copy_helper_block_.606
+___destroy_helper_block_.607
++[OpenBack handleAppDidReceiveRemoteNotification:]
++[OpenBack handleAppDidRegisterUserNotificationSettings:]
++[OpenBack handleAppDidFailToRegisterForRemoteNotificationsWithError:]
++[OpenBack handleAppPerformFetchWithCompletionHandler:]
+___55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke
+___copy_helper_block_.613
+___destroy_helper_block_.614
++[OpenBack handleAppOpenURL:]
++[OpenBack swizzle:implementation:class:]
++[OpenBack originalImplementation:class:]
++[OpenBack storeOriginalImplementation:selector:class:]
+-[OpenBack swizzleAppDelegate]
+___OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke
+___OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke_2
+___copy_helper_block_.785
+___destroy_helper_block_.786
+___copy_helper_block_.790
+___destroy_helper_block_.791
+___OBKApplicationPerformFetchWithCompletionHandler_block_invoke
+___OBKApplicationPerformFetchWithCompletionHandler_block_invoke_2
+___copy_helper_block_.797
+___destroy_helper_block_.798
+___copy_helper_block_.802
+___destroy_helper_block_.803
+-[OpenBack configured]
+-[OpenBack setConfigured:]
+-[OpenBack started]
+-[OpenBack setStarted:]
+-[OpenBack running]
+-[OpenBack setRunning:]
+-[OpenBack runningStartTime]
+-[OpenBack setRunningStartTime:]
+-[OpenBack registeringUser]
+-[OpenBack setRegisteringUser:]
+-[OpenBack setApplicationId:]
+-[OpenBack locationManager]
+-[OpenBack setLocationManager:]
+-[OpenBack campaignManager]
+-[OpenBack setCampaignManager:]
+-[OpenBack permissionsManager]
+-[OpenBack setPermissionsManager:]
+-[OpenBack .cxx_destruct]
+_OBJC_IVAR_$_OpenBack._applicationId
+___block_descriptor_tmp.298
+___block_descriptor_tmp.331
+___block_descriptor_tmp.361
+___block_descriptor_tmp.366
+___block_descriptor_tmp.411
+___block_descriptor_tmp.459
+___block_descriptor_tmp.466
+___block_descriptor_tmp.474
+___block_descriptor_tmp.480
+___block_descriptor_tmp.483
+___block_descriptor_tmp.486
+_handleAppDidBecomeActiveNotification:.onceToken
+___block_descriptor_tmp.564
+___block_descriptor_tmp.567
+___block_literal_global.568
+___block_descriptor_tmp.615
+l_OBJC_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
+l_OBJC_PROTOCOL_REFERENCE_$_UIApplicationDelegate
+__originalMethods
+___block_descriptor_tmp.787
+___block_descriptor_tmp.792
+___block_descriptor_tmp.799
+___block_descriptor_tmp.804
+_OBJC_IVAR_$_OpenBack._configured
+_OBJC_IVAR_$_OpenBack._started
+_OBJC_IVAR_$_OpenBack._running
+_OBJC_IVAR_$_OpenBack._runningStartTime
+_OBJC_IVAR_$_OpenBack._registeringUser
+_OBJC_IVAR_$_OpenBack._locationManager
+_OBJC_IVAR_$_OpenBack._campaignManager
+_OBJC_IVAR_$_OpenBack._permissionsManager
+l_OBJC_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
+l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBack.m
+__OBKApplicationPerformFetchWithCompletionHandler_block_invoke_2
+__OBKApplicationPerformFetchWithCompletionHandler_block_invoke
+__OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke_2
+__OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke
+OBKApplicationHandleEventsForBackgroundURLSession
+OBKApplicationOpenURLSourceApplicationAnnotation
+OBKApplicationOpenURLOptions
+OBKApplicationHandleOpenURL
+OBKApplicationPerformFetchWithCompletionHandler
+OBKApplicationDidFailToRegisterForRemoteNotificationsWithError
+OBKApplicationDidRegisterUserNotificationSettings
+OBKApplicationDidReceiveRemoteNotification
+OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler
+OBKApplicationDidRegisterForRemoteNotificationsWithDeviceToken
+OBKApplicationDidReceiveLocalNotification
+__55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke
+__73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke
+__49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke_2
+__49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke
+__17-[OpenBack main:]_block_invoke_3
+__17-[OpenBack main:]_block_invoke_2
+__17-[OpenBack main:]_block_invoke.475
+__17-[OpenBack main:]_block_invoke.471
+__17-[OpenBack main:]_block_invoke.462
+__17-[OpenBack main:]_block_invoke
+__31-[OpenBack parseConfiguration:]_block_invoke
+__24+[OpenBack getCampaigns]_block_invoke_2
+__24+[OpenBack getCampaigns]_block_invoke
+__56+[OpenBack checkApplicationID:inEnvironment:completion:]_block_invoke
+__42+[OpenBack forceCampaignReloadFromServer:]_block_invoke
+__26+[OpenBack sharedInstance]_block_invoke
+-[NSData(RNCryptor_ConstantCompare) rnc_isEqualInConsistentTime:]
++[RNDecryptor decryptData:withSettings:password:error:]
+___55+[RNDecryptor decryptData:withSettings:password:error:]_block_invoke
++[RNDecryptor decryptData:withSettings:encryptionKey:HMACKey:error:]
+___68+[RNDecryptor decryptData:withSettings:encryptionKey:HMACKey:error:]_block_invoke
++[RNDecryptor decryptData:withPassword:error:]
+___46+[RNDecryptor decryptData:withPassword:error:]_block_invoke
++[RNDecryptor decryptData:withEncryptionKey:HMACKey:error:]
+___59+[RNDecryptor decryptData:withEncryptionKey:HMACKey:error:]_block_invoke
+-[RNDecryptor initWithEncryptionKey:HMACKey:handler:]
+-[RNDecryptor initWithPassword:handler:]
+-[RNDecryptor inData]
+-[RNDecryptor decryptData:]
+___27-[RNDecryptor decryptData:]_block_invoke
+___27-[RNDecryptor decryptData:]_block_invoke_2
+-[RNDecryptor addData:]
+-[RNDecryptor updateOptionsForPreamble:]
+-[RNDecryptor consumeHeaderFromData:]
+-[RNDecryptor finish]
+___21-[RNDecryptor finish]_block_invoke
+___copy_helper_block_.116
+___destroy_helper_block_.117
+-[RNDecryptor encryptionKey]
+-[RNDecryptor setEncryptionKey:]
+-[RNDecryptor HMACKey]
+-[RNDecryptor setHMACKey:]
+-[RNDecryptor password]
+-[RNDecryptor setPassword:]
+-[RNDecryptor settings]
+-[RNDecryptor setSettings:]
+-[RNDecryptor hasV1HMAC]
+-[RNDecryptor setHasV1HMAC:]
+-[RNDecryptor .cxx_destruct]
+___block_descriptor_tmp.16
+___block_literal_global.17
+___block_descriptor_tmp.18
+___block_literal_global.19
+_OBJC_IVAR_$_RNDecryptor._encryptionKey
+_OBJC_IVAR_$_RNDecryptor._HMACKey
+_OBJC_IVAR_$_RNDecryptor._settings
+_OBJC_IVAR_$_RNDecryptor._password
+_OBJC_IVAR_$_RNDecryptor.__inData
+_OBJC_IVAR_$_RNDecryptor._HMACContext
+___block_descriptor_tmp.45
+___block_descriptor_tmp.50
+___block_descriptor_tmp.118
+_OBJC_IVAR_$_RNDecryptor._hasV1HMAC
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNDecryptor.m
+__21-[RNDecryptor finish]_block_invoke
+__27-[RNDecryptor decryptData:]_block_invoke_2
+__27-[RNDecryptor decryptData:]_block_invoke
+__59+[RNDecryptor decryptData:withEncryptionKey:HMACKey:error:]_block_invoke
+__46+[RNDecryptor decryptData:withPassword:error:]_block_invoke
+__68+[RNDecryptor decryptData:withSettings:encryptionKey:HMACKey:error:]_block_invoke
+__55+[RNDecryptor decryptData:withSettings:password:error:]_block_invoke
++[OpenBackDownloadManager sharedInstance]
+___41+[OpenBackDownloadManager sharedInstance]_block_invoke
+-[OpenBackDownloadManager backgroundSession]
+___44-[OpenBackDownloadManager backgroundSession]_block_invoke
+___copy_helper_block_.14
+___destroy_helper_block_.15
+-[OpenBackDownloadManager cancelAllTasks]
+___41-[OpenBackDownloadManager cancelAllTasks]_block_invoke
+-[OpenBackDownloadManager cancelTask:completion:]
+___49-[OpenBackDownloadManager cancelTask:completion:]_block_invoke
+___copy_helper_block_.29
+___destroy_helper_block_.30
+-[OpenBackDownloadManager taskInSession:completion:]
+___52-[OpenBackDownloadManager taskInSession:completion:]_block_invoke
+___copy_helper_block_.32
+___destroy_helper_block_.33
+-[OpenBackDownloadManager URLSession:downloadTask:didFinishDownloadingToURL:]
+___77-[OpenBackDownloadManager URLSession:downloadTask:didFinishDownloadingToURL:]_block_invoke
+___copy_helper_block_.60
+___destroy_helper_block_.61
+-[OpenBackDownloadManager URLSession:task:didCompleteWithError:]
+___64-[OpenBackDownloadManager URLSession:task:didCompleteWithError:]_block_invoke
+___copy_helper_block_.67
+___destroy_helper_block_.68
+-[OpenBackDownloadManager URLSession:didBecomeInvalidWithError:]
+-[OpenBackDownloadManager downloadInBackground:]
+___48-[OpenBackDownloadManager downloadInBackground:]_block_invoke
+-[OpenBackDownloadManager URLSessionDidFinishEventsForBackgroundURLSession:]
+___76-[OpenBackDownloadManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+___copy_helper_block_.93
+___destroy_helper_block_.94
+-[OpenBackDownloadManager sessionCompletionHandler]
+-[OpenBackDownloadManager setSessionCompletionHandler:]
+-[OpenBackDownloadManager .cxx_destruct]
+_sharedInstance.onceToken
+_backgroundSession.session
+_backgroundSession.onceToken
+___block_descriptor_tmp.24
+___block_descriptor_tmp.31
+___block_descriptor_tmp.69
+___block_descriptor_tmp.95
+_OBJC_IVAR_$_OpenBackDownloadManager._sessionCompletionHandler
+l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
+l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.h
+__76-[OpenBackDownloadManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
+__48-[OpenBackDownloadManager downloadInBackground:]_block_invoke
+__64-[OpenBackDownloadManager URLSession:task:didCompleteWithError:]_block_invoke
+__77-[OpenBackDownloadManager URLSession:downloadTask:didFinishDownloadingToURL:]_block_invoke
+__52-[OpenBackDownloadManager taskInSession:completion:]_block_invoke
+__49-[OpenBackDownloadManager cancelTask:completion:]_block_invoke
+__41-[OpenBackDownloadManager cancelAllTasks]_block_invoke
+__44-[OpenBackDownloadManager backgroundSession]_block_invoke
+__41+[OpenBackDownloadManager sharedInstance]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson+CoreDataProperties.m
+-[OpenBackCampaignManager init]
+-[OpenBackCampaignManager initWithApplicationId:userId:andEnvironment:]
+-[OpenBackCampaignManager main:]
+___32-[OpenBackCampaignManager main:]_block_invoke
+___32-[OpenBackCampaignManager main:]_block_invoke.70
+___32-[OpenBackCampaignManager main:]_block_invoke_2
+___32-[OpenBackCampaignManager main:]_block_invoke_3
+___32-[OpenBackCampaignManager main:]_block_invoke_4
+___copy_helper_block_.145
+___destroy_helper_block_.146
+___copy_helper_block_.151
+___destroy_helper_block_.152
+___copy_helper_block_.157
+___destroy_helper_block_.158
+___copy_helper_block_.162
+___destroy_helper_block_.163
+-[OpenBackCampaignManager campaignRecordWithId:fromCampaigns:]
+-[OpenBackCampaignManager trackDismissedNotifications:]
+___55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke
+___55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke_2
+___copy_helper_block_.191
+___destroy_helper_block_.192
+___copy_helper_block_.195
+___destroy_helper_block_.196
+-[OpenBackCampaignManager loadCampaignsWithCompletion:]
+___55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke
+___55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke_2
+___copy_helper_block_.224
+___destroy_helper_block_.225
+___copy_helper_block_.232
+___destroy_helper_block_.233
+-[OpenBackCampaignManager loadCampaignsFromServer:completion:]
+___62-[OpenBackCampaignManager loadCampaignsFromServer:completion:]_block_invoke
+___copy_helper_block_.254
+___destroy_helper_block_.255
+-[OpenBackCampaignManager loadCampaignsFromDatabase:]
+-[OpenBackCampaignManager shouldLoadCampaignsFromServer]
+-[OpenBackCampaignManager processCampaigns:inContext:]
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2
+___copy_helper_block_.287
+___destroy_helper_block_.288
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.290
+___copy_helper_block_.293
+___destroy_helper_block_.294
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.300
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.310
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_3
+___copy_helper_block_.318
+___destroy_helper_block_.319
+___copy_helper_block_.325
+___destroy_helper_block_.326
+___copy_helper_block_.330
+___destroy_helper_block_.331
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.336
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.337
+___copy_helper_block_.342
+___destroy_helper_block_.343
+___copy_helper_block_.345
+___destroy_helper_block_.346
+-[OpenBackCampaignManager setUseSimulatedTriggers:]
+-[OpenBackCampaignManager currentTriggers]
+-[OpenBackCampaignManager setValue:forCustomTrigger:error:]
+-[OpenBackCampaignManager setupDefaultPreferences]
+-[OpenBackCampaignManager canSendSms:]
+-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]
+___62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke
+___62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke_2
+___copy_helper_block_.451
+___destroy_helper_block_.452
+-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]
+___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke
+___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke_2
+___copy_helper_block_.469
+___destroy_helper_block_.470
+___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.475
++[OpenBackCampaignManager resetCampaignMaxMessagesCount]
++[OpenBackCampaignManager incrementMessagesCount]
+-[OpenBackCampaignManager updatePopupCountCurrentDate]
+-[OpenBackCampaignManager didExceedMaxMessagesCount]
+-[OpenBackCampaignManager topViewController]
+-[OpenBackCampaignManager topVisibleViewController:]
+-[OpenBackCampaignManager displayCampaignId:fromNotification:]
+___62-[OpenBackCampaignManager displayCampaignId:fromNotification:]_block_invoke
+___copy_helper_block_.531
+___destroy_helper_block_.532
+-[OpenBackCampaignManager displayCampaign:campaignRecord:]
+___58-[OpenBackCampaignManager displayCampaign:campaignRecord:]_block_invoke
+___copy_helper_block_.540
+___destroy_helper_block_.541
+-[OpenBackCampaignManager displayNotification:campaignRecord:delay:]
+___68-[OpenBackCampaignManager displayNotification:campaignRecord:delay:]_block_invoke
+___copy_helper_block_.559
+___destroy_helper_block_.560
+-[OpenBackCampaignManager intelligentRouting:campaignRecord:]
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2
+___copy_helper_block_.604
+___destroy_helper_block_.605
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.610
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.611
+___copy_helper_block_.621
+___destroy_helper_block_.622
+___copy_helper_block_.626
+___destroy_helper_block_.627
+___copy_helper_block_.632
+___destroy_helper_block_.633
+-[OpenBackCampaignManager titleForCampaign:]
+-[OpenBackCampaignManager messageForCampaign:]
+-[OpenBackCampaignManager displayInApp:]
+___40-[OpenBackCampaignManager displayInApp:]_block_invoke
+___copy_helper_block_.678
+___destroy_helper_block_.679
+-[OpenBackCampaignManager openExternalURL:]
+-[OpenBackCampaignManager displayPushMessage:]
+___46-[OpenBackCampaignManager displayPushMessage:]_block_invoke
+___46-[OpenBackCampaignManager displayPushMessage:]_block_invoke_2
+___copy_helper_block_.694
+___destroy_helper_block_.695
+___copy_helper_block_.699
+___destroy_helper_block_.700
+-[OpenBackCampaignManager displayInteractive:assetURL:]
+___55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke
+___55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke_2
+___copy_helper_block_.735
+___destroy_helper_block_.736
+___copy_helper_block_.738
+___destroy_helper_block_.739
+-[OpenBackCampaignManager simulatedTriggers]
+-[OpenBackCampaignManager ignoreNightTime]
+-[OpenBackCampaignManager setIgnoreNightTime:]
+-[OpenBackCampaignManager ignoreMaximums]
+-[OpenBackCampaignManager setIgnoreMaximums:]
+-[OpenBackCampaignManager useSimulatedTriggers]
+-[OpenBackCampaignManager deviceTriggers]
+-[OpenBackCampaignManager setDeviceTriggers:]
+-[OpenBackCampaignManager setSimulatedTriggers:]
+-[OpenBackCampaignManager userId]
+-[OpenBackCampaignManager setUserId:]
+-[OpenBackCampaignManager applicationId]
+-[OpenBackCampaignManager setApplicationId:]
+-[OpenBackCampaignManager environment]
+-[OpenBackCampaignManager setEnvironment:]
+-[OpenBackCampaignManager .cxx_destruct]
+___block_descriptor_tmp.148
+___block_descriptor_tmp.154
+___block_descriptor_tmp.159
+___block_descriptor_tmp.165
+___block_descriptor_tmp.194
+___block_descriptor_tmp.197
+___block_descriptor_tmp.227
+___block_descriptor_tmp.234
+___block_descriptor_tmp.257
+___block_descriptor_tmp.289
+___block_descriptor_tmp.295
+___block_descriptor_tmp.320
+___block_descriptor_tmp.322
+___block_descriptor_tmp.327
+___block_descriptor_tmp.333
+___block_descriptor_tmp.344
+___block_descriptor_tmp.348
+_OBJC_IVAR_$_OpenBackCampaignManager._useSimulatedTriggers
+___block_descriptor_tmp.453
+___block_descriptor_tmp.455
+___block_descriptor_tmp.471
+___block_descriptor_tmp.481
+___block_descriptor_tmp.533
+___block_descriptor_tmp.542
+___block_descriptor_tmp.561
+___block_descriptor_tmp.606
+___block_descriptor_tmp.623
+___block_descriptor_tmp.629
+___block_descriptor_tmp.634
+___block_descriptor_tmp.680
+___block_descriptor_tmp.696
+___block_descriptor_tmp.702
+___block_descriptor_tmp.737
+___block_descriptor_tmp.741
+_OBJC_IVAR_$_OpenBackCampaignManager._simulatedTriggers
+_OBJC_IVAR_$_OpenBackCampaignManager._ignoreNightTime
+_OBJC_IVAR_$_OpenBackCampaignManager._ignoreMaximums
+_OBJC_IVAR_$_OpenBackCampaignManager._deviceTriggers
+_OBJC_IVAR_$_OpenBackCampaignManager._userId
+_OBJC_IVAR_$_OpenBackCampaignManager._applicationId
+_OBJC_IVAR_$_OpenBackCampaignManager._environment
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.h
+__55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke_2
+__55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke
+__46-[OpenBackCampaignManager displayPushMessage:]_block_invoke_2
+__46-[OpenBackCampaignManager displayPushMessage:]_block_invoke
+__40-[OpenBackCampaignManager displayInApp:]_block_invoke
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.611
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.610
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke
+__68-[OpenBackCampaignManager displayNotification:campaignRecord:delay:]_block_invoke
+__58-[OpenBackCampaignManager displayCampaign:campaignRecord:]_block_invoke
+__62-[OpenBackCampaignManager displayCampaignId:fromNotification:]_block_invoke
+__65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.475
+__65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke_2
+__65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke
+__62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke_2
+__62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.337
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.336
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_3
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.310
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.300
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.290
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke
+__62-[OpenBackCampaignManager loadCampaignsFromServer:completion:]_block_invoke
+__55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke_2
+__55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke
+__55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke_2
+__55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke
+__32-[OpenBackCampaignManager main:]_block_invoke_4
+__32-[OpenBackCampaignManager main:]_block_invoke_3
+__32-[OpenBackCampaignManager main:]_block_invoke_2
+__32-[OpenBackCampaignManager main:]_block_invoke.70
+__32-[OpenBackCampaignManager main:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/mztools.c
+unzRepair
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackUserInfo.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aescrypt.c
+aes_decrypt
+aes_encrypt
+-[OpenBackDeviceCollector collectDataFor:completion:]
+-[OpenBackDeviceCollector stopCollecting]
+-[OpenBackDeviceCollector startRecordingNoiseLevel]
+-[OpenBackDeviceCollector stopRecordingNoiseLevel]
+-[OpenBackDeviceCollector audioRecorderTimerCallback:]
+-[OpenBackDeviceCollector todBSPL:]
+-[OpenBackDeviceCollector startLocationUpdates]
+-[OpenBackDeviceCollector stopLocationUpdates]
+-[OpenBackDeviceCollector collectCountryISO]
+-[OpenBackDeviceCollector locationManager:didUpdateLocations:]
+-[OpenBackDeviceCollector locationManager:didFailWithError:]
+-[OpenBackDeviceCollector geocodeISOCountryCode:]
+___49-[OpenBackDeviceCollector geocodeISOCountryCode:]_block_invoke
+-[OpenBackDeviceCollector geocodeTimeout]
+-[OpenBackDeviceCollector activityFromSpeed:]
+-[OpenBackDeviceCollector startActivityManagerCollect]
+___54-[OpenBackDeviceCollector startActivityManagerCollect]_block_invoke
+___copy_helper_block_.248
+___destroy_helper_block_.249
+-[OpenBackDeviceCollector stopActivityManagerCollect]
+-[OpenBackDeviceCollector startAccelerometerCollect]
+___52-[OpenBackDeviceCollector startAccelerometerCollect]_block_invoke
+___copy_helper_block_.276
+___destroy_helper_block_.277
+-[OpenBackDeviceCollector stopAccelerometerCollect]
+-[OpenBackDeviceCollector startGyroscopeCollect]
+___48-[OpenBackDeviceCollector startGyroscopeCollect]_block_invoke
+___copy_helper_block_.302
+___destroy_helper_block_.303
+-[OpenBackDeviceCollector stopGyroscopeCollect]
+-[OpenBackDeviceCollector startMagnetometerCollect]
+___51-[OpenBackDeviceCollector startMagnetometerCollect]_block_invoke
+-[OpenBackDeviceCollector stopMagnetometerCollect]
+-[OpenBackDeviceCollector startDeviceMotionCollect]
+___51-[OpenBackDeviceCollector startDeviceMotionCollect]_block_invoke
+___copy_helper_block_.354
+___destroy_helper_block_.355
+-[OpenBackDeviceCollector stopDeviceMotionCollect]
+-[OpenBackDeviceCollector typesForHumans:]
+-[OpenBackDeviceCollector description]
+-[OpenBackDeviceCollector locationManager]
+-[OpenBackDeviceCollector motionManager]
+-[OpenBackDeviceCollector activityManager]
+-[OpenBackDeviceCollector geocoder]
+-[OpenBackDeviceCollector noiseSampleTime]
+-[OpenBackDeviceCollector setNoiseSampleTime:]
+-[OpenBackDeviceCollector activitySampleTime]
+-[OpenBackDeviceCollector setActivitySampleTime:]
+-[OpenBackDeviceCollector locationSampleTime]
+-[OpenBackDeviceCollector setLocationSampleTime:]
+-[OpenBackDeviceCollector gyroscopeSampleTime]
+-[OpenBackDeviceCollector setGyroscopeSampleTime:]
+-[OpenBackDeviceCollector motionUpdateInterval]
+-[OpenBackDeviceCollector setMotionUpdateInterval:]
+-[OpenBackDeviceCollector deviceMotionSampleTime]
+-[OpenBackDeviceCollector setDeviceMotionSampleTime:]
+-[OpenBackDeviceCollector magnetometerSampleTime]
+-[OpenBackDeviceCollector setMagnetometerSampleTime:]
+-[OpenBackDeviceCollector accelerometerSampleTime]
+-[OpenBackDeviceCollector setAccelerometerSampleTime:]
+-[OpenBackDeviceCollector countryGeocoderTimeout]
+-[OpenBackDeviceCollector setCountryGeocoderTimeout:]
+-[OpenBackDeviceCollector collectedNoiseLevel]
+-[OpenBackDeviceCollector setCollectedNoiseLevel:]
+-[OpenBackDeviceCollector collectedCountryISO]
+-[OpenBackDeviceCollector setCollectedCountryISO:]
+-[OpenBackDeviceCollector collectedActivity]
+-[OpenBackDeviceCollector setCollectedActivity:]
+-[OpenBackDeviceCollector collectedAcceleration]
+-[OpenBackDeviceCollector setCollectedAcceleration:]
+-[OpenBackDeviceCollector collectedUserAcceleration]
+-[OpenBackDeviceCollector setCollectedUserAcceleration:]
+-[OpenBackDeviceCollector collectedGyroscope]
+-[OpenBackDeviceCollector setCollectedGyroscope:]
+-[OpenBackDeviceCollector collectedMagnetometer]
+-[OpenBackDeviceCollector setCollectedMagnetometer:]
+-[OpenBackDeviceCollector collectedLocation]
+-[OpenBackDeviceCollector setCollectedLocation:]
+-[OpenBackDeviceCollector collectedSpeed]
+-[OpenBackDeviceCollector setCollectedSpeed:]
+-[OpenBackDeviceCollector setMotionManager:]
+-[OpenBackDeviceCollector setActivityManager:]
+-[OpenBackDeviceCollector setLocationManager:]
+-[OpenBackDeviceCollector setGeocoder:]
+-[OpenBackDeviceCollector collectorTimer]
+-[OpenBackDeviceCollector setCollectorTimer:]
+-[OpenBackDeviceCollector isCollecting]
+-[OpenBackDeviceCollector setIsCollecting:]
+-[OpenBackDeviceCollector startCollectTime]
+-[OpenBackDeviceCollector setStartCollectTime:]
+-[OpenBackDeviceCollector typesToCollect]
+-[OpenBackDeviceCollector setTypesToCollect:]
+-[OpenBackDeviceCollector originalTypesToCollect]
+-[OpenBackDeviceCollector setOriginalTypesToCollect:]
+-[OpenBackDeviceCollector collectQueue]
+-[OpenBackDeviceCollector setCollectQueue:]
+-[OpenBackDeviceCollector completionBlock]
+-[OpenBackDeviceCollector setCompletionBlock:]
+-[OpenBackDeviceCollector audioRecorder]
+-[OpenBackDeviceCollector setAudioRecorder:]
+-[OpenBackDeviceCollector audioRecorderTimer]
+-[OpenBackDeviceCollector setAudioRecorderTimer:]
+-[OpenBackDeviceCollector audioRecorderSampleCount]
+-[OpenBackDeviceCollector setAudioRecorderSampleCount:]
+-[OpenBackDeviceCollector audioRecorderLevelTotal]
+-[OpenBackDeviceCollector setAudioRecorderLevelTotal:]
+-[OpenBackDeviceCollector latitudeTotal]
+-[OpenBackDeviceCollector setLatitudeTotal:]
+-[OpenBackDeviceCollector longitudeTotal]
+-[OpenBackDeviceCollector setLongitudeTotal:]
+-[OpenBackDeviceCollector speedTotal]
+-[OpenBackDeviceCollector setSpeedTotal:]
+-[OpenBackDeviceCollector locationSampleCount]
+-[OpenBackDeviceCollector setLocationSampleCount:]
+-[OpenBackDeviceCollector accelerationXTotal]
+-[OpenBackDeviceCollector setAccelerationXTotal:]
+-[OpenBackDeviceCollector accelerationYTotal]
+-[OpenBackDeviceCollector setAccelerationYTotal:]
+-[OpenBackDeviceCollector accelerationZTotal]
+-[OpenBackDeviceCollector setAccelerationZTotal:]
+-[OpenBackDeviceCollector accelerationSampleCount]
+-[OpenBackDeviceCollector setAccelerationSampleCount:]
+-[OpenBackDeviceCollector userAccelerationXTotal]
+-[OpenBackDeviceCollector setUserAccelerationXTotal:]
+-[OpenBackDeviceCollector userAccelerationYTotal]
+-[OpenBackDeviceCollector setUserAccelerationYTotal:]
+-[OpenBackDeviceCollector userAccelerationZTotal]
+-[OpenBackDeviceCollector setUserAccelerationZTotal:]
+-[OpenBackDeviceCollector userAccelerationSampleCount]
+-[OpenBackDeviceCollector setUserAccelerationSampleCount:]
+-[OpenBackDeviceCollector gyroscopeXTotal]
+-[OpenBackDeviceCollector setGyroscopeXTotal:]
+-[OpenBackDeviceCollector gyroscopeYTotal]
+-[OpenBackDeviceCollector setGyroscopeYTotal:]
+-[OpenBackDeviceCollector gyroscopeZTotal]
+-[OpenBackDeviceCollector setGyroscopeZTotal:]
+-[OpenBackDeviceCollector gyroscopeSampleCount]
+-[OpenBackDeviceCollector setGyroscopeSampleCount:]
+-[OpenBackDeviceCollector magnetometerXTotal]
+-[OpenBackDeviceCollector setMagnetometerXTotal:]
+-[OpenBackDeviceCollector magnetometerYTotal]
+-[OpenBackDeviceCollector setMagnetometerYTotal:]
+-[OpenBackDeviceCollector magnetometerZTotal]
+-[OpenBackDeviceCollector setMagnetometerZTotal:]
+-[OpenBackDeviceCollector magnetometerSampleCount]
+-[OpenBackDeviceCollector setMagnetometerSampleCount:]
+-[OpenBackDeviceCollector .cxx_destruct]
+_OBJC_IVAR_$_OpenBackDeviceCollector._isCollecting
+_OBJC_IVAR_$_OpenBackDeviceCollector._typesToCollect
+_OBJC_IVAR_$_OpenBackDeviceCollector._originalTypesToCollect
+_OBJC_IVAR_$_OpenBackDeviceCollector._startCollectTime
+_shouldKeepRunning
+_OBJC_IVAR_$_OpenBackDeviceCollector._completionBlock
+___block_descriptor_tmp.251
+___block_descriptor_tmp.279
+___block_descriptor_tmp.305
+___block_descriptor_tmp.357
+_OBJC_IVAR_$_OpenBackDeviceCollector._locationManager
+_OBJC_IVAR_$_OpenBackDeviceCollector._motionManager
+_OBJC_IVAR_$_OpenBackDeviceCollector._motionUpdateInterval
+_OBJC_IVAR_$_OpenBackDeviceCollector._activityManager
+_OBJC_IVAR_$_OpenBackDeviceCollector._geocoder
+_OBJC_IVAR_$_OpenBackDeviceCollector._noiseSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._activitySampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._locationSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._gyroscopeSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._deviceMotionSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._accelerometerSampleTime
+_OBJC_IVAR_$_OpenBackDeviceCollector._countryGeocoderTimeout
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedNoiseLevel
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedCountryISO
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedActivity
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedAcceleration
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedUserAcceleration
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedGyroscope
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedMagnetometer
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedLocation
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectedSpeed
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectorTimer
+_OBJC_IVAR_$_OpenBackDeviceCollector._collectQueue
+_OBJC_IVAR_$_OpenBackDeviceCollector._audioRecorder
+_OBJC_IVAR_$_OpenBackDeviceCollector._audioRecorderTimer
+_OBJC_IVAR_$_OpenBackDeviceCollector._audioRecorderSampleCount
+_OBJC_IVAR_$_OpenBackDeviceCollector._audioRecorderLevelTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._latitudeTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._longitudeTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._speedTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._locationSampleCount
+_OBJC_IVAR_$_OpenBackDeviceCollector._accelerationXTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._accelerationYTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._accelerationZTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._accelerationSampleCount
+_OBJC_IVAR_$_OpenBackDeviceCollector._userAccelerationXTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._userAccelerationYTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._userAccelerationZTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._userAccelerationSampleCount
+_OBJC_IVAR_$_OpenBackDeviceCollector._gyroscopeXTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._gyroscopeYTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._gyroscopeZTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._gyroscopeSampleCount
+_OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerXTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerYTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerZTotal
+_OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerSampleCount
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.m
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.h
+__51-[OpenBackDeviceCollector startDeviceMotionCollect]_block_invoke
+__51-[OpenBackDeviceCollector startMagnetometerCollect]_block_invoke
+__48-[OpenBackDeviceCollector startGyroscopeCollect]_block_invoke
+__52-[OpenBackDeviceCollector startAccelerometerCollect]_block_invoke
+__54-[OpenBackDeviceCollector startActivityManagerCollect]_block_invoke
+__49-[OpenBackDeviceCollector geocodeISOCountryCode:]_block_invoke
++[RNEncryptor encryptData:withSettings:password:error:]
+___55+[RNEncryptor encryptData:withSettings:password:error:]_block_invoke
++[RNEncryptor encryptData:withSettings:password:IV:encryptionSalt:HMACSalt:error:]
+___82+[RNEncryptor encryptData:withSettings:password:IV:encryptionSalt:HMACSalt:error:]_block_invoke
++[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:error:]
+___68+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:error:]_block_invoke
++[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:IV:error:]
+___71+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:IV:error:]_block_invoke
+-[RNEncryptor initWithSettings:encryptionKey:HMACKey:handler:]
+-[RNEncryptor initWithSettings:encryptionKey:HMACKey:IV:handler:]
+-[RNEncryptor initWithSettings:password:handler:]
+-[RNEncryptor initWithSettings:password:IV:encryptionSalt:HMACSalt:handler:]
+-[RNEncryptor header]
+-[RNEncryptor addData:]
+___23-[RNEncryptor addData:]_block_invoke
+___23-[RNEncryptor addData:]_block_invoke_2
+___copy_helper_block_.86
+___destroy_helper_block_.87
+-[RNEncryptor finish]
+___21-[RNEncryptor finish]_block_invoke
+___copy_helper_block_.97
+___destroy_helper_block_.98
+-[RNEncryptor encryptionSalt]
+-[RNEncryptor setEncryptionSalt:]
+-[RNEncryptor HMACSalt]
+-[RNEncryptor setHMACSalt:]
+-[RNEncryptor IV]
+-[RNEncryptor setIV:]
+-[RNEncryptor haveWrittenHeader]
+-[RNEncryptor setHaveWrittenHeader:]
+-[RNEncryptor .cxx_destruct]
+___block_descriptor_tmp.5
+___block_literal_global.6
+___block_descriptor_tmp.9
+___block_literal_global.10
+___block_descriptor_tmp.13
+___block_literal_global.14
+_OBJC_IVAR_$_RNEncryptor._HMACContext
+___block_descriptor_tmp.83
+___block_descriptor_tmp.88
+___block_descriptor_tmp.99
+_OBJC_IVAR_$_RNEncryptor._encryptionSalt
+_OBJC_IVAR_$_RNEncryptor._HMACSalt
+_OBJC_IVAR_$_RNEncryptor._IV
+_OBJC_IVAR_$_RNEncryptor._haveWrittenHeader
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNEncryptor.m
+__21-[RNEncryptor finish]_block_invoke
+__23-[RNEncryptor addData:]_block_invoke_2
+__23-[RNEncryptor addData:]_block_invoke
+__71+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:IV:error:]_block_invoke
+__68+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:error:]_block_invoke
+__82+[RNEncryptor encryptData:withSettings:password:IV:encryptionSalt:HMACSalt:error:]_block_invoke
+__55+[RNEncryptor encryptData:withSettings:password:error:]_block_invoke
+/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/build/OpenBack.build/Release-iphoneos/OpenBack.build/DerivedSources/OpenBack_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.1
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+fixStringForCoreData
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+isdigit
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk/usr/include/ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

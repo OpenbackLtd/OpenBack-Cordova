@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-openback" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<name>OpenBack</name>
+	<description>OpenBack Cordova Plugin</description>
+	<keywords>cordova,openback</keywords>
+	
+	<js-module name="openback" src="www/openback.js">
+		<clobbers target="openback"/>
+	</js-module>
+
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="OpenBack">
+				<param name="ios-package" value="OpenBackPlugin"/>
+			</feature>
+		</config-file>
+		<config-file parent="UIBackgroundModes" target="*-Info.plist">
+			<array>
+				<string>remote-notification</string>
+			</array>
+		</config-file>
+		<config-file>
+			<access origin="*.openback.com"/>
+		</config-file>
+		<source-file src="src/ios/OpenBackPlugin.m"/>
+		<source-file src="src/ios/AppDelegate+OpenBack.m"/>
+		<resource-file src="src/ios/OpenBackConfig.plist"/>
+		<hook src="scripts/iosEmbedFramework.js" type="after_platform_add"/>
+		<hook src="scripts/iosConfigPlist.js" type="before_build"/>
+	</platform>
+
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="OpenBack">
+				<param name="android-package" value="com.openback.cordova.OpenBackPlugin"/>
+			</feature>
+		</config-file>
+
+		<config-file parent="/manifest/application" target="AndroidManifest.xml">
+			<activity android:label="@string/app_name" android:name="com.openback.android.sdk.utils.helper.DisplayInteractiveMessage" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="stateAlwaysHidden" />
+
+			<service android:name="com.openback.android.sdk.utils.helper.OpenbackService" />
+			<service android:name="com.openback.android.sdk.utils.helper.OpenBackAssetService" />
+			<service android:name="com.openback.android.sdk.utils.helper.UserActivitiesIntentService"/>
+			
+			<receiver android:name="com.openback.android.sdk.utils.helper.OpenbackServiceAlarmReceiver" />
+			<receiver android:enabled="true" android:name="com.openback.android.sdk.utils.helper.OpenbackServiceBootReceiver" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+				<intent-filter>
+					<action android:name="android.intent.action.BOOT_COMPLETED"/>
+					<category android:name="android.intent.category.DEFAULT"/>
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.ReceiveSmsEvent" >
+				<intent-filter>
+					<action android:name="android.intent.action.PHONE_STATE" />
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.ReceiveCallEvent" >
+				<intent-filter>
+					<action android:name="android.intent.action.PHONE_STATE" />
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.OutgoingCallEvent" >
+				<intent-filter>
+					<action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.UnlockScreenEvent">
+				<intent-filter>
+					<action android:name="android.intent.action.USER_PRESENT" />
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.OpenbackAppReceiver">
+				<intent-filter>
+					<action android:name="android.intent.action.PACKAGE_REPLACED" />
+					<action android:name="android.intent.action.PACKAGE_ADDED" />
+					<action android:name="android.intent.action.PACKAGE_REMOVED" />
+					<action android:name="android.intent.action.PACKAGE_CHANGED" />
+					<action android:name="android.intent.action.PACKAGE_INSTALL" />
+					<action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+					<data android:scheme="package"/>
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.AirplaneModeReceiver">
+				<intent-filter>
+					<action android:name="android.intent.action.AIRPLANE_MODE"/>
+				</intent-filter>
+			</receiver>
+			<receiver android:name="com.openback.android.sdk.utils.helper.WifiReceiver">
+				<intent-filter>
+					<action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+					<action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+				</intent-filter>
+			</receiver>
+		</config-file>
+ 
+		<framework src="src/android/OpenBack.gradle" custom="true" type="gradleReference" />
+
+		<resource-file src="lib/android/OpenBack.aar" target="libs/OpenBack.aar" />
+		<source-file src="src/android/OpenBackPlugin.java" target-dir="src/com/openback/cordova"/>
+
+	</platform>
+</plugin>

@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-openback",
+  "version": "1.0.0",
+  "description": "OpenBack Cordova Plugin",
+  "private": true,
+  "cordova": {
+    "id": "cordova-plugin-openback",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-ios",
+    "openback"
+  ],
+  "author": "OpenBack, Ltd",
+  "license": "",
+  "repository": {}
+}
