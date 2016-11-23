@@ -5,7 +5,6 @@
 
 - (void)setUserInfo:(CDVInvokedUrlCommand*)command;
 - (void)setValueForCustomTrigger:(CDVInvokedUrlCommand*)command;
-- (void)setValueForCustomLog:(CDVInvokedUrlCommand*)command;
 
 @end
 
@@ -34,22 +33,6 @@
     OBKCustomTriggerType trigger = [[command.arguments objectAtIndex:1] unsignedIntegerValue];
     
     if ([OpenBack setValue:value forCustomTrigger:trigger error:&error]) {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:YES];
-    } else {
-        pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsBool:NO];
-    }
-    
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:command.callbackId];
-}
-
-- (void)setValueForCustomLog:(CDVInvokedUrlCommand *)command
-{
-    NSError *error = nil;
-    CDVPluginResult *pluginResult = nil;
-    NSString *value = [command.arguments objectAtIndex:0];
-    OBKCustomLogType log = [[command.arguments objectAtIndex:1] unsignedIntegerValue];
-    
-    if ([OpenBack setValue:value forCustomLog:log error:&error]) {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:YES];
     } else {
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsBool:NO];

@@ -24,11 +24,6 @@ typedef NS_ENUM(NSUInteger, OBKCustomTriggerType) {
     kOBKCustomTrigger6, kOBKCustomTrigger7, kOBKCustomTrigger8, kOBKCustomTrigger9, kOBKCustomTrigger10
 };
 
-typedef NS_ENUM(NSUInteger, OBKCustomLogType) {
-    kOBKCustomLog1, kOBKCustomLog2, kOBKCustomLog3, kOBKCustomLog4, kOBKCustomLog5,
-    kOBKCustomLog6, kOBKCustomLog7, kOBKCustomLog8, kOBKCustomLog9, kOBKCustomLog10
-};
-
 #pragma mark - OpenBack Main Interface
 
 @interface OpenBack : NSObject
@@ -63,17 +58,6 @@ typedef NS_ENUM(NSUInteger, OBKCustomLogType) {
  @returns YES if the value was set, NO otherwise with an error
  */
 + (BOOL)setValue:(nullable id)value forCustomTrigger:(OBKCustomTriggerType)trigger error:(NSError * _Nullable * _Nullable)error;
-
-/** Set a custom log value
- 
- Call this function to set a specific custom log value to be sent with appplication logs to the campaign manager.
- To remove the custom log, set the value to nil.
- 
- @params value The string for the custom log, nil to erase
- @params log The custom log to set or erase
- @returns YES if the value was set, NO otherwise with an error
- */
-+ (BOOL)setValue:(nullable NSString *)value forCustomLog:(OBKCustomLogType)log error:(NSError * _Nullable * _Nullable)error;
 
 /** Start the OpenBack on-board campaign manager
  

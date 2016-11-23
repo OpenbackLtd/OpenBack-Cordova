@@ -10,15 +10,15 @@ ___destroy_helper_block_
 -[OpenBackObject toJSONData]
 -[OpenBackObject toJSONString]
 ___block_descriptor_tmp
-Apple LLVM version 8.0.0 (clang-800.0.38)
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackObject.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackObject.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack
 __destroy_helper_block_
 __copy_helper_block_
 __67-[OpenBackObject setValuesForKeysWithJSONDictionary:dateFormatter:]_block_invoke
 +[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]
 ___74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackIntelligentRouting.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackIntelligentRouting.m
 __74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_block_invoke
 +[OpenBackPreferences synchronize]
 +[OpenBackPreferences removePreference:]
@@ -36,7 +36,7 @@ __74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_b
 +[OpenBackPreferences getDoubleValue:]
 +[OpenBackPreferences setDoubleDefault:forPreference:]
 +[OpenBackPreferences setDoubleValue:forPreference:]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPreferences.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackPreferences.m
 -[OpenBackCampaign mediaType]
 -[OpenBackCampaign pushType]
 -[OpenBackCampaign interactiveType]
@@ -55,6 +55,8 @@ __74+[OpenBackIntelligentRouting intelligentRouting:inEnvironment:completion:]_b
 -[OpenBackCampaign setCampaignTrigName:]
 -[OpenBackCampaign SystemTypeId]
 -[OpenBackCampaign setSystemTypeId:]
+-[OpenBackCampaign LastUpdatedTimestamp]
+-[OpenBackCampaign setLastUpdatedTimestamp:]
 -[OpenBackCampaign MsgAllowedSeenBefore]
 -[OpenBackCampaign setMsgAllowedSeenBefore:]
 -[OpenBackCampaign MsgSeenBeforeMinTimePeriodInSeconds]
@@ -501,6 +503,7 @@ _OBJC_IVAR_$_OpenBackCampaign._CampaignPriority
 _OBJC_IVAR_$_OpenBackCampaign._MediaTypeCode
 _OBJC_IVAR_$_OpenBackCampaign._CampaignTrigName
 _OBJC_IVAR_$_OpenBackCampaign._SystemTypeId
+_OBJC_IVAR_$_OpenBackCampaign._LastUpdatedTimestamp
 _OBJC_IVAR_$_OpenBackCampaign._MsgAllowedSeenBefore
 _OBJC_IVAR_$_OpenBackCampaign._MsgSeenBeforeMinTimePeriodInSeconds
 _OBJC_IVAR_$_OpenBackCampaign._MsgSeenBeforeMaxNumberDisplay
@@ -720,9 +723,9 @@ _OBJC_IVAR_$_OpenBackCampaign._TrigNotificationOption
 _OBJC_IVAR_$_OpenBackCampaign._TrigNotificationOperator
 _OBJC_IVAR_$_OpenBackCampaign._TrigWifiAvailableSsid
 _OBJC_IVAR_$_OpenBackCampaign._TrigWifiAvailableSsidOperator
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.h
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aestab.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaign.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aestab.c
 aes_init
 +[OpenBackAppSettings sharedInstance]
 ___37+[OpenBackAppSettings sharedInstance]_block_invoke
@@ -823,10 +826,10 @@ _OBJC_IVAR_$_OpenBackAppSettings._sdkServiceLaunchEveryXMinutes
 _OBJC_IVAR_$_OpenBackAppSettings._sdkMinTimeBetweenNotifications
 _OBJC_IVAR_$_OpenBackAppSettings._sdkNightTimeStartTime
 _OBJC_IVAR_$_OpenBackAppSettings._sdkNightTimeEndTime
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAppSettings.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackAppSettings.m
 __37+[OpenBackAppSettings sharedInstance]_block_invoke
 _dispatch_once
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/usr/include/dispatch/once.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/dispatch/once.h
 _unzOpenInternal
 _unz64local_GetCurrentFileInfoInternal
 _unzGoToNextDisk
@@ -834,7 +837,7 @@ _unz64local_getLong
 _unz64local_getShort
 _unz64local_getLong64
 _unz64local_getByte
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/unzip.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/unzip.c
 unz64local_getByte
 unz64local_getLong64
 unz64local_getShort
@@ -860,7 +863,7 @@ unzGetCurrentFileZStreamPos64
 unzGoToNextDisk
 unzReadCurrentFile
 update_keys
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/crypt.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/crypt.h
 decrypt_byte
 unzOpenCurrentFile2
 unzOpenCurrentFilePassword
@@ -893,7 +896,9 @@ unzOpen2
 -[RNCryptorEngine .cxx_destruct]
 _OBJC_IVAR_$_RNCryptorEngine.__cryptor
 _OBJC_IVAR_$_RNCryptorEngine.__buffer
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptorEngine.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptorEngine.m
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
 +[OpenBackFiles applicationDocumentsDirectory]
 +[OpenBackFiles applicationLibraryDirectory]
 +[OpenBackFiles applicationCachesDirectory]
@@ -907,7 +912,7 @@ _OBJC_IVAR_$_RNCryptorEngine.__buffer
 +[OpenBackFiles createDirectory:error:]
 +[OpenBackFiles removeFileOrDirectory:error:]
 +[OpenBackFiles excludeFromBackup:error:]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackFiles.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackFiles.m
 +[OpenBackDBCampaignJson entityName]
 +[OpenBackDBCampaignJson createCampaignWithJSON:withContext:]
 ___Block_byref_object_copy_
@@ -918,7 +923,7 @@ ___47+[OpenBackDBCampaignJson deleteAllWithContext:]_block_invoke
 ___copy_helper_block_.23
 ___destroy_helper_block_.24
 ___block_descriptor_tmp.26
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson.m
 __47+[OpenBackDBCampaignJson deleteAllWithContext:]_block_invoke
 __61+[OpenBackDBCampaignJson createCampaignWithJSON:withContext:]_block_invoke
 __Block_byref_object_dispose_
@@ -960,10 +965,10 @@ _parseTime:.obkTimeFormatter
 _parseTime:.onceToken
 ___block_descriptor_tmp.132
 ___block_literal_global.133
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackCommon.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackCommon.m
 __28+[OpenBackCommon parseTime:]_block_invoke
 __39+[OpenBackCommon getGMTDateTimeString:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aeskey.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aeskey.c
 aes_decrypt_key
 aes_decrypt_key256
 aes_decrypt_key192
@@ -972,7 +977,7 @@ aes_encrypt_key
 aes_encrypt_key256
 aes_encrypt_key192
 aes_encrypt_key128
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign+CoreDataProperties.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign+CoreDataProperties.m
 +[OpenBackDeviceTriggers load]
 ___30+[OpenBackDeviceTriggers load]_block_invoke
 ___30+[OpenBackDeviceTriggers load]_block_invoke_2
@@ -1028,8 +1033,8 @@ ___46-[OpenBackDeviceTriggers startActivityManager]_block_invoke
 -[OpenBackDeviceTriggers callInProgress]
 -[OpenBackDeviceTriggers canMakePhoneCalls]
 ___43-[OpenBackDeviceTriggers canMakePhoneCalls]_block_invoke
-___copy_helper_block_.523
-___destroy_helper_block_.524
+___copy_helper_block_.573
+___destroy_helper_block_.574
 -[OpenBackDeviceTriggers epoch]
 -[OpenBackDeviceTriggers epoch_ms]
 -[OpenBackDeviceTriggers isNightTime]
@@ -1175,7 +1180,7 @@ _OBJC_IVAR_$_OpenBackDeviceTriggers._reachabilityManager
 _OBJC_IVAR_$_OpenBackDeviceTriggers._locationManager
 _OBJC_IVAR_$_OpenBackDeviceTriggers._btCentralManager
 _canMakePhoneCalls.onceToken
-___block_descriptor_tmp.525
+___block_descriptor_tmp.576
 _OBJC_IVAR_$_OpenBackDeviceTriggers._activityManager
 _OBJC_IVAR_$_OpenBackDeviceTriggers._collector
 _OBJC_IVAR_$_OpenBackDeviceTriggers._trigCust1
@@ -1203,8 +1208,8 @@ l_OBJC_PROTOCOL_$_CBCentralManagerDelegate
 l_OBJC_LABEL_PROTOCOL_$_CBCentralManagerDelegate
 l_OBJC_PROTOCOL_$_CLLocationManagerDelegate
 l_OBJC_LABEL_PROTOCOL_$_CLLocationManagerDelegate
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceTriggers.h
 __43-[OpenBackDeviceTriggers canMakePhoneCalls]_block_invoke
 __46-[OpenBackDeviceTriggers startActivityManager]_block_invoke
 __50-[OpenBackDeviceTriggers startReachabilityManager]_block_invoke_2
@@ -1213,26 +1218,42 @@ __45-[OpenBackDeviceTriggers collectTriggerData:]_block_invoke
 __30+[OpenBackDeviceTriggers load]_block_invoke_3
 __30+[OpenBackDeviceTriggers load]_block_invoke_2
 __30+[OpenBackDeviceTriggers load]_block_invoke
-+[OpenBackUser getUserName]
-+[OpenBackUser setUserName:]
-+[OpenBackUser removeUserName]
-+[OpenBackUser getUserInfo]
-+[OpenBackUser setUserInfo:]
-+[OpenBackUser removeUserInfo]
-+[OpenBackUser userEmail]
-+[OpenBackUser userPhone]
-+[OpenBackUser isUserRegistered]
-+[OpenBackUser getUserRegistrationState]
-+[OpenBackUser setUserRegistrationState:]
-+[OpenBackUser getUserRegistrationDate]
-+[OpenBackUser setUserRegistrationDate:]
-+[OpenBackUser userWithTriggers:]
-+[OpenBackUser registerUserQueue:inEnvironment:completion:]
-___59+[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
-+[OpenBackUser setDefaultPreferences]
+-[OpenBackUser init]
+-[OpenBackUser getUserName]
+-[OpenBackUser setUserName:]
+-[OpenBackUser removeUserName]
 +[OpenBackUser generateUserName]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackUser.m
-__59+[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
+-[OpenBackUser getUserInfo]
+-[OpenBackUser setUserInfo:]
+-[OpenBackUser removeUserInfo]
+-[OpenBackUser getEmail]
+-[OpenBackUser getPhone]
+-[OpenBackUser isUserRegistered]
+-[OpenBackUser getUserRegistrationState]
+-[OpenBackUser setUserRegistrationState:]
+-[OpenBackUser getUserRegistrationDate]
+-[OpenBackUser setUserRegistrationDate:]
+-[OpenBackUser userWithTriggers:]
+-[OpenBackUser registerUser]
+___28-[OpenBackUser registerUser]_block_invoke
+___28-[OpenBackUser registerUser]_block_invoke.200
+___copy_helper_block_.201
+___destroy_helper_block_.202
+-[OpenBackUser registerUserQueue:inEnvironment:completion:]
+___59-[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
+___copy_helper_block_.272
+___destroy_helper_block_.273
+-[OpenBackUser setDefaultPreferences]
+-[OpenBackUser requestTask]
+-[OpenBackUser setRequestTask:]
+-[OpenBackUser .cxx_destruct]
+___block_descriptor_tmp.204
+___block_descriptor_tmp.275
+_OBJC_IVAR_$_OpenBackUser._requestTask
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackUser.m
+__59-[OpenBackUser registerUserQueue:inEnvironment:completion:]_block_invoke
+__28-[OpenBackUser registerUser]_block_invoke.200
+__28-[OpenBackUser registerUser]_block_invoke
 +[OpenBackDatabase sharedInstance]
 ___34+[OpenBackDatabase sharedInstance]_block_invoke
 -[OpenBackDatabase init]
@@ -1286,7 +1307,7 @@ ___block_descriptor_tmp.97
 ___block_descriptor_tmp.102
 ___block_descriptor_tmp.105
 _OBJC_IVAR_$_OpenBackDatabase._storeURL
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDatabase.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackDatabase.m
 __68+[OpenBackDatabase saveSynchronouslyAndCommitAsynchronouslyToStore:]_block_invoke
 __54+[OpenBackDatabase saveAndCommitSynchronouslyToStore:]_block_invoke
 __55+[OpenBackDatabase saveAndCommitAsynchronouslyToStore:]_block_invoke
@@ -1294,7 +1315,7 @@ __39+[OpenBackDatabase saveAsynchronously:]_block_invoke
 __38+[OpenBackDatabase saveSynchronously:]_block_invoke
 __31-[OpenBackDatabase mainContext]_block_invoke
 __34+[OpenBackDatabase sharedInstance]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/libextobjc/EXTScope.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/libextobjc/EXTScope.m
 obkext_executeCleanupBlock
 -[OpenBackSimulatedTriggers collectTriggerData:]
 -[OpenBackSimulatedTriggers startMonitoringTriggers]
@@ -1500,11 +1521,17 @@ _OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedDeviceScreenSize
 _OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedAcceleration
 _OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedGyroscope
 _OBJC_IVAR_$_OpenBackSimulatedTriggers._simulatedLocation
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackSimulatedTriggers.h
 +[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]
 ___65+[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignLoader.m
++[OpenBackCampaignLoader loadCampaignsSync:inEnvironment:completion:]
+___69+[OpenBackCampaignLoader loadCampaignsSync:inEnvironment:completion:]_block_invoke
+___copy_helper_block_.35
+___destroy_helper_block_.36
+___block_descriptor_tmp.37
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignLoader.m
+__69+[OpenBackCampaignLoader loadCampaignsSync:inEnvironment:completion:]_block_invoke
 __65+[OpenBackCampaignLoader loadCampaigns:inEnvironment:completion:]_block_invoke
 +[OpenBackLogger logTimestamp]
 ___30+[OpenBackLogger logTimestamp]_block_invoke
@@ -1512,9 +1539,9 @@ ___30+[OpenBackLogger logTimestamp]_block_invoke
 +[OpenBackLogger logLevel:flag:file:function:line:format:]
 _logTimestamp.formatter
 _logTimestamp.onceToken
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackLogger.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackLogger.m
 __30+[OpenBackLogger logTimestamp]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/hmac.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/hmac.c
 hmac_sha
 hmac_sha_begin
 hmac_sha_end
@@ -1567,12 +1594,11 @@ _OBJC_IVAR_$_RNCryptor._finished
 _OBJC_IVAR_$_RNCryptor._options
 _RN_SecRandomCopyBytes.kSecRandomFD
 _RN_SecRandomCopyBytes.onceToken
-___block_descriptor_tmp.134
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.m
 __RN_SecRandomCopyBytes_block_invoke
 PRF
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor+Private.h
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor+Private.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNCryptor.h
 __39-[RNCryptor cleanupAndNotifyWithError:]_block_invoke
 RN_SecRandomCopyBytes
 RN_CCKeyDerivationPBKDF
@@ -1589,10 +1615,10 @@ ___41+[OpenBackAppTracker getInstalledAppsLog]_block_invoke
 ___copy_helper_block_.68
 ___destroy_helper_block_.69
 ___block_descriptor_tmp.71
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAppTracker.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackAppTracker.m
 __41+[OpenBackAppTracker getInstalledAppsLog]_block_invoke
 __32+[OpenBackAppTracker trackApps:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset+CoreDataProperties.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset+CoreDataProperties.m
 +[OpenBackHomework loadFromKeychain]
 +[OpenBackHomework removeFromKeychain]
 -[OpenBackHomework saveToKeychain]
@@ -1645,7 +1671,7 @@ _OBJC_IVAR_$_OpenBackHomework._workLatVariance
 _OBJC_IVAR_$_OpenBackHomework._workLongVariance
 _OBJC_IVAR_$_OpenBackHomework._homeWifiArray
 _OBJC_IVAR_$_OpenBackHomework._workWifiArray
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackHomework.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackHomework.m
 __42-[OpenBackHomework addWiFi:location:home:]_block_invoke
 +[OpenBackReachability reachabilityWithHostName:]
 +[OpenBackReachability reachabilityWithHostname:]
@@ -1694,8 +1720,8 @@ _OBJC_IVAR_$_OpenBackReachability._reachableOnWWAN
 _OBJC_IVAR_$_OpenBackReachability._reachabilityRef
 _OBJC_IVAR_$_OpenBackReachability._reachabilitySerialQueue
 _OBJC_IVAR_$_OpenBackReachability._reachabilityObject
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackReachability.h
 __44-[OpenBackReachability reachabilityChanged:]_block_invoke
 reachabilityFlags
 TMReachabilityCallback
@@ -1711,7 +1737,7 @@ ___37-[OpenBackDBAsset prepareForDeletion]_block_invoke
 +[OpenBackDBAsset proofedAssetURLString:]
 ___block_descriptor_tmp.34
 ___block_descriptor_tmp.53
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBAsset.m
 __37-[OpenBackDBAsset prepareForDeletion]_block_invoke
 __50+[OpenBackDBAsset getAssetWithTaskId:withContext:]_block_invoke
 __42+[OpenBackDBAsset createAssetWithContext:]_block_invoke
@@ -1767,18 +1793,22 @@ _OBJC_IVAR_$_OpenBackPermissionsManager._locationManager
 _OBJC_IVAR_$_OpenBackPermissionsManager._activityManager
 _OBJC_IVAR_$_OpenBackPermissionsManager._completionBlock
 _OBJC_IVAR_$_OpenBackPermissionsManager._notificationSettings
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPermissionsManager.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackPermissionsManager.m
 __50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke.47
 __50-[OpenBackPermissionsManager unwindAuthorizations]_block_invoke
 +[OpenBackAzure campaignURL:inEnvironment:]
 +[OpenBackAzure pollLogsURL:inEnvironment:]
 +[OpenBackAzure createNewUserURLInEnvironment:]
 +[OpenBackAzure intelligentRoutingInEnvironment:]
++[OpenBackAzure smallFetchFile]
++[OpenBackAzure downloadSmallFetchFile:]
+___40+[OpenBackAzure downloadSmallFetchFile:]_block_invoke
 +[OpenBackAzure requestStatusFromHTTPStatusCode:]
 +[OpenBackAzure requestStatusFromError:]
 +[OpenBackAzure requestStatusForHumans:]
 +[OpenBackAzure environmentForHumans:]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackAzure.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackAzure.m
+__40+[OpenBackAzure downloadSmallFetchFile:]_block_invoke
 _fopen_file_func
 _fopendisk_file_func
 _fread_file_func
@@ -1792,7 +1822,7 @@ _fopendisk64_file_func
 _ftell64_file_func
 _fseek64_file_func
 _file_build_ioposix
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/ioapi.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/ioapi.c
 file_build_ioposix
 fseek64_file_func
 ftell64_file_func
@@ -1813,7 +1843,7 @@ call_ztell64
 call_zseek64
 call_zopendisk64
 call_zopen64
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/pwd2key.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/pwd2key.c
 derive_key
 +[OpenBackPollLogsManager sharedInstance]
 ___41+[OpenBackPollLogsManager sharedInstance]_block_invoke
@@ -1822,8 +1852,6 @@ ___41+[OpenBackPollLogsManager sharedInstance]_block_invoke
 +[OpenBackPollLogsManager openBackLogsFile]
 +[OpenBackPollLogsManager openBackSendingLogsFile]
 +[OpenBackPollLogsManager openBackLogsZipFile]
-+[OpenBackPollLogsManager setValue:forCustomLog:error:]
--[OpenBackPollLogsManager setValue:forCustomLog:error:]
 +[OpenBackPollLogsManager blankLog]
 +[OpenBackPollLogsManager applyApplicationToLog:]
 +[OpenBackPollLogsManager applyEvent:toLog:]
@@ -1831,75 +1859,41 @@ ___41+[OpenBackPollLogsManager sharedInstance]_block_invoke
 +[OpenBackPollLogsManager applyCampaign:withRecord:toLog:]
 +[OpenBackPollLogsManager applyTrackingStep:toLog:]
 +[OpenBackPollLogsManager logEvent:triggers:level:]
++[OpenBackPollLogsManager logTrackingStep:triggers:level:]
 +[OpenBackPollLogsManager logCampaign:step:triggers:level:]
 +[OpenBackPollLogsManager log:]
 +[OpenBackPollLogsManager appendDataLog:]
 ___41+[OpenBackPollLogsManager appendDataLog:]_block_invoke
-___copy_helper_block_.571
-___destroy_helper_block_.572
+___copy_helper_block_.536
+___destroy_helper_block_.537
 +[OpenBackPollLogsManager closeDataLog:]
 +[OpenBackPollLogsManager sendApplicationDataLogs:]
 ___51+[OpenBackPollLogsManager sendApplicationDataLogs:]_block_invoke
-___copy_helper_block_.605
-___destroy_helper_block_.606
+___copy_helper_block_.583
+___destroy_helper_block_.584
 +[OpenBackPollLogsManager sendApplicationDataLogsAsync:]
 ___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke
-___copy_helper_block_.616
-___destroy_helper_block_.617
-___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.641
-___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke_2
-___copy_helper_block_.655
-___destroy_helper_block_.656
-___copy_helper_block_.663
-___destroy_helper_block_.664
+___copy_helper_block_.594
+___destroy_helper_block_.595
+___56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.613
+___copy_helper_block_.625
+___destroy_helper_block_.626
 +[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]
 ___65+[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]_block_invoke
-___copy_helper_block_.711
-___destroy_helper_block_.712
--[OpenBackPollLogsManager customLog1]
--[OpenBackPollLogsManager setCustomLog1:]
--[OpenBackPollLogsManager customLog2]
--[OpenBackPollLogsManager setCustomLog2:]
--[OpenBackPollLogsManager customLog3]
--[OpenBackPollLogsManager setCustomLog3:]
--[OpenBackPollLogsManager customLog4]
--[OpenBackPollLogsManager setCustomLog4:]
--[OpenBackPollLogsManager customLog5]
--[OpenBackPollLogsManager setCustomLog5:]
--[OpenBackPollLogsManager customLog6]
--[OpenBackPollLogsManager setCustomLog6:]
--[OpenBackPollLogsManager customLog7]
--[OpenBackPollLogsManager setCustomLog7:]
--[OpenBackPollLogsManager customLog8]
--[OpenBackPollLogsManager setCustomLog8:]
--[OpenBackPollLogsManager customLog9]
--[OpenBackPollLogsManager setCustomLog9:]
--[OpenBackPollLogsManager customLog10]
--[OpenBackPollLogsManager setCustomLog10:]
+___copy_helper_block_.678
+___destroy_helper_block_.679
 -[OpenBackPollLogsManager writeQueue]
 -[OpenBackPollLogsManager setWriteQueue:]
 -[OpenBackPollLogsManager .cxx_destruct]
-___block_descriptor_tmp.574
-___block_descriptor_tmp.608
-___block_descriptor_tmp.618
-___block_descriptor_tmp.658
-___block_descriptor_tmp.665
-___block_descriptor_tmp.714
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog1
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog2
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog3
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog4
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog5
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog6
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog7
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog8
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog9
-_OBJC_IVAR_$_OpenBackPollLogsManager._customLog10
+___block_descriptor_tmp.539
+___block_descriptor_tmp.586
+___block_descriptor_tmp.596
+___block_descriptor_tmp.628
+___block_descriptor_tmp.681
 _OBJC_IVAR_$_OpenBackPollLogsManager._writeQueue
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackPollLogsManager.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackPollLogsManager.m
 __65+[OpenBackPollLogsManager sendPollLogs:inEnvironment:completion:]_block_invoke
-__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke_2
-__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.641
+__56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke.613
 __56+[OpenBackPollLogsManager sendApplicationDataLogsAsync:]_block_invoke
 __51+[OpenBackPollLogsManager sendApplicationDataLogs:]_block_invoke
 __41+[OpenBackPollLogsManager appendDataLog:]_block_invoke
@@ -1970,7 +1964,7 @@ ___block_descriptor_tmp.212
 _OBJC_IVAR_$_OpenBackNotificationManager._pendingCampaignIds
 _OBJC_IVAR_$_OpenBackNotificationManager._deliveredCampaignIds
 _OBJC_IVAR_$_OpenBackNotificationManager._trackedNotifications
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackNotificationManager.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackNotificationManager.m
 __53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke.206
 __53+[OpenBackNotificationManager cancelAllNotifications]_block_invoke
 __89+[OpenBackNotificationManager scheduleNotification:message:campaignId:updateBadge:delay:]_block_invoke
@@ -2011,11 +2005,11 @@ _OBJC_IVAR_$_OBKZipArchive._zip
 __dateWithMSDOSFormat:.gregorian
 __dateWithMSDOSFormat:.onceToken
 _OBJC_IVAR_$_OBKZipArchive._filename
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/OBKZipArchive.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/OBKZipArchive.m
 __38+[OBKZipArchive _dateWithMSDOSFormat:]_block_invoke
 _update_pool
 _prng_mix
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/prng.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/prng.c
 prng_end
 prng_rand
 prng_mix
@@ -2033,7 +2027,7 @@ _zip64local_getByte
 _init_keys
 _update_keys
 _crypthead.calls
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/zip.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/zip.c
 zip64local_getByte
 zipClose
 free_linkedlist
@@ -2101,7 +2095,7 @@ ___block_descriptor_tmp.46
 ___block_descriptor_tmp.56
 ___block_descriptor_tmp.62
 ___block_descriptor_tmp.109
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaign.m
 __33-[OpenBackDBCampaign deleteAsset]_block_invoke
 __59+[OpenBackDBCampaign campaignsWithIdsNotInSet:withContext:]_block_invoke
 __38+[OpenBackDBCampaign getAllCampaigns:]_block_invoke
@@ -2144,9 +2138,9 @@ __55+[OpenBackDBCampaign createCampaignWithId:withContext:]_block_invoke
 +[OpenBackCampaignChecker numberTrigger:matches:forOperator:]
 +[OpenBackCampaignChecker sizeTrigger:matches:forOperator:]
 +[OpenBackCampaignChecker value:rangeMin:rangeMax:matchesOperator:]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignChecker.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignChecker.m
 __CGSizeEqualToSize
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
 +[OpenBackInAppViewController controllerForImage:]
 +[OpenBackInAppViewController controllerForVideo:]
 +[OpenBackInAppViewController controllerForURL:]
@@ -2224,14 +2218,14 @@ _OBJC_IVAR_$_OpenBackInAppViewController._avPlayerLayer
 _OBJC_IVAR_$_OpenBackInAppViewController._videoComplete
 l_OBJC_PROTOCOL_$_WKNavigationDelegate
 l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackInAppViewController.h
 __78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke.311
 __78-[OpenBackInAppViewController observeValueForKeyPath:ofObject:change:context:]_block_invoke
 __43-[OpenBackInAppViewController setupVideoUI]_block_invoke
 __inline_isfinited
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/usr/include/math.h
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/sha1.c
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.sdk/usr/include/math.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/sha1.c
 sha1
 sha1_begin
 sha1_end
@@ -2239,15 +2233,15 @@ sha1_hash
 sha1_compile
 +[OpenBackJBroken isDeviceJailbroken]
 +[OpenBackJBroken isAppStoreVersion]
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/JBroken/OpenBackJBroken.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/JBroken/OpenBackJBroken.m
 _encr_data
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/fileenc.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/fileenc.c
 fcrypt_end
 fcrypt_decrypt
 encr_data
 fcrypt_encrypt
 fcrypt_init
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/entropy.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/entropy.c
 entropy_fun
 +[OpenBack load]
 +[OpenBack sharedInstance]
@@ -2256,8 +2250,10 @@ ___26+[OpenBack sharedInstance]_block_invoke
 -[OpenBack applicationId]
 +[OpenBack setupWithConfig:error:]
 +[OpenBack setUserInfo:error:]
++[OpenBack getUserName]
++[OpenBack getUser]
++[OpenBack getUserManager]
 +[OpenBack setValue:forCustomTrigger:error:]
-+[OpenBack setValue:forCustomLog:error:]
 +[OpenBack start:]
 +[OpenBack stop:]
 +[OpenBack handleWillPresentNotification:withCompletionHandler:]
@@ -2265,52 +2261,49 @@ ___26+[OpenBack sharedInstance]_block_invoke
 +[OpenBack logForDemoApp:]
 +[OpenBack forceCampaignReloadFromServer:]
 ___42+[OpenBack forceCampaignReloadFromServer:]_block_invoke
-___copy_helper_block_.296
-___destroy_helper_block_.297
+___copy_helper_block_.297
+___destroy_helper_block_.298
 +[OpenBack resetCampaignMaxMessagesCount]
 +[OpenBack simulatedTriggers]
 +[OpenBack enableSimulatedTriggers:]
 +[OpenBack notifyTriggerChanged]
 +[OpenBack checkApplicationID:inEnvironment:completion:]
 ___56+[OpenBack checkApplicationID:inEnvironment:completion:]_block_invoke
-___copy_helper_block_.328
-___destroy_helper_block_.329
+___copy_helper_block_.329
+___destroy_helper_block_.330
 +[OpenBack getCampaigns]
 ___24+[OpenBack getCampaigns]_block_invoke
 ___24+[OpenBack getCampaigns]_block_invoke_2
-___copy_helper_block_.358
-___destroy_helper_block_.359
-___copy_helper_block_.364
-___destroy_helper_block_.365
+___copy_helper_block_.359
+___destroy_helper_block_.360
+___copy_helper_block_.365
+___destroy_helper_block_.366
 +[OpenBack displayCampaign:]
 +[OpenBack ignoreNightTime:]
 +[OpenBack ignoreMaximums:]
 -[OpenBack parseConfiguration:]
 ___31-[OpenBack parseConfiguration:]_block_invoke
-___copy_helper_block_.408
-___destroy_helper_block_.409
+___copy_helper_block_.409
+___destroy_helper_block_.410
 -[OpenBack setupPermissions]
 -[OpenBack main:]
 ___17-[OpenBack main:]_block_invoke
-___copy_helper_block_.457
-___destroy_helper_block_.458
-___17-[OpenBack main:]_block_invoke.462
-___copy_helper_block_.463
-___destroy_helper_block_.464
-___17-[OpenBack main:]_block_invoke.471
-___copy_helper_block_.472
-___destroy_helper_block_.473
-___17-[OpenBack main:]_block_invoke.475
+___copy_helper_block_.448
+___destroy_helper_block_.449
+___17-[OpenBack main:]_block_invoke.453
 ___17-[OpenBack main:]_block_invoke_2
 ___17-[OpenBack main:]_block_invoke_3
-___copy_helper_block_.478
-___destroy_helper_block_.479
-___copy_helper_block_.481
-___destroy_helper_block_.482
-___copy_helper_block_.484
-___destroy_helper_block_.485
+___copy_helper_block_.458
+___destroy_helper_block_.459
+___copy_helper_block_.461
+___destroy_helper_block_.462
+___copy_helper_block_.464
+___destroy_helper_block_.465
 +[OpenBack handleCampaignTriggerChanged:]
 -[OpenBack rescheduleMainLoop:]
+___31-[OpenBack rescheduleMainLoop:]_block_invoke
+___copy_helper_block_.475
+___destroy_helper_block_.476
 -[OpenBack checkVersion]
 -[OpenBack removeOpenBackData]
 -[OpenBack setupDefaultPreferences]
@@ -2332,15 +2325,27 @@ ___49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke_2
 +[OpenBack isSilentPush:]
 +[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]
 ___73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke
-___copy_helper_block_.606
-___destroy_helper_block_.607
+___73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke_2
+___copy_helper_block_.593
+___destroy_helper_block_.594
+___73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.596
+___copy_helper_block_.597
+___destroy_helper_block_.598
+___copy_helper_block_.603
+___destroy_helper_block_.604
 +[OpenBack handleAppDidReceiveRemoteNotification:]
 +[OpenBack handleAppDidRegisterUserNotificationSettings:]
 +[OpenBack handleAppDidFailToRegisterForRemoteNotificationsWithError:]
 +[OpenBack handleAppPerformFetchWithCompletionHandler:]
 ___55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke
-___copy_helper_block_.613
-___destroy_helper_block_.614
+___55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke_2
+___copy_helper_block_.610
+___destroy_helper_block_.611
+___55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke.613
+___copy_helper_block_.614
+___destroy_helper_block_.615
+___copy_helper_block_.617
+___destroy_helper_block_.618
 +[OpenBack handleAppOpenURL:]
 +[OpenBack swizzle:implementation:class:]
 +[OpenBack originalImplementation:class:]
@@ -2348,16 +2353,16 @@ ___destroy_helper_block_.614
 -[OpenBack swizzleAppDelegate]
 ___OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke
 ___OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke_2
-___copy_helper_block_.785
-___destroy_helper_block_.786
-___copy_helper_block_.790
-___destroy_helper_block_.791
+___copy_helper_block_.789
+___destroy_helper_block_.790
+___copy_helper_block_.792
+___destroy_helper_block_.793
 ___OBKApplicationPerformFetchWithCompletionHandler_block_invoke
 ___OBKApplicationPerformFetchWithCompletionHandler_block_invoke_2
-___copy_helper_block_.797
-___destroy_helper_block_.798
 ___copy_helper_block_.802
 ___destroy_helper_block_.803
+___copy_helper_block_.807
+___destroy_helper_block_.808
 -[OpenBack configured]
 -[OpenBack setConfigured:]
 -[OpenBack started]
@@ -2366,54 +2371,61 @@ ___destroy_helper_block_.803
 -[OpenBack setRunning:]
 -[OpenBack runningStartTime]
 -[OpenBack setRunningStartTime:]
--[OpenBack registeringUser]
--[OpenBack setRegisteringUser:]
+-[OpenBack queue]
+-[OpenBack setQueue:]
 -[OpenBack setApplicationId:]
 -[OpenBack locationManager]
 -[OpenBack setLocationManager:]
+-[OpenBack userManager]
+-[OpenBack setUserManager:]
 -[OpenBack campaignManager]
 -[OpenBack setCampaignManager:]
 -[OpenBack permissionsManager]
 -[OpenBack setPermissionsManager:]
 -[OpenBack .cxx_destruct]
+_OBJC_IVAR_$_OpenBack._queue
 _OBJC_IVAR_$_OpenBack._applicationId
-___block_descriptor_tmp.298
-___block_descriptor_tmp.331
-___block_descriptor_tmp.361
-___block_descriptor_tmp.366
-___block_descriptor_tmp.411
-___block_descriptor_tmp.459
+___block_descriptor_tmp.299
+___block_descriptor_tmp.332
+___block_descriptor_tmp.362
+___block_descriptor_tmp.367
+___block_descriptor_tmp.412
+___block_descriptor_tmp.450
+___block_descriptor_tmp.460
+___block_descriptor_tmp.463
 ___block_descriptor_tmp.466
-___block_descriptor_tmp.474
-___block_descriptor_tmp.480
-___block_descriptor_tmp.483
-___block_descriptor_tmp.486
+___block_descriptor_tmp.477
 _handleAppDidBecomeActiveNotification:.onceToken
-___block_descriptor_tmp.564
-___block_descriptor_tmp.567
-___block_literal_global.568
-___block_descriptor_tmp.615
+___block_descriptor_tmp.547
+___block_descriptor_tmp.550
+___block_literal_global.551
+___block_descriptor_tmp.595
+___block_descriptor_tmp.600
+___block_descriptor_tmp.605
+___block_descriptor_tmp.612
+___block_descriptor_tmp.616
+___block_descriptor_tmp.619
 l_OBJC_PROTOCOL_$_UIApplicationDelegate
 l_OBJC_LABEL_PROTOCOL_$_UIApplicationDelegate
 l_OBJC_PROTOCOL_REFERENCE_$_UIApplicationDelegate
 __originalMethods
-___block_descriptor_tmp.787
-___block_descriptor_tmp.792
-___block_descriptor_tmp.799
+___block_descriptor_tmp.791
+___block_descriptor_tmp.795
 ___block_descriptor_tmp.804
+___block_descriptor_tmp.809
 _OBJC_IVAR_$_OpenBack._configured
 _OBJC_IVAR_$_OpenBack._started
 _OBJC_IVAR_$_OpenBack._running
 _OBJC_IVAR_$_OpenBack._runningStartTime
-_OBJC_IVAR_$_OpenBack._registeringUser
 _OBJC_IVAR_$_OpenBack._locationManager
+_OBJC_IVAR_$_OpenBack._userManager
 _OBJC_IVAR_$_OpenBack._campaignManager
 _OBJC_IVAR_$_OpenBack._permissionsManager
 l_OBJC_PROTOCOL_$_NSURLSessionDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDelegate
 l_OBJC_PROTOCOL_$_NSURLSessionTaskDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLSessionTaskDelegate
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBack.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBack.m
 __OBKApplicationPerformFetchWithCompletionHandler_block_invoke_2
 __OBKApplicationPerformFetchWithCompletionHandler_block_invoke
 __OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler_block_invoke_2
@@ -2429,15 +2441,18 @@ OBKApplicationDidReceiveRemoteNotification
 OBKApplicationDidReceiveRemoteNotificationFetchCompletionHandler
 OBKApplicationDidRegisterForRemoteNotificationsWithDeviceToken
 OBKApplicationDidReceiveLocalNotification
+__55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke.613
+__55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke_2
 __55+[OpenBack handleAppPerformFetchWithCompletionHandler:]_block_invoke
+__73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke.596
+__73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke_2
 __73+[OpenBack handleAppDidReceiveRemoteNotification:fetchCompletionHandler:]_block_invoke
 __49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke_2
 __49+[OpenBack handleAppDidBecomeActiveNotification:]_block_invoke
+__31-[OpenBack rescheduleMainLoop:]_block_invoke
 __17-[OpenBack main:]_block_invoke_3
 __17-[OpenBack main:]_block_invoke_2
-__17-[OpenBack main:]_block_invoke.475
-__17-[OpenBack main:]_block_invoke.471
-__17-[OpenBack main:]_block_invoke.462
+__17-[OpenBack main:]_block_invoke.453
 __17-[OpenBack main:]_block_invoke
 __31-[OpenBack parseConfiguration:]_block_invoke
 __24+[OpenBack getCampaigns]_block_invoke_2
@@ -2492,7 +2507,7 @@ ___block_descriptor_tmp.45
 ___block_descriptor_tmp.50
 ___block_descriptor_tmp.118
 _OBJC_IVAR_$_RNDecryptor._hasV1HMAC
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNDecryptor.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNDecryptor.m
 __21-[RNDecryptor finish]_block_invoke
 __27-[RNDecryptor decryptData:]_block_invoke_2
 __27-[RNDecryptor decryptData:]_block_invoke
@@ -2544,8 +2559,8 @@ ___block_descriptor_tmp.95
 _OBJC_IVAR_$_OpenBackDownloadManager._sessionCompletionHandler
 l_OBJC_PROTOCOL_$_NSURLSessionDownloadDelegate
 l_OBJC_LABEL_PROTOCOL_$_NSURLSessionDownloadDelegate
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackDownloadManager.h
 __76-[OpenBackDownloadManager URLSessionDidFinishEventsForBackgroundURLSession:]_block_invoke
 __48-[OpenBackDownloadManager downloadInBackground:]_block_invoke
 __64-[OpenBackDownloadManager URLSession:task:didCompleteWithError:]_block_invoke
@@ -2555,7 +2570,7 @@ __49-[OpenBackDownloadManager cancelTask:completion:]_block_invoke
 __41-[OpenBackDownloadManager cancelAllTasks]_block_invoke
 __44-[OpenBackDownloadManager backgroundSession]_block_invoke
 __41+[OpenBackDownloadManager sharedInstance]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson+CoreDataProperties.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Database/OpenBackDBCampaignJson+CoreDataProperties.m
 -[OpenBackCampaignManager init]
 -[OpenBackCampaignManager initWithApplicationId:userId:andEnvironment:]
 -[OpenBackCampaignManager main:]
@@ -2570,52 +2585,50 @@ ___copy_helper_block_.151
 ___destroy_helper_block_.152
 ___copy_helper_block_.157
 ___destroy_helper_block_.158
-___copy_helper_block_.162
-___destroy_helper_block_.163
+___copy_helper_block_.163
+___destroy_helper_block_.164
 -[OpenBackCampaignManager campaignRecordWithId:fromCampaigns:]
 -[OpenBackCampaignManager trackDismissedNotifications:]
 ___55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke
 ___55-[OpenBackCampaignManager trackDismissedNotifications:]_block_invoke_2
-___copy_helper_block_.191
-___destroy_helper_block_.192
-___copy_helper_block_.195
-___destroy_helper_block_.196
+___copy_helper_block_.192
+___destroy_helper_block_.193
+___copy_helper_block_.196
+___destroy_helper_block_.197
 -[OpenBackCampaignManager loadCampaignsWithCompletion:]
 ___55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke
 ___55-[OpenBackCampaignManager loadCampaignsWithCompletion:]_block_invoke_2
-___copy_helper_block_.224
-___destroy_helper_block_.225
-___copy_helper_block_.232
-___destroy_helper_block_.233
+___copy_helper_block_.228
+___destroy_helper_block_.229
+___copy_helper_block_.236
+___destroy_helper_block_.237
 -[OpenBackCampaignManager loadCampaignsFromServer:completion:]
 ___62-[OpenBackCampaignManager loadCampaignsFromServer:completion:]_block_invoke
-___copy_helper_block_.254
-___destroy_helper_block_.255
+___copy_helper_block_.258
+___destroy_helper_block_.259
 -[OpenBackCampaignManager loadCampaignsFromDatabase:]
 -[OpenBackCampaignManager shouldLoadCampaignsFromServer]
 -[OpenBackCampaignManager processCampaigns:inContext:]
 ___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke
 ___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2
-___copy_helper_block_.287
-___destroy_helper_block_.288
-___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.290
-___copy_helper_block_.293
-___destroy_helper_block_.294
-___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.300
-___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.310
+___copy_helper_block_.291
+___destroy_helper_block_.292
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.294
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.308
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.318
 ___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_3
-___copy_helper_block_.318
-___destroy_helper_block_.319
-___copy_helper_block_.325
-___destroy_helper_block_.326
+___copy_helper_block_.324
+___destroy_helper_block_.325
 ___copy_helper_block_.330
 ___destroy_helper_block_.331
-___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.336
-___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.337
-___copy_helper_block_.342
-___destroy_helper_block_.343
-___copy_helper_block_.345
-___destroy_helper_block_.346
+___copy_helper_block_.335
+___destroy_helper_block_.336
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.341
+___54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.342
+___copy_helper_block_.347
+___destroy_helper_block_.348
+___copy_helper_block_.350
+___destroy_helper_block_.351
 -[OpenBackCampaignManager setUseSimulatedTriggers:]
 -[OpenBackCampaignManager currentTriggers]
 -[OpenBackCampaignManager setValue:forCustomTrigger:error:]
@@ -2624,14 +2637,16 @@ ___destroy_helper_block_.346
 -[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]
 ___62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke
 ___62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke_2
-___copy_helper_block_.451
-___destroy_helper_block_.452
+___copy_helper_block_.455
+___destroy_helper_block_.456
 -[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]
 ___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke
 ___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke_2
-___copy_helper_block_.469
-___destroy_helper_block_.470
-___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.475
+___copy_helper_block_.473
+___destroy_helper_block_.474
+___copy_helper_block_.476
+___destroy_helper_block_.477
+___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.479
 +[OpenBackCampaignManager resetCampaignMaxMessagesCount]
 +[OpenBackCampaignManager incrementMessagesCount]
 -[OpenBackCampaignManager updatePopupCountCurrentDate]
@@ -2640,48 +2655,50 @@ ___65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_inv
 -[OpenBackCampaignManager topVisibleViewController:]
 -[OpenBackCampaignManager displayCampaignId:fromNotification:]
 ___62-[OpenBackCampaignManager displayCampaignId:fromNotification:]_block_invoke
-___copy_helper_block_.531
-___destroy_helper_block_.532
+___copy_helper_block_.535
+___destroy_helper_block_.536
 -[OpenBackCampaignManager displayCampaign:campaignRecord:]
 ___58-[OpenBackCampaignManager displayCampaign:campaignRecord:]_block_invoke
-___copy_helper_block_.541
-___destroy_helper_block_.542
+___copy_helper_block_.544
+___destroy_helper_block_.545
 -[OpenBackCampaignManager displayNotification:campaignRecord:delay:]
 ___68-[OpenBackCampaignManager displayNotification:campaignRecord:delay:]_block_invoke
-___copy_helper_block_.560
-___destroy_helper_block_.561
+___copy_helper_block_.563
+___destroy_helper_block_.564
 -[OpenBackCampaignManager intelligentRouting:campaignRecord:]
 ___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke
 ___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2
-___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.612
-___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.613
-___copy_helper_block_.623
-___destroy_helper_block_.624
-___copy_helper_block_.628
-___destroy_helper_block_.629
-___copy_helper_block_.634
-___destroy_helper_block_.635
+___copy_helper_block_.608
+___destroy_helper_block_.609
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.614
+___61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.615
+___copy_helper_block_.622
+___destroy_helper_block_.623
+___copy_helper_block_.627
+___destroy_helper_block_.628
+___copy_helper_block_.633
+___destroy_helper_block_.634
 -[OpenBackCampaignManager titleForCampaign:]
 -[OpenBackCampaignManager messageForCampaign:]
 -[OpenBackCampaignManager displayInApp:]
 ___40-[OpenBackCampaignManager displayInApp:]_block_invoke
-___copy_helper_block_.680
-___destroy_helper_block_.681
+___copy_helper_block_.677
+___destroy_helper_block_.678
 -[OpenBackCampaignManager openExternalURL:]
 -[OpenBackCampaignManager displayPushMessage:]
 ___46-[OpenBackCampaignManager displayPushMessage:]_block_invoke
 ___46-[OpenBackCampaignManager displayPushMessage:]_block_invoke_2
-___copy_helper_block_.696
-___destroy_helper_block_.697
-___copy_helper_block_.701
-___destroy_helper_block_.702
+___copy_helper_block_.693
+___destroy_helper_block_.694
+___copy_helper_block_.698
+___destroy_helper_block_.699
 -[OpenBackCampaignManager displayInteractive:assetURL:]
 ___55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke
 ___55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke_2
+___copy_helper_block_.734
+___destroy_helper_block_.735
 ___copy_helper_block_.737
 ___destroy_helper_block_.738
-___copy_helper_block_.740
-___destroy_helper_block_.741
 -[OpenBackCampaignManager simulatedTriggers]
 -[OpenBackCampaignManager ignoreNightTime]
 -[OpenBackCampaignManager setIgnoreNightTime:]
@@ -2700,37 +2717,37 @@ ___destroy_helper_block_.741
 -[OpenBackCampaignManager .cxx_destruct]
 ___block_descriptor_tmp.148
 ___block_descriptor_tmp.154
-___block_descriptor_tmp.159
-___block_descriptor_tmp.165
-___block_descriptor_tmp.194
-___block_descriptor_tmp.197
-___block_descriptor_tmp.227
-___block_descriptor_tmp.234
-___block_descriptor_tmp.257
-___block_descriptor_tmp.289
-___block_descriptor_tmp.295
-___block_descriptor_tmp.320
-___block_descriptor_tmp.322
+___block_descriptor_tmp.160
+___block_descriptor_tmp.166
+___block_descriptor_tmp.195
+___block_descriptor_tmp.198
+___block_descriptor_tmp.231
+___block_descriptor_tmp.238
+___block_descriptor_tmp.261
+___block_descriptor_tmp.293
+___block_descriptor_tmp.326
 ___block_descriptor_tmp.327
-___block_descriptor_tmp.333
-___block_descriptor_tmp.344
-___block_descriptor_tmp.348
+___block_descriptor_tmp.338
+___block_descriptor_tmp.349
+___block_descriptor_tmp.353
 _OBJC_IVAR_$_OpenBackCampaignManager._useSimulatedTriggers
-___block_descriptor_tmp.453
-___block_descriptor_tmp.455
-___block_descriptor_tmp.471
-___block_descriptor_tmp.481
-___block_descriptor_tmp.534
-___block_descriptor_tmp.543
-___block_descriptor_tmp.563
-___block_descriptor_tmp.625
-___block_descriptor_tmp.631
-___block_descriptor_tmp.636
-___block_descriptor_tmp.682
-___block_descriptor_tmp.698
-___block_descriptor_tmp.704
-___block_descriptor_tmp.739
-___block_descriptor_tmp.743
+___block_descriptor_tmp.457
+___block_descriptor_tmp.459
+___block_descriptor_tmp.475
+___block_descriptor_tmp.478
+___block_descriptor_tmp.485
+___block_descriptor_tmp.537
+___block_descriptor_tmp.546
+___block_descriptor_tmp.565
+___block_descriptor_tmp.610
+___block_descriptor_tmp.624
+___block_descriptor_tmp.630
+___block_descriptor_tmp.635
+___block_descriptor_tmp.679
+___block_descriptor_tmp.695
+___block_descriptor_tmp.701
+___block_descriptor_tmp.736
+___block_descriptor_tmp.740
 _OBJC_IVAR_$_OpenBackCampaignManager._simulatedTriggers
 _OBJC_IVAR_$_OpenBackCampaignManager._ignoreNightTime
 _OBJC_IVAR_$_OpenBackCampaignManager._ignoreMaximums
@@ -2738,31 +2755,31 @@ _OBJC_IVAR_$_OpenBackCampaignManager._deviceTriggers
 _OBJC_IVAR_$_OpenBackCampaignManager._userId
 _OBJC_IVAR_$_OpenBackCampaignManager._applicationId
 _OBJC_IVAR_$_OpenBackCampaignManager._environment
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Campaigns/OpenBackCampaignManager.h
 __55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke_2
 __55-[OpenBackCampaignManager displayInteractive:assetURL:]_block_invoke
 __46-[OpenBackCampaignManager displayPushMessage:]_block_invoke_2
 __46-[OpenBackCampaignManager displayPushMessage:]_block_invoke
 __40-[OpenBackCampaignManager displayInApp:]_block_invoke
-__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.613
-__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.612
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2.615
+__61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke.614
 __61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke_2
 __61-[OpenBackCampaignManager intelligentRouting:campaignRecord:]_block_invoke
 __68-[OpenBackCampaignManager displayNotification:campaignRecord:delay:]_block_invoke
 __58-[OpenBackCampaignManager displayCampaign:campaignRecord:]_block_invoke
 __62-[OpenBackCampaignManager displayCampaignId:fromNotification:]_block_invoke
-__65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.475
+__65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke.479
 __65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke_2
 __65-[OpenBackCampaignManager getPotentialCampaignsFrom:forTriggers:]_block_invoke
 __62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke_2
 __62-[OpenBackCampaignManager isPotentialCampaign:campaignRecord:]_block_invoke
-__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.337
-__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.336
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.342
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.341
 __54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_3
-__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.310
-__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.300
-__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.290
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2.318
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.308
+__54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke.294
 __54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke_2
 __54-[OpenBackCampaignManager processCampaigns:inContext:]_block_invoke
 __62-[OpenBackCampaignManager loadCampaignsFromServer:completion:]_block_invoke
@@ -2775,14 +2792,17 @@ __32-[OpenBackCampaignManager main:]_block_invoke_3
 __32-[OpenBackCampaignManager main:]_block_invoke_2
 __32-[OpenBackCampaignManager main:]_block_invoke.70
 __32-[OpenBackCampaignManager main:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/mztools.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/minizip/mztools.c
 unzRepair
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/OpenBackUserInfo.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aescrypt.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/OpenBackUserInfo.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/ZipArchive/aes/aescrypt.c
 aes_decrypt
 aes_encrypt
+-[OpenBackDeviceCollector dealloc]
+-[OpenBackDeviceCollector abort]
 -[OpenBackDeviceCollector collectDataFor:completion:]
 -[OpenBackDeviceCollector stopCollecting]
+-[OpenBackDeviceCollector stopCollecting:]
 -[OpenBackDeviceCollector startRecordingNoiseLevel]
 -[OpenBackDeviceCollector stopRecordingNoiseLevel]
 -[OpenBackDeviceCollector audioRecorderTimerCallback:]
@@ -2798,26 +2818,26 @@ ___49-[OpenBackDeviceCollector geocodeISOCountryCode:]_block_invoke
 -[OpenBackDeviceCollector activityFromSpeed:]
 -[OpenBackDeviceCollector startActivityManagerCollect]
 ___54-[OpenBackDeviceCollector startActivityManagerCollect]_block_invoke
-___copy_helper_block_.248
-___destroy_helper_block_.249
+___copy_helper_block_.267
+___destroy_helper_block_.268
 -[OpenBackDeviceCollector stopActivityManagerCollect]
 -[OpenBackDeviceCollector startAccelerometerCollect]
 ___52-[OpenBackDeviceCollector startAccelerometerCollect]_block_invoke
-___copy_helper_block_.276
-___destroy_helper_block_.277
+___copy_helper_block_.295
+___destroy_helper_block_.296
 -[OpenBackDeviceCollector stopAccelerometerCollect]
 -[OpenBackDeviceCollector startGyroscopeCollect]
 ___48-[OpenBackDeviceCollector startGyroscopeCollect]_block_invoke
-___copy_helper_block_.302
-___destroy_helper_block_.303
+___copy_helper_block_.321
+___destroy_helper_block_.322
 -[OpenBackDeviceCollector stopGyroscopeCollect]
 -[OpenBackDeviceCollector startMagnetometerCollect]
 ___51-[OpenBackDeviceCollector startMagnetometerCollect]_block_invoke
 -[OpenBackDeviceCollector stopMagnetometerCollect]
 -[OpenBackDeviceCollector startDeviceMotionCollect]
 ___51-[OpenBackDeviceCollector startDeviceMotionCollect]_block_invoke
-___copy_helper_block_.354
-___destroy_helper_block_.355
+___copy_helper_block_.373
+___destroy_helper_block_.374
 -[OpenBackDeviceCollector stopDeviceMotionCollect]
 -[OpenBackDeviceCollector typesForHumans:]
 -[OpenBackDeviceCollector description]
@@ -2934,10 +2954,11 @@ _OBJC_IVAR_$_OpenBackDeviceCollector._originalTypesToCollect
 _OBJC_IVAR_$_OpenBackDeviceCollector._startCollectTime
 _shouldKeepRunning
 _OBJC_IVAR_$_OpenBackDeviceCollector._completionBlock
-___block_descriptor_tmp.251
-___block_descriptor_tmp.279
-___block_descriptor_tmp.305
-___block_descriptor_tmp.357
+___block_descriptor_tmp.270
+___block_descriptor_tmp.298
+___block_descriptor_tmp.324
+___block_descriptor_tmp.350
+___block_descriptor_tmp.376
 _OBJC_IVAR_$_OpenBackDeviceCollector._locationManager
 _OBJC_IVAR_$_OpenBackDeviceCollector._motionManager
 _OBJC_IVAR_$_OpenBackDeviceCollector._motionUpdateInterval
@@ -2986,8 +3007,8 @@ _OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerXTotal
 _OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerYTotal
 _OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerZTotal
 _OBJC_IVAR_$_OpenBackDeviceCollector._magnetometerSampleCount
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.m
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.h
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/Triggers/OpenBackDeviceCollector.h
 __51-[OpenBackDeviceCollector startDeviceMotionCollect]_block_invoke
 __51-[OpenBackDeviceCollector startMagnetometerCollect]_block_invoke
 __48-[OpenBackDeviceCollector startGyroscopeCollect]_block_invoke
@@ -3039,7 +3060,7 @@ _OBJC_IVAR_$_RNEncryptor._encryptionSalt
 _OBJC_IVAR_$_RNEncryptor._HMACSalt
 _OBJC_IVAR_$_RNEncryptor._IV
 _OBJC_IVAR_$_RNEncryptor._haveWrittenHeader
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNEncryptor.m
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/OpenBack/External/RNCryptor/RNEncryptor.m
 __21-[RNEncryptor finish]_block_invoke
 __23-[RNEncryptor addData:]_block_invoke_2
 __23-[RNEncryptor addData:]_block_invoke
@@ -3047,31 +3068,9 @@ __71+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:IV:error:]_bloc
 __68+[RNEncryptor encryptData:withSettings:encryptionKey:HMACKey:error:]_block_invoke
 __82+[RNEncryptor encryptData:withSettings:password:IV:encryptionSalt:HMACSalt:error:]_block_invoke
 __55+[RNEncryptor encryptData:withSettings:password:error:]_block_invoke
-/Users/npabion/Development/OpenBack/OpenBackCompanionApp-iOS/OpenBack/build/OpenBack.build/Release-iphoneos/OpenBack.build/DerivedSources/OpenBack_vers.c
+/Users/npabion/Development/OpenBack/CompanionApp-iOS/OpenBack/build/OpenBack.build/Release-iphoneos/OpenBack.build/DerivedSources/OpenBack_vers.c
 __ZL15__ARCLite__loadv
-__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
-__ZL34__arclite_objc_autoreleasePoolPushv
-__ZL33__arclite_objc_autoreleasePoolPopPv
-__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
-__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
-__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
-__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
-__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
-__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
 __ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
-__ZL18add_image_hook_ARCPK11mach_headerl
-__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
-__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
-__ZL21__arclite_object_copyP11objc_objectm
-__ZL21__arclite_objc_retainP11objc_object
-__ZL26__arclite_objc_retainBlockP11objc_object
-__ZL22__arclite_objc_releaseP11objc_object
-__ZL26__arclite_objc_autoreleaseP11objc_object
-__ZL32__arclite_objc_retainAutoreleaseP11objc_object
-__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
-__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
-__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
-__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
 __ZL22add_image_hook_swiftV1PK11mach_headerl
 __ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
 __ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
@@ -3115,17 +3114,9 @@ __ZL11_class_name
 __ZL32OBJC_$_CLASS_METHODS___ARCLite__
 __ZL17_load_method_name
 __ZL17_load_method_type
-__ZL23NSAutoreleasePool_class
-__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
-l_OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
-l_OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
-l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
 l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
 l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
-__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
-__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
 __ZL30NSUndoManagerProxy_targetClass
 __ZL29original_NSManagedObject_init
 __ZL40original_NSManagedObject_allocWithEntity
@@ -3153,7 +3144,8 @@ __ZL25original_protocol_getName
 __ZL36original_objc_copyClassNamesForImage
 __ZL12demangleLock
 __ZL9Demangled
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~835/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -mlinker-version=274.1 -march=armv7a
+Apple LLVM version 8.0.0 (clang-800.0.42)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -Wno-error=incomplete-umbrella -Wno-error=incomplete-umbrella -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~962/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=274.1
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
 /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
 fixStringForCoreData
@@ -3161,7 +3153,7 @@ cxxConstruct
 arclite_uninitialized_function
 scanMangledField
 isdigit
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.Internal.sdk/usr/include/ctype.h
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.1.Internal.sdk/usr/include/ctype.h
 __isctype
 demangledName
 copySwiftV1DemangledName
@@ -3206,6 +3198,7 @@ __arclite_NSManagedObject_init
 replaceMethod
 __arclite_NSUndoManagerProxy_isKindOfClass
 add_image_hook_swiftV1
+patch_lazy_pointers
 patch_t<const char **(const char *, unsigned int *)>
 patch_t<const char *(Protocol *)>
 patch_t<const char *(Class)>
@@ -3214,51 +3207,9 @@ patch_t<Class (const char *)>
 patch_t<void *(id)>
 patch_t<Class (Class, const char *, unsigned long)>
 patch_t<Class (Class, const objc_image_info *)>
-__arclite_objc_storeStrong
-__arclite_objc_release
-__arclite_objc_retain
-__arclite_objc_retainAutoreleasedReturnValue
-__arclite_objc_retainAutoreleaseReturnValue
-__arclite_objc_autoreleaseReturnValue
-__arclite_objc_retainAutorelease
-__arclite_objc_autorelease
-__arclite_objc_retainBlock
-__arclite_object_copy
-fixupCopiedReferences
-_class_getInstanceStart
-alignedInstanceStart
-__arclite_class_usesAutomaticRetainRelease
-classOrSuperClassesUseARR
-__arclite_object_setIvar
-isScannedOffset
-_ivar_getClass
-__arclite_object_setInstanceVariable
-add_image_hook_ARC
-patch_t<void (id *, id)>
-patch_t<id (id)>
-patch_t<void (id)>
-patch_t<id (id, unsigned long)>
-patch_t<void (id, objc_ivar *, id)>
-patch_t<objc_ivar *(id, const char *, void *)>
 __arclite_NSMutableDictionary__setObject_forKeyedSubscript
-__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
-__arclite_NSOrderedSet_objectAtIndexedSubscript
-__arclite_NSDictionary_objectForKeyedSubscript
-__arclite_NSMutableArray_setObject_atIndexedSubscript
-__arclite_NSArray_objectAtIndexedSubscript
-patch_lazy_pointers
-__arclite_objc_autoreleasePoolPop
-__arclite_objc_autoreleasePoolPush
-add_image_hook_autoreleasepool
-patch_t<void (void *)>
-patch_t<void *()>
 __ARCLite__load
 install_swiftV1
-install_ARC
 install_dict_nil_value
 addOrReplaceMethod
 keyedGetter
-install_subscripting
-addMethod
-indexedGetter
-install_autoreleasepool
