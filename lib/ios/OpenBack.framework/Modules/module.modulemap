@@ -1,6 +1,0 @@
-framework module OpenBack {
-  umbrella header "OpenBack.h"
-
-  export *
-  module * { export * }
-}
