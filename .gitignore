@@ -8,3 +8,7 @@ npm-debug.log
 # Cordova
 sample/platforms
 sample/plugins
+
+# Plugin Sample
+lib/android/*.aar
+lib/ios/*

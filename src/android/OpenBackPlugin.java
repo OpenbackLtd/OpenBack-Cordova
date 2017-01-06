@@ -20,10 +20,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
 
-import com.openback.android.sdk.utils.helper.CreateUser;
-import com.openback.android.sdk.utils.helper.InitializeOpenBack;
-import com.openback.android.sdk.utils.helper.CustomTriggerHelper;
-import com.openback.android.sdk.utils.models.UserInfoExtraDTO;
+import com.openback.OpenBack;
+import com.openback.UserInfoExtra;
 
 public class OpenBackPlugin extends CordovaPlugin {
 
@@ -55,16 +53,17 @@ public class OpenBackPlugin extends CordovaPlugin {
 
 	private void setUserInfo(JSONArray args, CallbackContext callbackContext) {
 		try {
+			Context context = this.getApplicationContext();
+
 			JSONObject userInfo = args.getJSONObject(0);
 			if (userInfo == null) {
 				callbackContext.error("Invalid user info");
 				return;
 			}
 
-			String gcmSenderId = this.preferences.getString("com.openback.gcmSenderId", "");
-			InitializeOpenBack.setGcmSenderId(this.getApplicationContext(), gcmSenderId);
-
-			UserInfoExtraDTO userInfoExtra = new UserInfoExtraDTO();
+            // User Extra Info
+            UserInfoExtra userInfoExtra = new UserInfoExtra();
+            
 			if (userInfo.has("addressLine1")) {
 				userInfoExtra.setAddressLine1(userInfo.getString("addressLine1"));
 			}
@@ -89,17 +88,11 @@ public class OpenBackPlugin extends CordovaPlugin {
 			if (userInfo.has("dateOfBirth")) {
 				userInfoExtra.setDateOfBirth(userInfo.getString("dateOfBirth"));
 			}
-			if (userInfo.has("emailAddress")) {
-				InitializeOpenBack.setUserEmailAddress(this.getApplicationContext(), userInfo.getString("emailAddress"));
-			}
 			if (userInfo.has("firstName")) {
 				userInfoExtra.setFirstName(userInfo.getString("firstName"));
 			}
 			if (userInfo.has("gender")) {
 				userInfoExtra.setGender(userInfo.getString("gender"));
-			}
-			if (userInfo.has("phoneNumber")) {
-				InitializeOpenBack.setUserMsisdn(this.getApplicationContext(), userInfo.getString("phoneNumber"));
 			}
 			if (userInfo.has("postCode")) {
 				userInfoExtra.setPostCode(userInfo.getString("postCode"));
@@ -117,10 +110,26 @@ public class OpenBackPlugin extends CordovaPlugin {
 				userInfoExtra.setTitle(userInfo.getString("title"));
 			}
 
+			String gcmSenderId = this.preferences.getString("com.openback.gcmSenderId", "");
 			String applicationId = this.preferences.getString("com.openback.applicationId", "");
-			InitializeOpenBack.createNewUserCreationRequest(this.getApplicationContext(), applicationId, userInfoExtra);
+			String email = "";
+			if (userInfo.has("emailAddress")) {
+				email = userInfo.getString("emailAddress");
+			}
+			String phoneNumber = "";
+			if (userInfo.has("phoneNumber")) {
+				phoneNumber = userInfo.getString("phoneNumber");
+			}			
+
+			// Initialize OpenBack
+            OpenBack.start(new OpenBack.Config(context)
+                    .setOpenBackAppId("applicationId")
+                    .setExtraUserInfo(userInfoExtra)
+                    .setUserEmail(email)
+                    .setUserMsisdn(phoneNumber)
+                    .setGcmSenderId(gcmSenderId));
+			
 			callbackContext.success();
-			// TODO: InitializeOpenBack.setAppUserId(getApplicationContext(),"AppUserId");
 		} catch (Exception e) {
 			callbackContext.error(e.toString());
 		}
@@ -132,17 +141,8 @@ public class OpenBackPlugin extends CordovaPlugin {
 			int trigger = args.getInt(1) + 1; // Zero based in iOS
 			if (value == null) {
 				callbackContext.error("Null value is not supported");
-			} else if (value.getClass().equals(Integer.class)) {
-				CustomTriggerHelper.setCustomIdValue(this.getApplicationContext(), trigger, value.toString(), "Integer");
-				callbackContext.success();
-			} else if (value.getClass().equals(Double.class)) {
-				CustomTriggerHelper.setCustomIdValue(this.getApplicationContext(), trigger, value.toString(), "Double");
-				callbackContext.success();
-			} else if (value.getClass().equals(String.class)) {
-				CustomTriggerHelper.setCustomIdValue(this.getApplicationContext(), trigger, value.toString(), "String");
-				callbackContext.success();
 			} else {
-				callbackContext.error(value.getClass() + " is not supported");
+				OpenBack.setCustomTrigger(this.getApplicationContext(), trigger, value);
 			}
 		} catch (Exception e) {
 			callbackContext.error(e.toString());
