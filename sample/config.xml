@@ -20,6 +20,7 @@
         <allow-intent href="market:*" />
         <preference name="android-minSdkVersion" value="15" />
         <preference name="com.openback.gcmSenderId" value="G-123456" />
+        <resource-file src="openback.json" target="assets/openback.json" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -29,6 +30,6 @@
     </platform>
 
     <plugin name="cordova-plugin-openback" spec=".." />
-    <!--plugin name="cordova-plugin-firebase" spec="0.1.12" /-->
-    <preference name="com.openback.applicationId" value="OPENBACK-APP-ID" />
+    <!-- plugin name="cordova-plugin-firebase" spec="0.1.12" /-->
+    <preference name="com.openback.applicationId" value="svntkwaqmv" />
 </widget>
