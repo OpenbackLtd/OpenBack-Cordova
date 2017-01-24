@@ -29,9 +29,9 @@ cordova plugin add <PATH_TO_OPENBACK_PLUGIN>
 
 Edit your application `config.xml` with the following preferences:
 
-Set your application ID (Required)
+Set your application Code (Required)
 ```xml
-<preference name="com.openback.applicationId" value="YOUR_APPLICATION_ID" />
+<preference name="com.openback.appCode" value="YOUR_APPLICATION_CODE" />
 ```
 
 ### iOS Specific Configurations

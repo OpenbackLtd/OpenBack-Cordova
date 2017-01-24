@@ -14,7 +14,7 @@ module.exports = function(ctx) {
     var openbackConfig = plist.parse(fs.readFileSync(openbackConfigPath, 'utf8')) || {};
 
     var prefArray = [
-        { name: 'com.openback.applicationId', pref: 'OBKApplicationID', type: 'string' },
+        { name: 'com.openback.appCode', pref: 'OBKApplicationID', type: 'string' },
         { name: 'com.openback.useDevServer', pref: 'OBKConfigUseDevServer', type: 'boolean' },
         { name: 'com.openback.enableAlertNotifications', pref: 'OBKEnableAlertNotifications', type: 'boolean' },
         { name: 'com.openback.enableInAppNotifications', pref: 'OBKEnableInAppNotifications', type: 'boolena' },

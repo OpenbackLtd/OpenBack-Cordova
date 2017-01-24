@@ -126,7 +126,7 @@ public class OpenBackPlugin extends CordovaPlugin {
 			}
 
 			String gcmSenderId = this.preferences.getString("com.openback.gcmSenderId", "");
-			String applicationId = this.preferences.getString("com.openback.applicationId", "");
+			String appCode = this.preferences.getString("com.openback.appCode", "");
 			String email = "";
 			if (userInfo.has("emailAddress")) {
 				email = userInfo.getString("emailAddress");
@@ -138,7 +138,7 @@ public class OpenBackPlugin extends CordovaPlugin {
 
 			// Initialize OpenBack
             OpenBack.start(new OpenBack.Config(context)
-                    .setOpenBackAppId(applicationId)
+                    .setOpenBackAppCode(applicationId)
                     .setExtraUserInfo(userInfoExtra)
                     .setUserEmail(email)
                     .setUserMsisdn(phoneNumber)
