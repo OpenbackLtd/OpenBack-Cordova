@@ -138,7 +138,7 @@ public class OpenBackPlugin extends CordovaPlugin {
 
 			// Initialize OpenBack
             OpenBack.start(new OpenBack.Config(context)
-                    .setOpenBackAppCode(applicationId)
+                    .setOpenBackAppCode(appCode)
                     .setExtraUserInfo(userInfoExtra)
                     .setUserEmail(email)
                     .setUserMsisdn(phoneNumber)
