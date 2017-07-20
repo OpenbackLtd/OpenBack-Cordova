@@ -1,0 +1,16 @@
+{
+    "name": "com.openback.cordovasample",
+    "version": "0.0.1",
+    "displayName": "OpenBackCordovaSample",
+    "cordova": {
+        "platforms": [
+        
+        ],
+        "plugins": {
+        
+        }
+    },
+    "dependencies": {
+        
+    }
+}

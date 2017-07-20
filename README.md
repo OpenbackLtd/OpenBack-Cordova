@@ -2,27 +2,18 @@
 
 <!-- MarkdownTOC -->
 
-- [Download the plugin and libraries](#download-the-plugin-and-libraries)
 - [Install the plugin](#install-the-plugin)
 - [Configure OpenBack](#configure-openback)
 - [OpenBack Library API](#openback-library-api)
 
 <!-- /MarkdownTOC -->
 
-## Download the plugin and libraries
-
-1. Clone or download this repository on your machine.
-
-2. Download the latest [OpenBack.aar](https://openbacklive.blob.core.windows.net/temp/OpenBack.aar) for Android and copy the file in the `/lib/android` folder of the plugin.
-
-3. Download the latest [OpenBack.framework](https://openbacklive.blob.core.windows.net/temp/OpenBack.framework.zip) for iOS, unzip the file and copy in the `/lib/ios` folder of the plugin.
-
 ## Install the plugin
 
 In your project root folder, type the following:
 
 ```bash
-cordova plugin add <PATH_TO_OPENBACK_PLUGIN>
+cordova plugin add https://github.com/OpenbackLtd/OpenBack-Cordova.git
 ```
 
 ## Configure OpenBack
@@ -35,6 +26,8 @@ Set your application Code (Required)
 ```
 
 ### iOS Specific Configurations
+
+Download the latest [OpenBack.framework](https://openbacklive.blob.core.windows.net/temp/OpenBack.framework.zip) for iOS, unzip the file and copy the framework file to `/plugins/cordova-plugin-openback/lib/ios` folder.
 
 ```xml
 <preference name="com.openback.enableAlertNotifications" value="true|false" />
@@ -69,18 +62,27 @@ Set your application Code (Required)
 
 ### Android Specific Configurations
 
-#### Set the GCM/FCM Sender ID
+#### Edit openback.json
+
+This file is used by the OpenBack library to set the notification icon for android 5+. Make sure the icon is copied to your android platform. You can customize the light, vibration pattern and sound too. For more info, check [Android Integration guide](https://docs.openback.com/?section=initializing-the-openback-library).
+
+The `appCode` should also be set in this file. It is used by the library to setup itself during an application upgrade.
+
+#### Configure Firebase
+
+Add your firebase `google-services.json` at the same level as your application `config.xml`. The google services plugin should package everything for you (e.g. it sets some strings in your application resources).
+
+(Optional) You can also set the FCM Sender ID manually using the following:
 
 ```xml
 <preference name="com.openback.gcmSenderId" value="G-123456" />
 ```
 
-Follow the [Android Integration Guide](https://gist.github.com/npabion/fed561598677119efc0f8934a477488f) to set the manifest permissions and GCM/FCM services.
-> Note: This is a manual step, you can use a plugin like [cordova-custom-config](https://www.npmjs.com/package/cordova-custom-config) to add settings in the application config.xml.
+For more info, check [OpenBack Android Integration Guide](https://docs.openback.com/?section=android-library-integration).
 
 #### Edit the application Android Manifest
 
-Refer to the [Android Integration guide](https://gist.github.com/npabion/14d5420ec9b13d36d610262f3a3dc632#configuring-the-openback-library) to setup the manifest depending on the triggers the application will use. Include the extra permissions and receiver actions in the `config.xml` file of your application.
+Refer to the [Android Integration guide](https://docs.openback.com/?section=configuring-the-openback-library) to setup the manifest depending on the triggers the application will use. Include the extra permissions and receiver actions in the `config.xml` file of your application.
 
 ## OpenBack Library API
 

@@ -8,6 +8,7 @@ npm-debug.log
 # Cordova
 sample/platforms
 sample/plugins
+sample/package-lock.json
 
 # Plugin Sample
 lib/android/*.aar

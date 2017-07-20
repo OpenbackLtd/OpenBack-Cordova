@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.openback.cordovasample" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<widget id="com.openback.cordovasample" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>OpenBackCordovaSample</name>
     <description>
         A sample Apache Cordova application using the OpenBack framework.
@@ -8,7 +8,6 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -28,8 +27,7 @@
         <preference name="com.openback.enableRemoteNotifications" value="true" />
         <preference name="com.openback.minimumFetchInterval" value="0" />
     </platform>
-
-    <plugin name="cordova-plugin-openback" spec=".." />
-    <!-- plugin name="cordova-plugin-firebase" spec="0.1.12" /-->
     <preference name="com.openback.appCode" value="OPENBACK_APP_CODE" />
+    <engine name="android" spec="^6.2.3" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>

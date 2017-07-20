@@ -1,0 +1,10 @@
+{
+	"appCode": "YOUR_APP_CODE",
+	"notification": {
+		"icon_material": {
+			"name": "ic_notification_icon",
+			"type": "drawable",				
+			"color": "#231F20"				
+		}
+	}
+}

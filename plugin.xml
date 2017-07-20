@@ -1,100 +1,57 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-openback" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-openback" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	
 	<name>OpenBack</name>
 	<description>OpenBack Cordova Plugin</description>
-	<keywords>cordova,openback</keywords>
+	<keywords>cordova,openback, ios, android</keywords>
 	
 	<js-module name="openback" src="www/openback.js">
-		<clobbers target="openback"/>
+		<clobbers target="window.openback"/>
 	</js-module>
 
 	<platform name="ios">
 		<config-file parent="/*" target="config.xml">
 			<feature name="OpenBack">
-				<param name="ios-package" value="OpenBackPlugin"/>
+				<param name="ios-package" value="OpenBackPlugin" />
 			</feature>
 		</config-file>
 		<config-file parent="UIBackgroundModes" target="*-Info.plist">
 			<array>
 				<string>remote-notification</string>
+				<string>fetch</string>
 			</array>
 		</config-file>
 		<config-file>
-			<access origin="*.openback.com"/>
+			<access origin="*.openback.com" />
 		</config-file>
-		<source-file src="src/ios/OpenBackPlugin.m"/>
-		<source-file src="src/ios/AppDelegate+OpenBack.m"/>
-		<resource-file src="src/ios/OpenBackConfig.plist"/>
-		<hook src="scripts/iosEmbedFramework.js" type="after_platform_add"/>
-		<hook src="scripts/iosConfigPlist.js" type="before_build"/>
+		<source-file src="src/ios/OpenBackPlugin.m" />
+		<source-file src="src/ios/AppDelegate+OpenBack.m" />
+		<resource-file src="src/ios/OpenBackConfig.plist" />
+		<hook src="scripts/iosEmbedFramework.js" type="after_platform_add" />
+		<hook src="scripts/iosConfigPlist.js" type="before_build" />
 	</platform>
 
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="OpenBack">
-				<param name="android-package" value="com.openback.cordova.OpenBackPlugin"/>
+				<param name="android-package" value="com.openback.cordova.OpenBackPlugin" />
 			</feature>
 		</config-file>
-
-		<config-file parent="/*" target="AndroidManifest.xml">
-			<uses-permission android:name="android.permission.INTERNET" />
-		    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-		    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-		    <uses-permission android:name="android.permission.WAKE_LOCK" />
-		    <uses-permission android:name="android.permission.VIBRATE" />
-		    <uses-permission android:name="android.permission.BATTERY_STATS" />
-		    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-
-		    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.ambient_temperature" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.barometer" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.light" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.proximity" android:required="false" />
-		    <uses-feature android:name="android.hardware.sensor.relative_humidity" android:required="false" />
-		    <uses-feature android:name="android.hardware.wifi" android:required="false" />
-		    <uses-feature android:name="android.software.webview" android:required="false" />
-		</config-file>
-
 		<config-file parent="/manifest/application" target="AndroidManifest.xml">
-			<activity
-	            android:name="com.openback.OpenBackIdmActivity"
-	            android:excludeFromRecents="true"
-	            android:label="@string/app_name"
-	            android:screenOrientation="portrait"
-	            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-	            android:windowSoftInputMode="stateAlwaysHidden" />
-
-	        <service android:name="com.openback.OpenBackService" android:exported="false" />
-	        <service android:name="com.openback.OpenBackAssetService" android:exported="false" />
-
-	        <receiver android:name="com.openback.OpenBackReceiver" android:exported="true">
-	            <intent-filter>
-	                <!-- Boot Complete event (level 1) -->
-	                <action android:name="android.intent.action.BOOT_COMPLETED" />
-	                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-	                <category android:name="android.intent.category.DEFAULT" />
-	            </intent-filter>
-	            <intent-filter>
-	                <!-- Package events (level 3) -->
-	                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-	                <action android:name="android.intent.action.PACKAGE_ADDED" />
-	                <action android:name="android.intent.action.PACKAGE_REMOVED" />
-	                <action android:name="android.intent.action.PACKAGE_CHANGED" />
-	                <data android:scheme="package" />
-	            </intent-filter>
-	            <intent-filter>
-	                <!-- Package events (level 12) -->
-	                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-	            </intent-filter>
-	        </receiver>
+			<service android:name="com.openback.OpenBackFcmMessagingService">
+			    <intent-filter>
+			        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+			    </intent-filter>
+			</service>
+			<service android:name="com.openback.OpenBackFcmInstanceIdService">
+			    <intent-filter>
+			        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+			    </intent-filter>
+			</service>
 		</config-file>
- 
-		<framework src="src/android/OpenBack.gradle" custom="true" type="gradleReference" />
-
-		<resource-file src="lib/android/OpenBack.aar" target="libs/OpenBack.aar" />
-		<source-file src="src/android/OpenBackPlugin.java" target-dir="src/com/openback/cordova"/>
-
+		<source-file src="src/android/OpenBackPlugin.java" target-dir="src/com/openback/cordova" />
+		<framework src="src/android/build.gradle" custom="true" type="gradleReference" />		
+		<hook src="scripts/androidCopyExtras.js" type="after_prepare" />
 	</platform>
+
 </plugin>
