@@ -18,5 +18,8 @@
   ],
   "author": "OpenBack, Ltd",
   "license": "",
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenbackLtd/OpenBack-Cordova.git"
+  }  
 }
