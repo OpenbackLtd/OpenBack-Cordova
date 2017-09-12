@@ -84,6 +84,11 @@ For more info, check [OpenBack Android Integration Guide](https://docs.openback.
 
 Refer to the [Android Integration guide](https://docs.openback.com/?section=configuring-the-openback-library) to setup the manifest depending on the triggers the application will use. Include the extra permissions and receiver actions in the `config.xml` file of your application.
 
+#### Call `setUserInfo` when the device is ready
+
+Unlike iOS for which we bootstrap automatically, your application needs to call the OpenBack plugin to start things up.
+When the device is ready, call `window.openback.setUserInfo({});`. You can pass extra user info as needed too.
+
 ## OpenBack Library API
 
 OpenBack library API is accessible in javascript via the `window.openback` interface.
