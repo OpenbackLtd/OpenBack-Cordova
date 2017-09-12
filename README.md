@@ -89,6 +89,10 @@ Refer to the [Android Integration guide](https://docs.openback.com/?section=conf
 Unlike iOS for which we bootstrap automatically, your application needs to call the OpenBack plugin to start things up.
 When the device is ready, call `window.openback.setUserInfo({});`. You can pass extra user info as needed too.
 
+> Resolving potential conflicts:
+>
+> OpenBack corodova plugin for android will _apply_ the google services plugin. If you are already including google services, you can comment out `apply plugin: com.google.gms.googleservices.GoogleServicesPlugin` in `plugins/cordova-plugin-openback/src/build.gradle`.
+
 ## OpenBack Library API
 
 OpenBack library API is accessible in javascript via the `window.openback` interface.
