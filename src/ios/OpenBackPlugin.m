@@ -8,7 +8,7 @@
 - (void)logGoal:(CDVInvokedUrlCommand*)command;
 - (void)sdkVersion:(CDVInvokedUrlCommand*)command;
 - (void)setUserInfo:(CDVInvokedUrlCommand*)command;
-- (void)setValueForCustomTrigger:(CDVInvokedUrlCommand*)command;
+- (void)setCustomTrigger:(CDVInvokedUrlCommand*)command;
 
 @end
 
