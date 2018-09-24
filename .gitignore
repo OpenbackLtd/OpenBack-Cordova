@@ -9,7 +9,11 @@ npm-debug.log
 sample/platforms
 sample/plugins
 sample/package-lock.json
+package-lock.json
 
 # Plugin Sample
 lib/android/*.aar
 lib/ios/*
+
+# VisualStudioCode
+.vscode

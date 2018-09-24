@@ -1,8 +1,8 @@
 {
   "name": "cordova-plugin-openback",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "OpenBack Cordova Plugin",
-  "private": true,
+  "private": false,
   "cordova": {
     "id": "cordova-plugin-openback",
     "platforms": [
@@ -12,14 +12,18 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova",
     "cordova-ios",
+    "cordova-android",
     "openback"
   ],
   "author": "OpenBack, Ltd",
-  "license": "",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/OpenbackLtd/OpenBack-Cordova.git"
-  }  
+  },
+  "bugs": {
+    "url": "https://github.com/OpenbackLtd/OpenBack-Cordova/issues"
+  },
+  "homepage": "https://docs.openback.com/plugins/cordova"
 }

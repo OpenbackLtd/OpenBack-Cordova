@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-openback" version="1.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-openback" version="2.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	
 	<name>OpenBack</name>
 	<description>OpenBack Cordova Plugin</description>
-	<keywords>cordova,openback, ios, android</keywords>
+	<keywords>cordova, openback, ios, android</keywords>
 	
 	<js-module name="openback" src="www/openback.js">
 		<clobbers target="window.openback"/>
 	</js-module>
 
 	<platform name="ios">
+		<framework src="OpenBack" type="podspec" spec="~> 1.8" />
+
 		<config-file parent="/*" target="config.xml">
 			<feature name="OpenBack">
 				<param name="ios-package" value="OpenBackPlugin" />
 			</feature>
 		</config-file>
+
 		<config-file parent="UIBackgroundModes" target="*-Info.plist">
 			<array>
 				<string>remote-notification</string>
 				<string>fetch</string>
 			</array>
 		</config-file>
+
 		<config-file>
 			<access origin="*.openback.com" />
 		</config-file>
+
 		<source-file src="src/ios/OpenBackPlugin.m" />
 		<source-file src="src/ios/AppDelegate+OpenBack.m" />
 		<resource-file src="src/ios/OpenBackConfig.plist" />
-		<hook src="scripts/iosEmbedFramework.js" type="after_platform_add" />
+		
 		<hook src="scripts/iosConfigPlist.js" type="before_build" />
+		<hook src="scripts/iosConfigPlist.js" type="before_emulate" />		
 	</platform>
 
 	<platform name="android">
+		<framework src="src/android/build.gradle" custom="true" type="gradleReference" />
+
 		<config-file parent="/*" target="res/xml/config.xml">
 			<feature name="OpenBack">
 				<param name="android-package" value="com.openback.cordova.OpenBackPlugin" />
+				<param name="onload" value="true" />
 			</feature>
 		</config-file>
-		<config-file parent="/manifest/application" target="AndroidManifest.xml">
-			<service android:name="com.openback.OpenBackFcmMessagingService">
-			    <intent-filter>
-			        <action android:name="com.google.firebase.MESSAGING_EVENT" />
-			    </intent-filter>
-			</service>
-			<service android:name="com.openback.OpenBackFcmInstanceIdService">
-			    <intent-filter>
-			        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-			    </intent-filter>
-			</service>
-		</config-file>
+
+		<edit-config file="AndroidManifest.xml" target="/manifest/uses-sdk" mode="merge">
+    		<uses-sdk android:minSdkVersion="16" />
+		</edit-config>
+
 		<source-file src="src/android/OpenBackPlugin.java" target-dir="src/com/openback/cordova" />
-		<framework src="src/android/build.gradle" custom="true" type="gradleReference" />		
-		<hook src="scripts/androidCopyExtras.js" type="after_prepare" />
 	</platform>
 
 </plugin>

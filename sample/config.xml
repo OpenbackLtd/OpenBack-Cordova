@@ -17,17 +17,17 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <preference name="android-minSdkVersion" value="15" />
-        <preference name="com.openback.gcmSenderId" value="G-123456" />
+        <preference name="android-minSdkVersion" value="16" />
+        <preference name="com.openback.appCode" value="YOUR_ANDROID_APP_CODE" />
         <resource-file src="openback.json" target="assets/openback.json" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <preference name="com.openback.enableRemoteNotifications" value="true" />
-        <preference name="com.openback.minimumFetchInterval" value="0" />
+        <preference name="com.openback.appCode" value="YOUR_IOS_APP_CODE" />
+        <preference name="com.openback.logLevel" value="0" />
     </platform>
-    <preference name="com.openback.appCode" value="OPENBACK_APP_CODE" />
     <engine name="android" spec="^6.2.3" />
+    <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
 </widget>

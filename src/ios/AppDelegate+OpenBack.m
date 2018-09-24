@@ -2,8 +2,7 @@
 //  AppDelegate+OpenBack.m
 //  OpenBack Cordova Sample
 //
-//  Created by Nicolas Pabion on 6/10/16.
-//
+//  Created by OpenBack, Ltd on 6/10/16.
 //
 
 #import "AppDelegate.h"

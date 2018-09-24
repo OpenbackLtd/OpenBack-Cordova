@@ -1,5 +1,5 @@
 {
-	"appCode": "YOUR_APP_CODE",
+	"appCode": "YOUR_ANDROID_APP_CODE",
 	"notification": {
 		"icon_material": {
 			"name": "ic_notification_icon",

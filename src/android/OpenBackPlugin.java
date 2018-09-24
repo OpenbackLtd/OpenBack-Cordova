@@ -26,29 +26,104 @@ import com.openback.UserInfoExtra;
 public class OpenBackPlugin extends CordovaPlugin {
 
 	@Override
-	public boolean execute(String action, final JSONArray args, final CallbackContext callbackContext) throws JSONException {
-		if (action.equals("setUserInfo")) {
-			this.cordova.getThreadPool().execute(new Runnable() {
-				@Override
-				public void run() {
-					setUserInfo(args, callbackContext);
-				}
-			});
-			return true;
-		} else if (action.equals("setValueForCustomTrigger")) {
-			this.cordova.getThreadPool().execute(new Runnable() {
-				@Override
-				public void run() {
-					setValueForCustomTrigger(args, callbackContext);
-				}
-			});
-			return true;
+	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
+		super.initialize(cordova, webView);
+		
+		try {		
+			Context context = this.getApplicationContext();
+			OpenBack.Config config = new OpenBack.Config(context);
+
+			String gcmSenderId = this.preferences.getString("com.openback.gcmSenderId", "");
+			if (gcmSenderId != null && gcmSenderId.length() > 0) {
+				config.setGcmSenderId(gcmSenderId);
+			}
+
+			String appCode = this.preferences.getString("com.openback.appCode", "");
+			if (appCode != null && appCode.length() > 0) {
+				config.setOpenBackAppCode(appCode);
+			}
+			
+			OpenBack.start(config);
+
+		} catch (Exception e) {
+			Log.e("OpenBack", "Oops", e);
 		}
-	    return false;
+	}
+
+
+	@Override
+	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+		switch (action) {
+			case "coppaCompliant":
+				coppaCompliant(args, callbackContext);
+				break;
+			case "gdprForgetUser":
+				gdprForgetUser(args, callbackContext);
+				break;
+			case "logGoal":
+				logGoal(args, callbackContext);
+				break;
+			case "sdkVersion":
+				sdkVersion(args, callbackContext);
+				break;
+			case "setUserInfo":
+				setUserInfo(args, callbackContext);
+				break;
+			case "setCustomTrigger":
+				setCustomTrigger(args, callbackContext);
+				break;
+			default:
+				return false;			
+		}
+	    return true;
 	}
 
 	private Context getApplicationContext() {
 		return this.cordova.getActivity().getApplicationContext();
+	}
+
+	private void coppaCompliant(JSONArray args, CallbackContext callbackContext) {
+		try {
+			Context context = this.getApplicationContext();
+			boolean compliant = args.getBoolean(0);
+			OpenBack.coppaCompliant(context, compliant);
+			callbackContext.success();
+		} catch (Exception e) {
+			callbackContext.error(e.toString());
+		}
+
+	}
+
+	private void gdprForgetUser(JSONArray args, CallbackContext callbackContext) {
+		try {
+			Context context = this.getApplicationContext();
+			boolean forgetUser = args.getBoolean(0);
+			OpenBack.gdprForgetUser(context, forgetUser);
+			callbackContext.success();
+		} catch (Exception e) {
+			callbackContext.error(e.toString());
+		}
+	}
+
+	private void logGoal(JSONArray args, CallbackContext callbackContext) {
+		try {
+			Context context = this.getApplicationContext();
+			String goal = args.getString(0);
+			int step = args.getInt(1);
+			double value = args.getDouble(2);
+			OpenBack.logGoal(context, goal, step, value);
+			callbackContext.success();
+		} catch (Exception e) {
+			callbackContext.error(e.toString());
+		}
+	}
+
+	private void sdkVersion(JSONArray args, CallbackContext callbackContext) {
+		try {
+			callbackContext.success(OpenBack.getSdkVersion());
+		} catch (Exception e) {
+			callbackContext.error(e.toString());
+		}
 	}
 
 	private void setUserInfo(JSONArray args, CallbackContext callbackContext) {
@@ -125,8 +200,6 @@ public class OpenBackPlugin extends CordovaPlugin {
 				userInfoExtra.Identity5 = userInfo.getString("identity5");
 			}
 
-			String gcmSenderId = this.preferences.getString("com.openback.gcmSenderId", "");
-			String appCode = this.preferences.getString("com.openback.appCode", "");
 			String email = "";
 			if (userInfo.has("emailAddress")) {
 				email = userInfo.getString("emailAddress");
@@ -134,15 +207,12 @@ public class OpenBackPlugin extends CordovaPlugin {
 			String phoneNumber = "";
 			if (userInfo.has("phoneNumber")) {
 				phoneNumber = userInfo.getString("phoneNumber");
-			}			
+			}
 
-			// Initialize OpenBack
-            OpenBack.start(new OpenBack.Config(context)
-                    .setOpenBackAppCode(appCode)
+			OpenBack.update(new OpenBack.Config(context)
                     .setExtraUserInfo(userInfoExtra)
                     .setUserEmail(email)
-                    .setUserMsisdn(phoneNumber)
-                    .setGcmSenderId(gcmSenderId));
+                    .setUserMsisdn(phoneNumber));			
 			
 			callbackContext.success();
 		} catch (Exception e) {
@@ -150,10 +220,10 @@ public class OpenBackPlugin extends CordovaPlugin {
 		}
 	}
 
-	private void setValueForCustomTrigger(JSONArray args, CallbackContext callbackContext) {
+	private void setCustomTrigger(JSONArray args, CallbackContext callbackContext) {
 		try {
-			Object value = args.get(0);
-			int trigger = args.getInt(1) + 1; // Zero based in iOS
+			Object value = args.get(1);
+			int trigger = args.getInt(0) + 1; // Zero based in iOS
 			if (value == null) {
 				callbackContext.error("Null value is not supported");
 			} else if (value.getClass().equals(Integer.class)) {

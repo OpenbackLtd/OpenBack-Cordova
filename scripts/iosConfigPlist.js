@@ -15,7 +15,6 @@ module.exports = function(ctx) {
 
     var prefArray = [
         { name: 'com.openback.appCode', pref: 'OBKApplicationID', type: 'string' },
-        { name: 'com.openback.useDevServer', pref: 'OBKConfigUseDevServer', type: 'boolean' },
         { name: 'com.openback.enableAlertNotifications', pref: 'OBKEnableAlertNotifications', type: 'boolean' },
         { name: 'com.openback.enableInAppNotifications', pref: 'OBKEnableInAppNotifications', type: 'boolena' },
         { name: 'com.openback.enableRemoteNotifications', pref: 'OBKEnableRemoteNotifications', type: 'boolean' },
@@ -28,13 +27,14 @@ module.exports = function(ctx) {
         { name: 'com.openback.requestMotionCoprocessorAuthorization', pref: 'OBKRequestMotionCoprocessorAuthorization', type: 'boolean' },
         { name: 'com.openback.requestMicrophoneAuthorization', pref: 'OBKRequestMicrophoneAuthorization', type: 'boolean' },
         { name: 'com.openback.minimumFetchInterval', pref: 'OBKMinimumFetchInterval', type: 'number' },
-        { name: 'com.openback.notificationSound', pref: 'OBKConfigNotificationSound', type: 'string' }
+        { name: 'com.openback.notificationSound', pref: 'OBKConfigNotificationSound', type: 'string' },
+        { name: 'com.openback.logLevel', pref: 'OBKConfigLogLevel', type: 'number' }
     ];
 
     console.log(openbackConfigPath);
 
     for (const pref of prefArray) {
-        var prefValue = appConfig.getPreference(pref['name']);
+        var prefValue = appConfig.getPlatformPreference(pref['name'], "ios");
         if (!prefValue)
             continue;
 

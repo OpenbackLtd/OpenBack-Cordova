@@ -34,7 +34,27 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        app.testOpenBack();
+        
+        document.getElementById("test").addEventListener("click", function() {
+            // Set COPPA compliant
+            window.openback.coppaCompliant(true);
+            // Get SDK Version
+            window.openback.sdkVersion(function(sdkVersion) {
+                console.log("Version: " + sdkVersion);
+            });
+            // Set User Info
+            window.openback.setUserInfo({ 
+                firstName: 'John', 
+                lastName: 'Doe', 
+                emailAddress: 'john@doe.com'
+            });
+            // Set Custom Trigger
+            window.openback.setCustomTrigger(window.openback.CUSTOM_TRIGGER_1, "test", function() {
+                console.log("Success");
+            }, function() {
+                console.log("Failure");
+            });            
+         });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -46,21 +66,6 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-    },
-    // Quick OpenBack tests
-    testOpenBack: function() {
-        // User Info
-        window.openback.setUserInfo({ firstName: 'John', lastName: 'Doe', emailAddress: 'john@doe.com'}, function() {
-            console.log("Success");
-        }, function() {
-            console.log("Failure");
-        });
-        // Custom Trigger
-        window.openback.setValueForCustomTrigger("TRUE", window.openback.OBKCustomTrigger1, function() {
-            console.log("Success");
-        }, function() {
-            console.log("Failure");
-        });     
     }
 };
 
