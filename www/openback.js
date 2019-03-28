@@ -71,7 +71,7 @@ module.exports = {
    */
   setCustomTrigger: function(trigger, value, successCallback, errorCallback) {
     argscheck.checkArgs('N*FF', 'OpenBack.setCustomTrigger', arguments);
-    exec(successCallback, errorCallback, "OpenBack", "setCustomTrigger", [value, trigger]);
+    exec(successCallback, errorCallback, "OpenBack", "setCustomTrigger", [trigger, value]);
   },
 
   /**
